@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cabuse"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cabuse</b></p><a name="cs-cabuse"> </a><a name="hccs-cabuse"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cABUSE_0<a name="cs-cabuse-cABUSE_0"> </a></td><td>Niet geactiveerd: geen directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig.</td></tr><tr><td style="white-space:nowrap">cABUSE_1<a name="cs-cabuse-cABUSE_1"> </a></td><td>Geactiveerd wegens matig risico: alleen directe indicatoren van mishandeling.</td></tr><tr><td style="white-space:nowrap">cABUSE_2<a name="cs-cabuse-cABUSE_2"> </a></td><td>Geactiveerd wegens hoogste risico: directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig (in laatste dertig dagen).</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cABUSE_0</td><td>Nicht aktiviert: keine direkten Indikatoren von Misshandlungen und Stressfaktoren.</td><td>Non activé : pas d'indicateurs directs de maltraitance et de présence de facteurs de stress.</td></tr><tr><td>cABUSE_1</td><td>Aktiviert: wegen mittlerem Risiko von direkten Indikatoren für Misshandlungen.</td><td>Activé en raison d'un risque modéré : uniquement indicateurs direct de maltraitance.</td></tr><tr><td>cABUSE_2</td><td>Aktiviert: wegen sehr hohem Risiko von direkten Indikatoren für Misshandlungen und Stressfaktoren (innerhalb der letzten 30 Tage).</td><td>Activé en raison du risque le plus élevé : indicateurs directs de maltraitance et de présence de facteurs de stress (dans les trente derniers jours).</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse"/>
+  <version value="0.1.0"/>
+  <name value="CS_cABUSE"/>
+  <title value="Mishandeling/Verwaarlozing"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Mishandeling/Verwaarlozing"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cABUSE_0"/>
+    <display value="Niet geactiveerd: geen directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine direkten Indikatoren von Misshandlungen und Stressfaktoren."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé : pas d'indicateurs directs de maltraitance et de présence de facteurs de stress."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cABUSE_1"/>
+    <display value="Geactiveerd wegens matig risico: alleen directe indicatoren van mishandeling."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: wegen mittlerem Risiko von direkten Indikatoren für Misshandlungen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un risque modéré : uniquement indicateurs direct de maltraitance."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cABUSE_2"/>
+    <display value="Geactiveerd wegens hoogste risico: directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig (in laatste dertig dagen)."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: wegen sehr hohem Risiko von direkten Indikatoren für Misshandlungen und Stressfaktoren (innerhalb der letzten 30 Tage)."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison du risque le plus élevé : indicateurs directs de maltraitance et de présence de facteurs de stress (dans les trente derniers jours)."/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cbehav",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cbehav</b></p><a name=\"cs-cbehav\"> </a><a name=\"hccs-cbehav\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbehav</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cBEHAV_0<a name=\"cs-cbehav-cBEHAV_0\"> </a></td><td>Niet geactiveerd: geen gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) tijdens de laatste drie dagen.</td></tr><tr><td style=\"white-space:nowrap\">cBEHAV_1<a name=\"cs-cbehav-cBEHAV_1\"> </a></td><td>Geactiveerd om te voorkomen dat gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) dagelijks gaan optreden.</td></tr><tr><td style=\"white-space:nowrap\">cBEHAV_2<a name=\"cs-cbehav-cBEHAV_2\"> </a></td><td>Geactiveerd om dagelijkse gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg te reduceren.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cBEHAV_0</td><td>Nicht aktiviert: keine Verhaltensauffälligkeiten innerhalb der letzten drei Tage (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung).</td><td>Pas activé : pas de problème de comportement durant les 3 derniers jours (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins).</td></tr><tr><td>cBEHAV_1</td><td>Aktiviert: vermeiden von täglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung).</td><td>Activé pour prévenir chaque jour des problèmes de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins).</td></tr><tr><td>cBEHAV_2</td><td>Aktiviert: Reduzierung von alltäglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung).</td><td>Activé pour réduire des problèmes quotidiens de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins).</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbehav",
+  "version" : "0.1.0",
+  "name" : "CS_cBEHAV",
+  "title" : "Gedrag",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Gedrag",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cBEHAV_0",
+    "display" : "Niet geactiveerd: geen gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) tijdens de laatste drie dagen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine Verhaltensauffälligkeiten innerhalb der letzten drei Tage (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : pas de problème de comportement durant les 3 derniers jours (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+    }]
+  },
+  {
+    "code" : "cBEHAV_1",
+    "display" : "Geactiveerd om te voorkomen dat gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) dagelijks gaan optreden.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: vermeiden von täglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour prévenir chaque jour des problèmes de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+    }]
+  },
+  {
+    "code" : "cBEHAV_2",
+    "display" : "Geactiveerd om dagelijkse gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg te reduceren.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: Reduzierung von alltäglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour réduire des problèmes quotidiens de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+    }]
+  }]
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhwtmgt"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhwtmgt</b></p><a name="cs-cmhwtmgt"> </a><a name="hccs-cmhwtmgt"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHWTMGT_0<a name="cs-cmhwtmgt-cMHWTMGT_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHWTMGT_1<a name="cs-cmhwtmgt-cMHWTMGT_1"> </a></td><td>Geactiveerd wegens een problematisch eetgedrag.</td></tr><tr><td style="white-space:nowrap">cMHWTMGT_2<a name="cs-cmhwtmgt-cMHWTMGT_2"> </a></td><td>Geactiveerd wegens een afwijkende lichaamsbouw.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHWTMGT_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHWTMGT_1</td><td>Aktiviert aufgrund von problematischem Essensverhalten.</td><td>Activé en raison d'un comportement alimentaire problématique.</td></tr><tr><td>cMHWTMGT_2</td><td>Aktiviert aufgrund einer anderen Morphologie.</td><td>Activé en raison d'une morphologie différente.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHWTMGT"/>
+  <title value="Gewichtsmanagement"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Gewichtsmanagement"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHWTMGT_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHWTMGT_1"/>
+    <display value="Geactiveerd wegens een problematisch eetgedrag."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von problematischem Essensverhalten."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un comportement alimentaire problématique."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHWTMGT_2"/>
+    <display value="Geactiveerd wegens een afwijkende lichaamsbouw."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund einer anderen Morphologie."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'une morphologie différente."/>
+    </designation>
+  </concept>
+</CodeSystem>

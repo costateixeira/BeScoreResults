@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhmedmgt"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhmedmgt</b></p><a name="cs-cmhmedmgt"> </a><a name="hccs-cmhmedmgt"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHMEDMGT_0<a name="cs-cmhmedmgt-cMHMEDMGT_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHMEDMGT_1<a name="cs-cmhmedmgt-cMHMEDMGT_1"> </a></td><td>Geactiveerd wegens het vroegtijdig stoppen van geneesmiddelen ten gevolge van bijwerkingen.</td></tr><tr><td style="white-space:nowrap">cMHMEDMGT_2<a name="cs-cmhmedmgt-cMHMEDMGT_2"> </a></td><td>Geactiveerd wegens problemen met geneesmiddelenbeheer en therapietrouw in verband met cognitieve stoornissen en positieve symptomen.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHMEDMGT_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHMEDMGT_1</td><td>Aktiviert aufgrund eines frühzeitigen Absetzens von Medikamenten aufgrund von Nebenwirkungen.</td><td>Activé en raison d'un arrêt prématurés de médicaments suite à des effets secondaires.</td></tr><tr><td>cMHMEDMGT_2</td><td>Aktiviert aufgrund von Problem verbunden mit der Medikation im Zusammenhang mit kognitiven Einschränkungen und positiven Symptomen.</td><td>Activé en raison de problèmes liés à la gestion des médicaments et à l'observance liée aux troubles cognitifs et aux symptômes positifs.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHMEDMGT"/>
+  <title value="Geneesmiddelenbeheer en therapietrouw"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Geneesmiddelenbeheer en therapietrouw"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHMEDMGT_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHMEDMGT_1"/>
+    <display value="Geactiveerd wegens het vroegtijdig stoppen van geneesmiddelen ten gevolge van bijwerkingen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund eines frühzeitigen Absetzens von Medikamenten aufgrund von Nebenwirkungen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un arrêt prématurés de médicaments suite à des effets secondaires."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHMEDMGT_2"/>
+    <display value="Geactiveerd wegens problemen met geneesmiddelenbeheer en therapietrouw in verband met cognitieve stoornissen en positieve symptomen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von Problem verbunden mit der Medikation im Zusammenhang mit kognitiven Einschränkungen und positiven Symptomen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison de problèmes liés à la gestion des médicaments et à l'observance liée aux troubles cognitifs et aux symptômes positifs."/>
+    </designation>
+  </concept>
+</CodeSystem>

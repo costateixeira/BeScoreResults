@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhsubuse"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhsubuse</b></p><a name="cs-cmhsubuse"> </a><a name="hccs-cmhsubuse"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsubuse</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHSUBUSE_0<a name="cs-cmhsubuse-cMHSUBUSE_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHSUBUSE_1<a name="cs-cmhsubuse-cMHSUBUSE_1"> </a></td><td>Geactiveerd wegens een voorgeschiedenis van problematisch middelengebruik.</td></tr><tr><td style="white-space:nowrap">cMHSUBUSE_2<a name="cs-cmhsubuse-cMHSUBUSE_2"> </a></td><td>Geactiveerd wegens het huidige problematisch middelengebruik.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHSUBUSE_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHSUBUSE_1</td><td>Aktiviert aufgrund von vergangenem Missbrauch von Substanzen.</td><td>Activé en raison d'antécédents d'usage problématique de substances.</td></tr><tr><td>cMHSUBUSE_2</td><td>Aktiviert aufgrund von aktuellem Missbrauch von Substanzen.</td><td>Activé en raison de l'usage problématique actuel de substances.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsubuse"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHSUBUSE"/>
+  <title value="Middelengebruik"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Middelengebruik"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHSUBUSE_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHSUBUSE_1"/>
+    <display value="Geactiveerd wegens een voorgeschiedenis van problematisch middelengebruik."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von vergangenem Missbrauch von Substanzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'antécédents d'usage problématique de substances."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHSUBUSE_2"/>
+    <display value="Geactiveerd wegens het huidige problematisch middelengebruik."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von aktuellem Missbrauch von Substanzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison de l'usage problématique actuel de substances."/>
+    </designation>
+  </concept>
+</CodeSystem>

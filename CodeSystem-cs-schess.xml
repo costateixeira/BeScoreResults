@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-schess"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-schess</b></p><a name="cs-schess"> </a><a name="hccs-schess"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-schess</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sCHESS_0<a name="cs-schess-sCHESS_0"> </a></td><td>Stabiele gezondheid</td></tr><tr><td style="white-space:nowrap">sCHESS_1<a name="cs-schess-sCHESS_1"> </a></td><td>Minimale instabiliteit van de gezondheid</td></tr><tr><td style="white-space:nowrap">sCHESS_2<a name="cs-schess-sCHESS_2"> </a></td><td>Lage instabiliteit van de gezondheid</td></tr><tr><td style="white-space:nowrap">sCHESS_3<a name="cs-schess-sCHESS_3"> </a></td><td>Matige instabiliteit van de gezondheid</td></tr><tr><td style="white-space:nowrap">sCHESS_4<a name="cs-schess-sCHESS_4"> </a></td><td>Hoge instabiliteit van de gezondheid</td></tr><tr><td style="white-space:nowrap">sCHESS_5<a name="cs-schess-sCHESS_5"> </a></td><td>Zeer hoge instabiliteit van de gezondheid</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sCHESS_0</td><td>Stabile Gesundheit</td><td>Santé stable</td></tr><tr><td>sCHESS_1</td><td>Minimale Instabilität der Gesundheit</td><td>Instabilité minimale de la santé</td></tr><tr><td>sCHESS_2</td><td>Geringe Instabilität der Gesundheit</td><td>Instabilité basse de la santé</td></tr><tr><td>sCHESS_3</td><td>Moderate Instabilität der Gesundheit</td><td>Instabilité modérée de la santé</td></tr><tr><td>sCHESS_4</td><td>Hohe Instabilität der Gesundheit</td><td>Haute instabilité de la santé</td></tr><tr><td>sCHESS_5</td><td>Sehr hohe Instabilität der Gesundheit</td><td>Très haute instabilité de la santé</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-schess"/>
+  <version value="0.1.0"/>
+  <name value="CS_sCHESS"/>
+  <title value="Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="sCHESS_0"/>
+    <display value="Stabiele gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Stabile Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Santé stable"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCHESS_1"/>
+    <display value="Minimale instabiliteit van de gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Minimale Instabilität der Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Instabilité minimale de la santé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCHESS_2"/>
+    <display value="Lage instabiliteit van de gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Geringe Instabilität der Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Instabilité basse de la santé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCHESS_3"/>
+    <display value="Matige instabiliteit van de gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderate Instabilität der Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Instabilité modérée de la santé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCHESS_4"/>
+    <display value="Hoge instabiliteit van de gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Hohe Instabilität der Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Haute instabilité de la santé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCHESS_5"/>
+    <display value="Zeer hoge instabiliteit van de gezondheid"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr hohe Instabilität der Gesundheit"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Très haute instabilité de la santé"/>
+    </designation>
+  </concept>
+</CodeSystem>

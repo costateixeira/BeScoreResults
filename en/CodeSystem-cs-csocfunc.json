@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-csocfunc",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-csocfunc</b></p><a name=\"cs-csocfunc\"> </a><a name=\"hccs-csocfunc\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-csocfunc</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cSOCFUNC_0<a name=\"cs-csocfunc-cSOCFUNC_0\"> </a></td><td>Niet geactiveerd: normale sociale relaties of de persoon heeft geen redelijk cognitief niveau en is niet in staat anderen te begrijpen.</td></tr><tr><td style=\"white-space:nowrap\">cSOCFUNC_1<a name=\"cs-csocfunc-cSOCFUNC_1\"> </a></td><td>Geactiveerd voor follow-up van het zorgplan: de persoon heeft een redelijk cognitief niveau en voelt zich eenzaam of verontrust.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cSOCFUNC_0</td><td>Nicht aktiviert: normale soziale Beziehungen oder die Person hat kein rationales kognitives Niveau und ist nicht in der Lage andere zu verstehen. </td><td>Non activé : relations sociales normales ou la personne n'a pas un niveau cognitif raisonnable et n'est pas en mesure à comprendre les autres.</td></tr><tr><td>cSOCFUNC_1</td><td>Aktiviert für eine Pflegeplanung: die Person hat ein rationales kognitives Niveau und fühlt sich einsam oder beunruhigt.</td><td>Activé pour le suivi du plan de soins : la personne a un niveau cognitif raisonnable et se sent solitaire ou inquiète.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-csocfunc",
+  "version" : "0.1.0",
+  "name" : "CS_cSOCFUNC",
+  "title" : "Sociale omgang",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Sociale omgang",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cSOCFUNC_0",
+    "display" : "Niet geactiveerd: normale sociale relaties of de persoon heeft geen redelijk cognitief niveau en is niet in staat anderen te begrijpen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: normale soziale Beziehungen oder die Person hat kein rationales kognitives Niveau und ist nicht in der Lage andere zu verstehen. "
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : relations sociales normales ou la personne n'a pas un niveau cognitif raisonnable et n'est pas en mesure à comprendre les autres."
+    }]
+  },
+  {
+    "code" : "cSOCFUNC_1",
+    "display" : "Geactiveerd voor follow-up van het zorgplan: de persoon heeft een redelijk cognitief niveau en voelt zich eenzaam of verontrust.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert für eine Pflegeplanung: die Person hat ein rationales kognitives Niveau und fühlt sich einsam oder beunruhigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour le suivi du plan de soins : la personne a un niveau cognitif raisonnable et se sent solitaire ou inquiète."
+    }]
+  }]
+}

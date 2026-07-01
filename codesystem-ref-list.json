@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-observation-code",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_ObservationCode",
+    "title" : "BelRAI - Observation codes",
+    "description" : "Codes identifying each BelRAI scoring scale/screener, used as Observation.code.",
+    "uses" : {
+    },
+    "ValueSet-vs-observation-code.html" : "BelRAI - Observation codes"
+  }]
+}

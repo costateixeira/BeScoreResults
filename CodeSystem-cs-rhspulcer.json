@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-rhspulcer",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-rhspulcer</b></p><a name=\"cs-rhspulcer\"> </a><a name=\"hccs-rhspulcer\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhspulcer</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">rHSPULCER_0<a name=\"cs-rhspulcer-rHSPULCER_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">rHSPULCER_1<a name=\"cs-rhspulcer-rHSPULCER_1\"> </a></td><td>Matig risico</td></tr><tr><td style=\"white-space:nowrap\">rHSPULCER_2<a name=\"cs-rhspulcer-rHSPULCER_2\"> </a></td><td>Hoog risico</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>rHSPULCER_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>rHSPULCER_1</td><td>Moderates Risiko</td><td>Risque modéré</td></tr><tr><td>rHSPULCER_2</td><td>Hohes Risiko</td><td>Risque élevé</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhspulcer",
+  "version" : "0.1.0",
+  "name" : "CS_rHSPULCER",
+  "title" : "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "rHSPULCER_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "rHSPULCER_1",
+    "display" : "Matig risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Moderates Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque modéré"
+    }]
+  },
+  {
+    "code" : "rHSPULCER_2",
+    "display" : "Hoog risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Hohes Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque élevé"
+    }]
+  }]
+}

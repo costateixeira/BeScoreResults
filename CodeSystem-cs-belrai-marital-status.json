@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-marital-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-marital-status</b></p><a name=\"cs-belrai-marital-status\"> </a><a name=\"hccs-belrai-marital-status\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-marital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mar-never-married<a name=\"cs-belrai-marital-status-mar-never-married\"> </a></td><td>Nooit gehuwd/geen geregistreerd partnerschap</td></tr><tr><td style=\"white-space:nowrap\">mar-married<a name=\"cs-belrai-marital-status-mar-married\"> </a></td><td>Gehuwd/ander geregistreerd partnerschap</td></tr><tr><td style=\"white-space:nowrap\">mar-cohabiting<a name=\"cs-belrai-marital-status-mar-cohabiting\"> </a></td><td>Samenwonend met partner</td></tr><tr><td style=\"white-space:nowrap\">mar-widowed<a name=\"cs-belrai-marital-status-mar-widowed\"> </a></td><td>Weduwe/weduwnaar</td></tr><tr><td style=\"white-space:nowrap\">mar-de-facto-separated<a name=\"cs-belrai-marital-status-mar-de-facto-separated\"> </a></td><td>Feitelijk gescheiden</td></tr><tr><td style=\"white-space:nowrap\">mar-legally-separated<a name=\"cs-belrai-marital-status-mar-legally-separated\"> </a></td><td>Wettelijk gescheiden</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-marital-status",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiMaritalStatus",
+  "title" : "BelRAI - Relatiestatus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Relatiestatus van de persoon.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "mar-never-married",
+    "display" : "Nooit gehuwd/geen geregistreerd partnerschap"
+  },
+  {
+    "code" : "mar-married",
+    "display" : "Gehuwd/ander geregistreerd partnerschap"
+  },
+  {
+    "code" : "mar-cohabiting",
+    "display" : "Samenwonend met partner"
+  },
+  {
+    "code" : "mar-widowed",
+    "display" : "Weduwe/weduwnaar"
+  },
+  {
+    "code" : "mar-de-facto-separated",
+    "display" : "Feitelijk gescheiden"
+  },
+  {
+    "code" : "mar-legally-separated",
+    "display" : "Wettelijk gescheiden"
+  }]
+}

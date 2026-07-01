@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cbritsu",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cbritsu</b></p><a name=\"cs-cbritsu\"> </a><a name=\"hccs-cbritsu\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbritsu</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cBRITSU_0<a name=\"cs-cbritsu-cBRITSU_0\"> </a></td><td>Niet geactiveerd: afhankelijk op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem is niet van toepassing.</td></tr><tr><td style=\"white-space:nowrap\">cBRITSU_1<a name=\"cs-cbritsu-cBRITSU_1\"> </a></td><td>Geactiveerd wegens het afhankelijk zijn op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cBRITSU_0</td><td>Nicht aktiviert: Abhängigkeit in mindestens einem IADL-Bereich kombiniert mit einem ‘fragilen’ informellen Betreuungssystem ist nicht anwendbar.</td><td>Non activé : dépendance pour au moins un domaine-AIVQ combiné avec un système d’assistance informel « fragile » n’est pas d’application.</td></tr><tr><td>cBRITSU_1</td><td>Nicht aktiviert: Abhängigkeit in einem IADL-Bereich kombiniert mit einem Problem der informellen Betreuungssystem.</td><td>Activé en raison d'un dépendance pour un domaine-AIVQ combiné avec un problème du système d'assistance informel.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbritsu",
+  "version" : "0.1.0",
+  "name" : "CS_cBRITSU",
+  "title" : "Mantelzorg",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Mantelzorg",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cBRITSU_0",
+    "display" : "Niet geactiveerd: afhankelijk op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem is niet van toepassing.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Abhängigkeit in mindestens einem IADL-Bereich kombiniert mit einem ‘fragilen’ informellen Betreuungssystem ist nicht anwendbar."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : dépendance pour au moins un domaine-AIVQ combiné avec un système d’assistance informel « fragile » n’est pas d’application."
+    }]
+  },
+  {
+    "code" : "cBRITSU_1",
+    "display" : "Geactiveerd wegens het afhankelijk zijn op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Abhängigkeit in einem IADL-Bereich kombiniert mit einem Problem der informellen Betreuungssystem."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un dépendance pour un domaine-AIVQ combiné avec un problème du système d'assistance informel."
+    }]
+  }]
+}

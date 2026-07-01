@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpcnutr",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpcnutr</b></p><a name=\"cs-cpcnutr\"> </a><a name=\"hccs-cpcnutr\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcnutr</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPCNUTR_0<a name=\"cs-cpcnutr-cPCNUTR_0\"> </a></td><td>Niet geactiveerd: geen gevaar voor ondervoeding.</td></tr><tr><td style=\"white-space:nowrap\">cPCNUTR_1<a name=\"cs-cpcnutr-cPCNUTR_1\"> </a></td><td>Geactiveerd wegens een laag risico: BMI-score is lager dan 21 maar geen recent gewichtsverlies.</td></tr><tr><td style=\"white-space:nowrap\">cPCNUTR_2<a name=\"cs-cpcnutr-cPCNUTR_2\"> </a></td><td>Geactiveerd wegens een hoog risico: BMI-score is lager dan 21 en gaat gepaard met recent gewichtsverlies.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCNUTR_0</td><td>Nicht aktiviert: keine Gefahr von Mangelernährung.</td><td>Pas activé : aucun danger de malnutrition.</td></tr><tr><td>cPCNUTR_1</td><td>Aktiviert wegen geringem Risiko: BMI kleiner als 21, aber ohne kürzlichen Gewichtsverlust.</td><td>Activé en raison d'un risque peu élevé : le score IMC est inférieur à 21 mais il n'y a pas de perte de poids récente.</td></tr><tr><td>cPCNUTR_2</td><td>Aktiviert wegen erhöhtem Risiko: BMI kleiner als 21 begleitet von kürzlichem Gewichtsverlust.</td><td>Activé en raison d'un risque élevé : score IMC est inférieur à 21 mais est associé à une perte de poids récente.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcnutr",
+  "version" : "0.1.0",
+  "name" : "CS_cPCNUTR",
+  "title" : "Voeding - Palliatieve zorg",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Voeding - Palliatieve zorg",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cPCNUTR_0",
+    "display" : "Niet geactiveerd: geen gevaar voor ondervoeding.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine Gefahr von Mangelernährung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : aucun danger de malnutrition."
+    }]
+  },
+  {
+    "code" : "cPCNUTR_1",
+    "display" : "Geactiveerd wegens een laag risico: BMI-score is lager dan 21 maar geen recent gewichtsverlies.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen geringem Risiko: BMI kleiner als 21, aber ohne kürzlichen Gewichtsverlust."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque peu élevé : le score IMC est inférieur à 21 mais il n'y a pas de perte de poids récente."
+    }]
+  },
+  {
+    "code" : "cPCNUTR_2",
+    "display" : "Geactiveerd wegens een hoog risico: BMI-score is lager dan 21 en gaat gepaard met recent gewichtsverlies.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen erhöhtem Risiko: BMI kleiner als 21 begleitet von kürzlichem Gewichtsverlust."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé : score IMC est inférieur à 21 mais est associé à une perte de poids récente."
+    }]
+  }]
+}

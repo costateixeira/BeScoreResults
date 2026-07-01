@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cdelir",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cdelir</b></p><a name=\"cs-cdelir\"> </a><a name=\"hccs-cdelir\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdelir</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cDELIR_0<a name=\"cs-cdelir-cDELIR_0\"> </a></td><td>Niet geactiveerd: geen actieve deliriumsymptomen aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cDELIR_1<a name=\"cs-cdelir-cDELIR_1\"> </a></td><td>Geactiveerd wegens actieve deliriumsymptomen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cDELIR_0</td><td>Nicht aktiviert: keine aktiven Deliriumsymptome.</td><td>Non activé : pas de symptôme de délire actif.</td></tr><tr><td>cDELIR_1</td><td>Aktiviert aufgrund von Deliriumsymptomen.</td><td>Activé en raison de symptômes de délire.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdelir",
+  "version" : "0.1.0",
+  "name" : "CS_cDELIR",
+  "title" : "Delirium",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Delirium",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cDELIR_0",
+    "display" : "Niet geactiveerd: geen actieve deliriumsymptomen aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine aktiven Deliriumsymptome."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : pas de symptôme de délire actif."
+    }]
+  },
+  {
+    "code" : "cDELIR_1",
+    "display" : "Geactiveerd wegens actieve deliriumsymptomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von Deliriumsymptomen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de symptômes de délire."
+    }]
+  }]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpcmood",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpcmood</b></p><a name=\"cs-cpcmood\"> </a><a name=\"hccs-cpcmood\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcmood</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPCMOOD_0<a name=\"cs-cpcmood-cPCMOOD_0\"> </a></td><td>Niet geactiveerd: er zijn geen symptomen van stemmingsstoornissen aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cPCMOOD_1<a name=\"cs-cpcmood-cPCMOOD_1\"> </a></td><td>Geactiveerd: slechts 1 symptoom van stemmingsstoornissen aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cPCMOOD_2<a name=\"cs-cpcmood-cPCMOOD_2\"> </a></td><td>Geactiveerd: meerdere symptomen van stemmingsstoornissen aanwezig.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCMOOD_0</td><td>Nicht aktiviert: Es treten keine Symptome einer affektiven Störung auf.</td><td>Pas activé : il n'y a pas de présence de symptômes de troubles de l'humeur.</td></tr><tr><td>cPCMOOD_1</td><td> Aktiviert: Es tritt ein einziges Symptome einer affektiven Störung auf.</td><td>Activé : présence seulement d'1 symptôme de troubles de l'humeur.</td></tr><tr><td>cPCMOOD_2</td><td>Aktiviert: Es treten mehrere Symptome einer affektiven Störung auf.</td><td>Activé : présence de plusieurs symptômes de troubles de l'humeur.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcmood",
+  "version" : "0.1.0",
+  "name" : "CS_cPCMOOD",
+  "title" : "Stemming-Palliative Care",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Stemming-Palliative Care",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cPCMOOD_0",
+    "display" : "Niet geactiveerd: er zijn geen symptomen van stemmingsstoornissen aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Es treten keine Symptome einer affektiven Störung auf."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : il n'y a pas de présence de symptômes de troubles de l'humeur."
+    }]
+  },
+  {
+    "code" : "cPCMOOD_1",
+    "display" : "Geactiveerd: slechts 1 symptoom van stemmingsstoornissen aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : " Aktiviert: Es tritt ein einziges Symptome einer affektiven Störung auf."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé : présence seulement d'1 symptôme de troubles de l'humeur."
+    }]
+  },
+  {
+    "code" : "cPCMOOD_2",
+    "display" : "Geactiveerd: meerdere symptomen van stemmingsstoornissen aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: Es treten mehrere Symptome einer affektiven Störung auf."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé : présence de plusieurs symptômes de troubles de l'humeur."
+    }]
+  }]
+}

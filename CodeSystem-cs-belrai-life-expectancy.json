@@ -1,0 +1,43 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-life-expectancy",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-life-expectancy</b></p><a name=\"cs-belrai-life-expectancy\"> </a><a name=\"hccs-belrai-life-expectancy\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-life-expectancy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">le-imminent<a name=\"cs-belrai-life-expectancy-le-imminent\"> </a></td><td>Nakend overlijden (binnen enkele dagen)</td></tr><tr><td style=\"white-space:nowrap\">le-under-6w<a name=\"cs-belrai-life-expectancy-le-under-6w\"> </a></td><td>Minder dan 6 weken</td></tr><tr><td style=\"white-space:nowrap\">le-6w-to-6mo<a name=\"cs-belrai-life-expectancy-le-6w-to-6mo\"> </a></td><td>6 weken of langer, maar minder dan 6 maanden</td></tr><tr><td style=\"white-space:nowrap\">le-6mo-plus<a name=\"cs-belrai-life-expectancy-le-6mo-plus\"> </a></td><td>6 maanden of langer</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-life-expectancy",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiLifeExpectancy",
+  "title" : "BelRAI - Geschatte levensverwachting",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Geschatte resterende levensverwachting vanaf de beoordelingsreferentiedatum.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "le-imminent",
+    "display" : "Nakend overlijden (binnen enkele dagen)"
+  },
+  {
+    "code" : "le-under-6w",
+    "display" : "Minder dan 6 weken"
+  },
+  {
+    "code" : "le-6w-to-6mo",
+    "display" : "6 weken of langer, maar minder dan 6 maanden"
+  },
+  {
+    "code" : "le-6mo-plus",
+    "display" : "6 maanden of langer"
+  }]
+}

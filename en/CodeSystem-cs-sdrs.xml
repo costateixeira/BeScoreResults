@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-sdrs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-sdrs</b></p><a name="cs-sdrs"> </a><a name="hccs-sdrs"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdrs</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sDRS_range_0_14<a name="cs-sdrs-sDRS_range_0_14"> </a></td><td>0-14 Hoe hoger de score (op een schaal van 0-14) hoe waarschijnlijker de aanwezigheid van een depressiestoornis.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sDRS_range_0_14</td><td>0-14 Je höher der Score ist (auf der Skala 0-14), desto höher ist die Wahrscheinlichkeit einer Depression oder einer depressiven Verstimmung.</td><td>0-14 Plus le score est élevé (sur une échelle de 0 à 14), plus il est probable qu'un trouble dépressif soit présent.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdrs"/>
+  <version value="0.1.0"/>
+  <name value="CS_sDRS"/>
+  <title value="Depression Rating Scale (sDRS)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Depression Rating Scale (sDRS)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="sDRS_range_0_14"/>
+    <display value="0-14 Hoe hoger de score (op een schaal van 0-14) hoe waarschijnlijker de aanwezigheid van een depressiestoornis."/>
+    <designation>
+      <language value="de"/>
+      <value value="0-14 Je höher der Score ist (auf der Skala 0-14), desto höher ist die Wahrscheinlichkeit einer Depression oder einer depressiven Verstimmung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="0-14 Plus le score est élevé (sur une échelle de 0 à 14), plus il est probable qu'un trouble dépressif soit présent."/>
+    </designation>
+  </concept>
+</CodeSystem>

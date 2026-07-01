@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-sfrailty"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-sfrailty</b></p><a name="cs-sfrailty"> </a><a name="hccs-sfrailty"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sFRAILTY_0<a name="cs-sfrailty-sFRAILTY_0"> </a></td><td>Persoon is niet kwetsbaar</td></tr><tr><td style="white-space:nowrap">sFRAILTY_1<a name="cs-sfrailty-sFRAILTY_1"> </a></td><td>Persoon is kwetsbaar</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sFRAILTY_0</td><td>Die Person ist nicht schutzbedürftig</td><td>La personne n'est pas vulnérable</td></tr><tr><td>sFRAILTY_1</td><td>Die Person ist schutzbedürftig</td><td>La personne est vulnérable</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty"/>
+  <version value="0.1.0"/>
+  <name value="CS_sFRAILTY"/>
+  <title value="Frailty Scale (sFrailty)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Frailty Scale (sFrailty)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="sFRAILTY_0"/>
+    <display value="Persoon is niet kwetsbaar"/>
+    <designation>
+      <language value="de"/>
+      <value value="Die Person ist nicht schutzbedürftig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="La personne n'est pas vulnérable"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sFRAILTY_1"/>
+    <display value="Persoon is kwetsbaar"/>
+    <designation>
+      <language value="de"/>
+      <value value="Die Person ist schutzbedürftig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="La personne est vulnérable"/>
+    </designation>
+  </concept>
+</CodeSystem>

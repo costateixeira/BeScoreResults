@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhssdis"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhssdis</b></p><a name="cs-cmhssdis"> </a><a name="hccs-cmhssdis"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhssdis</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHSSDIS_0<a name="cs-cmhssdis-cMHSSDIS_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHSSDIS_1<a name="cs-cmhssdis-cMHSSDIS_1"> </a></td><td>Geactiveerd wegens de behoefte aan ondersteuning bij ontslag.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHSSDIS_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHSSDIS_1</td><td>Aktiviert aufgrund des Bedarfs einer Begleitung nach der Entlassung.</td><td>Activé en raison d'un besoin de soutien après la sortie.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhssdis"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHSSDIS"/>
+  <title value="Ondersteuningskader bij ontslag"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Ondersteuningskader bij ontslag"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="cMHSSDIS_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHSSDIS_1"/>
+    <display value="Geactiveerd wegens de behoefte aan ondersteuning bij ontslag."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund des Bedarfs einer Begleitung nach der Entlassung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un besoin de soutien après la sortie."/>
+    </designation>
+  </concept>
+</CodeSystem>

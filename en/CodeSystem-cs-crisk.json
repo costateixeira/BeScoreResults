@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-crisk",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-crisk</b></p><a name=\"cs-crisk\"> </a><a name=\"hccs-crisk\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crisk</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cRISK_0<a name=\"cs-crisk-cRISK_0\"> </a></td><td>Niet geactiveerd: geen functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden.</td></tr><tr><td style=\"white-space:nowrap\">cRISK_1<a name=\"cs-crisk-cRISK_1\"> </a></td><td>Geactiveerd wegens functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cRISK_0</td><td>Nicht aktiviert: Kein funktioneller Rückfall mit dem Risiko einer stationären Aufnahme in den nächsten Monaten.</td><td>Non activé : pas de déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains.</td></tr><tr><td>cRISK_1</td><td>Aktiviert: funktioneller Rückfall mit dem Risiko einer möglichen stationären Aufnahme in den nächsten Monaten.</td><td>Activé en raison d'un déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crisk",
+  "version" : "0.1.0",
+  "name" : "CS_cRISK",
+  "title" : "Kans op opname in een voorziening",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Kans op opname in een voorziening",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cRISK_0",
+    "display" : "Niet geactiveerd: geen functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Kein funktioneller Rückfall mit dem Risiko einer stationären Aufnahme in den nächsten Monaten."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : pas de déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains."
+    }]
+  },
+  {
+    "code" : "cRISK_1",
+    "display" : "Geactiveerd wegens functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: funktioneller Rückfall mit dem Risiko einer möglichen stationären Aufnahme in den nächsten Monaten."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains."
+    }]
+  }]
+}

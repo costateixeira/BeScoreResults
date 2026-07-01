@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhharmoth",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhharmoth</b></p><a name=\"cs-cmhharmoth\"> </a><a name=\"hccs-cmhharmoth\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhharmoth</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHHARMOTH_0<a name=\"cs-cmhharmoth-cMHHARMOTH_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHHARMOTH_1<a name=\"cs-cmhharmoth-cMHHARMOTH_1\"> </a></td><td>Geactiveerd wegens een matig risico op schade aan anderen.</td></tr><tr><td style=\"white-space:nowrap\">cMHHARMOTH_2<a name=\"cs-cmhharmoth-cMHHARMOTH_2\"> </a></td><td>Geactiveerd wegens een hoog risico op schade aan anderen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHHARMOTH_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHHARMOTH_1</td><td>Aktiviert aufgrund eines moderaten Risikos der Fremdgefährdung.</td><td>Activé en raison d'un risque modéré de dommages pour les autres.</td></tr><tr><td>cMHHARMOTH_2</td><td>Aktiviert aufgrund eines hohen Risikos der Fremdgefährdung.</td><td>Activé en raison d'un risque élevé de dommages pour les autres.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhharmoth",
+  "version" : "0.1.0",
+  "name" : "CS_cMHHARMOTH",
+  "title" : "Schade aan anderen",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Schade aan anderen",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHHARMOTH_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHHARMOTH_1",
+    "display" : "Geactiveerd wegens een matig risico op schade aan anderen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines moderaten Risikos der Fremdgefährdung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque modéré de dommages pour les autres."
+    }]
+  },
+  {
+    "code" : "cMHHARMOTH_2",
+    "display" : "Geactiveerd wegens een hoog risico op schade aan anderen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines hohen Risikos der Fremdgefährdung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé de dommages pour les autres."
+    }]
+  }]
+}

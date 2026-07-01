@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-chsbehav"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-chsbehav</b></p><a name="cs-chsbehav"> </a><a name="hccs-chsbehav"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cHSBEHAV_0<a name="cs-chsbehav-cHSBEHAV_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cHSBEHAV_1<a name="cs-chsbehav-cHSBEHAV_1"> </a></td><td>Geactiveerd</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cHSBEHAV_0</td><td>Nicht aktiviert</td><td>Non activé</td></tr><tr><td>cHSBEHAV_1</td><td>Aktiviert</td><td>Activé</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav"/>
+  <version value="0.1.0"/>
+  <name value="CS_cHSBEHAV"/>
+  <title value="Gedrag - Ziekenhuis"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Gedrag - Ziekenhuis"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="cHSBEHAV_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cHSBEHAV_1"/>
+    <display value="Geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé"/>
+    </designation>
+  </concept>
+</CodeSystem>

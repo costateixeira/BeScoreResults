@@ -1,0 +1,112 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-shsadlh",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-shsadlh</b></p><a name=\"cs-shsadlh\"> </a><a name=\"hccs-shsadlh\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shsadlh</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_0<a name=\"cs-shsadlh-sHSADLH_0\"> </a></td><td>Zelfstandig</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_1<a name=\"cs-shsadlh-sHSADLH_1\"> </a></td><td>Toezicht vereist</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_2<a name=\"cs-shsadlh-sHSADLH_2\"> </a></td><td>Beperkte hulp vereist</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_3<a name=\"cs-shsadlh-sHSADLH_3\"> </a></td><td>Uitgebreide hulp vereist - 1</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_4<a name=\"cs-shsadlh-sHSADLH_4\"> </a></td><td>Uitgebreide hulp vereist - 2</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_5<a name=\"cs-shsadlh-sHSADLH_5\"> </a></td><td>Afhankelijk</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH_6<a name=\"cs-shsadlh-sHSADLH_6\"> </a></td><td>Volledig afhankelijk</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sHSADLH_0</td><td>Selbstständig</td><td>Autonome</td></tr><tr><td>sHSADLH_1</td><td>Begleitung</td><td>Surveillance exigée</td></tr><tr><td>sHSADLH_2</td><td>Begrenzte Unterstützung</td><td>Aide limitée exigée</td></tr><tr><td>sHSADLH_3</td><td>Verstärkte Unterstützung -1</td><td>Aide élargie exigée -1</td></tr><tr><td>sHSADLH_4</td><td>Maximale Unterstützung</td><td>Aide élargie exigée -2</td></tr><tr><td>sHSADLH_5</td><td>Abhängigkeit</td><td>Dépendant</td></tr><tr><td>sHSADLH_6</td><td>Vollständige Abhängigkeit </td><td>Totalement dépendant</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shsadlh",
+  "version" : "0.1.0",
+  "name" : "CS_sHSADLH",
+  "title" : "ADL Hierarchy Scale – Hospital (sHSADLH)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "ADL Hierarchy Scale – Hospital (sHSADLH)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "sHSADLH_0",
+    "display" : "Zelfstandig",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Selbstständig"
+    },
+    {
+      "language" : "fr",
+      "value" : "Autonome"
+    }]
+  },
+  {
+    "code" : "sHSADLH_1",
+    "display" : "Toezicht vereist",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Begleitung"
+    },
+    {
+      "language" : "fr",
+      "value" : "Surveillance exigée"
+    }]
+  },
+  {
+    "code" : "sHSADLH_2",
+    "display" : "Beperkte hulp vereist",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Begrenzte Unterstützung"
+    },
+    {
+      "language" : "fr",
+      "value" : "Aide limitée exigée"
+    }]
+  },
+  {
+    "code" : "sHSADLH_3",
+    "display" : "Uitgebreide hulp vereist - 1",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Verstärkte Unterstützung -1"
+    },
+    {
+      "language" : "fr",
+      "value" : "Aide élargie exigée -1"
+    }]
+  },
+  {
+    "code" : "sHSADLH_4",
+    "display" : "Uitgebreide hulp vereist - 2",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Maximale Unterstützung"
+    },
+    {
+      "language" : "fr",
+      "value" : "Aide élargie exigée -2"
+    }]
+  },
+  {
+    "code" : "sHSADLH_5",
+    "display" : "Afhankelijk",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Abhängigkeit"
+    },
+    {
+      "language" : "fr",
+      "value" : "Dépendant"
+    }]
+  },
+  {
+    "code" : "sHSADLH_6",
+    "display" : "Volledig afhankelijk",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Vollständige Abhängigkeit "
+    },
+    {
+      "language" : "fr",
+      "value" : "Totalement dépendant"
+    }]
+  }]
+}

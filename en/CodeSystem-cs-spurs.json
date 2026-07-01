@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-spurs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-spurs</b></p><a name=\"cs-spurs\"> </a><a name=\"hccs-spurs\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sPURS_0<a name=\"cs-spurs-sPURS_0\"> </a></td><td>Zeer laag risico</td></tr><tr><td style=\"white-space:nowrap\">sPURS_3<a name=\"cs-spurs-sPURS_3\"> </a></td><td>Matig risico</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sPURS_0</td><td>Sehr geringes Risiko</td><td>Risque très faible</td></tr><tr><td>sPURS_3</td><td>Moderates Risiko</td><td>Risque modéré</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs",
+  "version" : "0.1.0",
+  "name" : "CS_sPURS",
+  "title" : "Pressure Ulcer Risk Scale (sPURS)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Pressure Ulcer Risk Scale (sPURS)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "sPURS_0",
+    "display" : "Zeer laag risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Sehr geringes Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque très faible"
+    }]
+  },
+  {
+    "code" : "sPURS_3",
+    "display" : "Matig risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Moderates Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque modéré"
+    }]
+  }]
+}

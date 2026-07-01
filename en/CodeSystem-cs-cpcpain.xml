@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cpcpain"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cpcpain</b></p><a name="cs-cpcpain"> </a><a name="hccs-cpcpain"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpain</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cPCPAIN_0<a name="cs-cpcpain-cPCPAIN_0"> </a></td><td>Niet geactiveerd: de persoon ervaart geen of matige pijn zonder doorbraakpijn.</td></tr><tr><td style="white-space:nowrap">cPCPAIN_1<a name="cs-cpcpain-cPCPAIN_1"> </a></td><td>Geactiveerd: de persoon ervaart milde of matige pijn en doorbraakpijn (Pijnschaal code 2).</td></tr><tr><td style="white-space:nowrap">cPCPAIN_2<a name="cs-cpcpain-cPCPAIN_2"> </a></td><td>Geactiveerd: de persoon ervaart ernstige of intense pijn en de pijn is al of niet constant aanwezig (Pijnschaal code 3 en 4).</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCPAIN_0</td><td>Nicht aktiviert: die Person erlebt keine oder moderater Schmerzen ohne paroxysmale Schmerzen.</td><td>Pas activé : la personne n'éprouve pas de douleur modérée ou une douleur modérée sans douleur paroxystique.</td></tr><tr><td>cPCPAIN_1</td><td>Aktiviert: die Person erlebt leichte oder moderate Schmerzen und paroxysmale Schmerzen.</td><td>Activé : la personne éprouve une douleur légère ou modérée et des douleurs paroxystiques.</td></tr><tr><td>cPCPAIN_2</td><td>Aktiviert: die Person erlebt starke oder intensive Schmerzen und die Schmerzen sind nicht konstant anwesend (Schmerzskala 3 oder 4).</td><td>Activé : la personne éprouve une douleur sévère ou intense et la douleur n'est pas présente de façon constante (échelle de douleur code 3 ou 4).</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpain"/>
+  <version value="0.1.0"/>
+  <name value="CS_cPCPAIN"/>
+  <title value="Pijn - Palliatieve zorg"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Pijn - Palliatieve zorg"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cPCPAIN_0"/>
+    <display value="Niet geactiveerd: de persoon ervaart geen of matige pijn zonder doorbraakpijn."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: die Person erlebt keine oder moderater Schmerzen ohne paroxysmale Schmerzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé : la personne n'éprouve pas de douleur modérée ou une douleur modérée sans douleur paroxystique."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPCPAIN_1"/>
+    <display value="Geactiveerd: de persoon ervaart milde of matige pijn en doorbraakpijn (Pijnschaal code 2)."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: die Person erlebt leichte oder moderate Schmerzen und paroxysmale Schmerzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé : la personne éprouve une douleur légère ou modérée et des douleurs paroxystiques."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPCPAIN_2"/>
+    <display value="Geactiveerd: de persoon ervaart ernstige of intense pijn en de pijn is al of niet constant aanwezig (Pijnschaal code 3 en 4)."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: die Person erlebt starke oder intensive Schmerzen und die Schmerzen sind nicht konstant anwesend (Schmerzskala 3 oder 4)."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé : la personne éprouve une douleur sévère ou intense et la douleur n'est pas présente de façon constante (échelle de douleur code 3 ou 4)."/>
+    </designation>
+  </concept>
+</CodeSystem>

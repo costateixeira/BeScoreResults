@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-chsinstitution",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-chsinstitution</b></p><a name=\"cs-chsinstitution\"> </a><a name=\"hccs-chsinstitution\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cHSINSTITUTION_0<a name=\"cs-chsinstitution-cHSINSTITUTION_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cHSINSTITUTION_1<a name=\"cs-chsinstitution-cHSINSTITUTION_1\"> </a></td><td>Matig risico</td></tr><tr><td style=\"white-space:nowrap\">cHSINSTITUTION_2<a name=\"cs-chsinstitution-cHSINSTITUTION_2\"> </a></td><td>Hoog risico</td></tr><tr><td style=\"white-space:nowrap\">cHSINSTITUTION_8<a name=\"cs-chsinstitution-cHSINSTITUTION_8\"> </a></td><td>In voorziening vóór de opname</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cHSINSTITUTION_0</td><td>Nicht aktiviert</td><td>Non activé</td></tr><tr><td>cHSINSTITUTION_1</td><td>Moderates Risiko</td><td>Risque modéré</td></tr><tr><td>cHSINSTITUTION_2</td><td>Hohes Risiko</td><td>Risque élevé</td></tr><tr><td>cHSINSTITUTION_8</td><td>In der Einrichtung vor der Aufnahme</td><td>Dans l'institution avant l'admission</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution",
+  "version" : "0.1.0",
+  "name" : "CS_cHSINSTITUTION",
+  "title" : "Kans op opname in een voorziening - Ziekenhuis",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Kans op opname in een voorziening - Ziekenhuis",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "cHSINSTITUTION_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé"
+    }]
+  },
+  {
+    "code" : "cHSINSTITUTION_1",
+    "display" : "Matig risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Moderates Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque modéré"
+    }]
+  },
+  {
+    "code" : "cHSINSTITUTION_2",
+    "display" : "Hoog risico",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Hohes Risiko"
+    },
+    {
+      "language" : "fr",
+      "value" : "Risque élevé"
+    }]
+  },
+  {
+    "code" : "cHSINSTITUTION_8",
+    "display" : "In voorziening vóór de opname",
+    "designation" : [{
+      "language" : "de",
+      "value" : "In der Einrichtung vor der Aufnahme"
+    },
+    {
+      "language" : "fr",
+      "value" : "Dans l'institution avant l'admission"
+    }]
+  }]
+}

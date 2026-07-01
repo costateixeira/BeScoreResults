@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-ccognit",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-ccognit</b></p><a name=\"cs-ccognit\"> </a><a name=\"hccs-ccognit\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccognit</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cCOGNIT_0<a name=\"cs-ccognit-cCOGNIT_0\"> </a></td><td>Niet geactiveerd.</td></tr><tr><td style=\"white-space:nowrap\">cCOGNIT_1<a name=\"cs-ccognit-cCOGNIT_1\"> </a></td><td>Geactiveerd om het risico op cognitieve achteruitgang te controleren/op te volgen.</td></tr><tr><td style=\"white-space:nowrap\">cCOGNIT_2<a name=\"cs-ccognit-cCOGNIT_2\"> </a></td><td>Geactiveerd om achteruitgang te voorkomen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cCOGNIT_0</td><td>Nicht aktiviert.</td><td>Pas activé.</td></tr><tr><td>cCOGNIT_1</td><td>Aktiviert um das Risiko eines kognitiven Rückfalls zu begleiten oder zu kontrollieren.</td><td>Activé pour suivre/contrôler le risque le déclin cognitif.</td></tr><tr><td>cCOGNIT_2</td><td>Aktiviert um das Risiko eines Rückfalls vorzubeugen.</td><td>Activé pour prévenir le déclin.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccognit",
+  "version" : "0.1.0",
+  "name" : "CS_cCOGNIT",
+  "title" : "Cognitieverlies",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Cognitieverlies",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cCOGNIT_0",
+    "display" : "Niet geactiveerd.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé."
+    }]
+  },
+  {
+    "code" : "cCOGNIT_1",
+    "display" : "Geactiveerd om het risico op cognitieve achteruitgang te controleren/op te volgen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um das Risiko eines kognitiven Rückfalls zu begleiten oder zu kontrollieren."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour suivre/contrôler le risque le déclin cognitif."
+    }]
+  },
+  {
+    "code" : "cCOGNIT_2",
+    "display" : "Geactiveerd om achteruitgang te voorkomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um das Risiko eines Rückfalls vorzubeugen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour prévenir le déclin."
+    }]
+  }]
+}

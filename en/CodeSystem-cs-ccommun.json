@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-ccommun",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-ccommun</b></p><a name=\"cs-ccommun\"> </a><a name=\"hccs-ccommun\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccommun</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cCOMMUN_0<a name=\"cs-ccommun-cCOMMUN_0\"> </a></td><td>Niet geactiveerd: functioneel herstel ter preventie van achteruitgang is klinisch gezien geen geschikt zorgdoel.</td></tr><tr><td style=\"white-space:nowrap\">cCOMMUN_1<a name=\"cs-ccommun-cCOMMUN_1\"> </a></td><td>Geactiveerd op potentiële vooruitgang.</td></tr><tr><td style=\"white-space:nowrap\">cCOMMUN_2<a name=\"cs-ccommun-cCOMMUN_2\"> </a></td><td>Geactiveerd om achteruitgang te voorkomen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cCOMMUN_0</td><td>Nicht aktiviert: Die Wiederherstellung oder der Erhalt der Funktionen zur Vorbeugung eines Rückfalls ist kein angepasstes Pflegeziel.</td><td>Pas activé : récupération fonctionnelle pour prévenir le déclin n'est pas d'un point de vue clinique un objectif de soins approprié.</td></tr><tr><td>cCOMMUN_1</td><td>Aktiviert: Möglichkeit der Verbesserung.</td><td>Activé : potentiel d'amélioration.</td></tr><tr><td>cCOMMUN_2</td><td>Aktiviert um einen Rückfall vorzubeugen.</td><td>Activé pour prévenir le déclin.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccommun",
+  "version" : "0.1.0",
+  "name" : "CS_cCOMMUN",
+  "title" : "Communicatie",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Communicatie",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cCOMMUN_0",
+    "display" : "Niet geactiveerd: functioneel herstel ter preventie van achteruitgang is klinisch gezien geen geschikt zorgdoel.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Die Wiederherstellung oder der Erhalt der Funktionen zur Vorbeugung eines Rückfalls ist kein angepasstes Pflegeziel."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : récupération fonctionnelle pour prévenir le déclin n'est pas d'un point de vue clinique un objectif de soins approprié."
+    }]
+  },
+  {
+    "code" : "cCOMMUN_1",
+    "display" : "Geactiveerd op potentiële vooruitgang.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: Möglichkeit der Verbesserung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé : potentiel d'amélioration."
+    }]
+  },
+  {
+    "code" : "cCOMMUN_2",
+    "display" : "Geactiveerd om achteruitgang te voorkomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um einen Rückfall vorzubeugen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour prévenir le déclin."
+    }]
+  }]
+}

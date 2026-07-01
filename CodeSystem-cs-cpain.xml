@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cpain"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cpain</b></p><a name="cs-cpain"> </a><a name="hccs-cpain"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cPAIN_0<a name="cs-cpain-cPAIN_0"> </a></td><td>Niet geactiveerd: geen lichte of hevige pijn.</td></tr><tr><td style="white-space:nowrap">cPAIN_1<a name="cs-cpain-cPAIN_1"> </a></td><td>Geactiveerd als matige prioriteit wegens dagelijks lichte pijn.</td></tr><tr><td style="white-space:nowrap">cPAIN_2<a name="cs-cpain-cPAIN_2"> </a></td><td>Geactiveerd als hoge prioriteit wegens hevige, vreselijke of ondraaglijke pijn ongeacht de frequentie.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPAIN_0</td><td>Nicht aktiviert: keine leichten oder starken Schmerzen.</td><td>Non activé : pas de douleur légère ou intense.</td></tr><tr><td>cPAIN_1</td><td>Aktiviert mit mittlerer Priorität aufgrund von leichten täglichen Schmerzen.</td><td>Activé comme priorité modérée en raison de douleurs quotidiennes légères.</td></tr><tr><td>cPAIN_2</td><td>Aktiviert mit hoher Priorität aufgrund von starken, heftigen oder nichtaushaltbaren Schmerzen unabhängig von der Frequenz.</td><td>Activé comme priorité élevée en raison de douleurs intenses, terribles ou insupportables indépendamment de la fréquence.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain"/>
+  <version value="0.1.0"/>
+  <name value="CS_cPAIN"/>
+  <title value="Pijn"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Pijn"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cPAIN_0"/>
+    <display value="Niet geactiveerd: geen lichte of hevige pijn."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine leichten oder starken Schmerzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé : pas de douleur légère ou intense."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPAIN_1"/>
+    <display value="Geactiveerd als matige prioriteit wegens dagelijks lichte pijn."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert mit mittlerer Priorität aufgrund von leichten täglichen Schmerzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé comme priorité modérée en raison de douleurs quotidiennes légères."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPAIN_2"/>
+    <display value="Geactiveerd als hoge prioriteit wegens hevige, vreselijke of ondraaglijke pijn ongeacht de frequentie."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert mit hoher Priorität aufgrund von starken, heftigen oder nichtaushaltbaren Schmerzen unabhängig von der Frequenz."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé comme priorité élevée en raison de douleurs intenses, terribles ou insupportables indépendamment de la fréquence."/>
+    </designation>
+  </concept>
+</CodeSystem>

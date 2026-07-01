@@ -1,0 +1,88 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-spain",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-spain</b></p><a name=\"cs-spain\"> </a><a name=\"hccs-spain\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spain</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sPAIN_0<a name=\"cs-spain-sPAIN_0\"> </a></td><td>Geen pijn</td></tr><tr><td style=\"white-space:nowrap\">sPAIN_1<a name=\"cs-spain-sPAIN_1\"> </a></td><td>Minder dan dagelijks pijn</td></tr><tr><td style=\"white-space:nowrap\">sPAIN_2<a name=\"cs-spain-sPAIN_2\"> </a></td><td>Dagelijks matige pijn </td></tr><tr><td style=\"white-space:nowrap\">sPAIN_3<a name=\"cs-spain-sPAIN_3\"> </a></td><td>Dagelijks ernstige pijn</td></tr><tr><td style=\"white-space:nowrap\">sPAIN_4<a name=\"cs-spain-sPAIN_4\"> </a></td><td>Dagelijks vreselijke of ondraaglijke pijn</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sPAIN_0</td><td>Keine Schmerzen</td><td>Pas de douleur</td></tr><tr><td>sPAIN_1</td><td>Schmerzen (nicht täglich)</td><td>Douleur non journalière</td></tr><tr><td>sPAIN_2</td><td>Tägliche mittlere Schmerzen</td><td>Douleur journalière modérée</td></tr><tr><td>sPAIN_3</td><td>Tägliche starke Schmerzen</td><td>Douleur journalière sévère</td></tr><tr><td>sPAIN_4</td><td>Tägliche nichtaushaltbare Schmerzen</td><td>Douleur journalière atroce ou insupportable</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spain",
+  "version" : "0.1.0",
+  "name" : "CS_sPAIN",
+  "title" : "Pain Scale (sPAIN)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Pain Scale (sPAIN)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "sPAIN_0",
+    "display" : "Geen pijn",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Keine Schmerzen"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas de douleur"
+    }]
+  },
+  {
+    "code" : "sPAIN_1",
+    "display" : "Minder dan dagelijks pijn",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Schmerzen (nicht täglich)"
+    },
+    {
+      "language" : "fr",
+      "value" : "Douleur non journalière"
+    }]
+  },
+  {
+    "code" : "sPAIN_2",
+    "display" : "Dagelijks matige pijn ",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Tägliche mittlere Schmerzen"
+    },
+    {
+      "language" : "fr",
+      "value" : "Douleur journalière modérée"
+    }]
+  },
+  {
+    "code" : "sPAIN_3",
+    "display" : "Dagelijks ernstige pijn",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Tägliche starke Schmerzen"
+    },
+    {
+      "language" : "fr",
+      "value" : "Douleur journalière sévère"
+    }]
+  },
+  {
+    "code" : "sPAIN_4",
+    "display" : "Dagelijks vreselijke of ondraaglijke pijn",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Tägliche nichtaushaltbare Schmerzen"
+    },
+    {
+      "language" : "fr",
+      "value" : "Douleur journalière atroce ou insupportable"
+    }]
+  }]
+}

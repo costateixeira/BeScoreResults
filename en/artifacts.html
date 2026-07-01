@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary -  v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7-be.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<!-- Example Publisher -->
+<!-- draft -->
+
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+<link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        
+<!-- Example Publisher -->
+<!-- draft -->
+
+<div id="ig-nav">
+  <a id="hl7-logo" no-external="true" href="https://hl7belgium.org">
+    <img height="65" alt="HL7 Belgium" src="assets/images/hl7be-logo-header.png"/>
+  </a>
+</div>
+<div id="fhir-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+</div>
+<div id="ig-search">
+  <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">bescoring, published by Example Publisher. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/costateixeira/BeScoreResults/tree/main'>https://github.com/costateixeira/BeScoreResults/tree/main</a> and changes regularly. See the <a href='https://www.ehealth.fgov.be/standards/fhir/scoring/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc"
+     data-fhir="generated">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     data-fhir="generated">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-MyPatient.html"
+                  title="StructureDefinition/MyPatient">
+                  <span title="StructureDefinition/MyPatient">MyPatient
+</span>
+               </a>
+            </td>
+            <td>
+<p>An example profile of the Patient resource.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-vs-observation-code.html"
+                  title="ValueSet/vs-observation-code">
+                  <span title="ValueSet/vs-observation-code">BelRAI - Observation codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes identifying each BelRAI scoring scale/screener, used as Observation.code.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sadlh.html" title="CodeSystem/cs-sadlh">
+                  <span title="CodeSystem/cs-sadlh">ADL Hierarchy Scale (sADLH)
+</span>
+               </a>
+            </td>
+            <td>
+<p>ADL Hierarchy Scale (sADLH)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-shsadlh.html" title="CodeSystem/cs-shsadlh">
+                  <span title="CodeSystem/cs-shsadlh">ADL Hierarchy Scale – Hospital (sHSADLH)
+</span>
+               </a>
+            </td>
+            <td>
+<p>ADL Hierarchy Scale – Hospital (sHSADLH)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cactiv.html" title="CodeSystem/cs-cactiv">
+                  <span title="CodeSystem/cs-cactiv">Activiteiten
+</span>
+               </a>
+            </td>
+            <td>
+<p>Activiteiten</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cadl.html" title="CodeSystem/cs-cadl">
+                  <span title="CodeSystem/cs-cadl">Activiteiten van het dagelijks leven (ADL)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Activiteiten van het dagelijks leven (ADL)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cthsadl.html" title="CodeSystem/cs-cthsadl">
+                  <span title="CodeSystem/cs-cthsadl">Activiteiten van het dagelijks leven (ADL)- Behandeling
+</span>
+               </a>
+            </td>
+            <td>
+<p>Activiteiten van het dagelijks leven (ADL)- Behandeling</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cphsadl.html" title="CodeSystem/cs-cphsadl">
+                  <span title="CodeSystem/cs-cphsadl">Activiteiten van het dagelijks leven (ADL)- Preventie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Activiteiten van het dagelijks leven (ADL)- Preventie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-scage.html" title="CodeSystem/cs-scage">
+                  <span title="CodeSystem/cs-scage">Addictions and Substance Use Scale (sCAGE)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sabs.html" title="CodeSystem/cs-sabs">
+                  <span title="CodeSystem/cs-sabs">Aggressive Behaviour Scale (sABS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Aggressive Behaviour Scale (sABS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-aware-6-months.html"
+                  title="CodeSystem/cs-belrai-aware-6-months">
+                  <span title="CodeSystem/cs-belrai-aware-6-months">BelRAI - Bewustzijn over zes maand of minder
+</span>
+               </a>
+            </td>
+            <td>
+<p>De persoon zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-life-expectancy.html"
+                  title="CodeSystem/cs-belrai-life-expectancy">
+                  <span title="CodeSystem/cs-belrai-life-expectancy">BelRAI - Geschatte levensverwachting
+</span>
+               </a>
+            </td>
+            <td>
+<p>Geschatte resterende levensverwachting vanaf de beoordelingsreferentiedatum.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-observation-code.html"
+                  title="CodeSystem/cs-observation-code">
+                  <span title="CodeSystem/cs-observation-code">BelRAI - Observation codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes identifying each BelRAI scoring scale/screener, used as Observation.code.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-assessment-reason.html"
+                  title="CodeSystem/cs-belrai-assessment-reason">
+                  <span title="CodeSystem/cs-belrai-assessment-reason">BelRAI - Reden voor beoordeling
+</span>
+               </a>
+            </td>
+            <td>
+<p>Reden waarom de BelRAI beoordeling wordt uitgevoerd.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-marital-status.html"
+                  title="CodeSystem/cs-belrai-marital-status">
+                  <span title="CodeSystem/cs-belrai-marital-status">BelRAI - Relatiestatus
+</span>
+               </a>
+            </td>
+            <td>
+<p>Relatiestatus van de persoon.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-time-since-hospital-stay.html"
+                  title="CodeSystem/cs-belrai-time-since-hospital-stay">
+                  <span title="CodeSystem/cs-belrai-time-since-hospital-stay">BelRAI - Tijd sinds laatste ziekenhuisverblijf
+</span>
+               </a>
+            </td>
+            <td>
+<p>Tijd verstreken sinds het meest recente ziekenhuisverblijf in de laatste 90 dagen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-palliative-program-type.html"
+                  title="CodeSystem/cs-belrai-palliative-program-type">
+                  <span title="CodeSystem/cs-belrai-palliative-program-type">BelRAI - Type palliatief programma
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type palliatief zorgprogramma waar de persoon van geniet.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-belrai-residence.html"
+                  title="CodeSystem/cs-belrai-residence">
+                  <span title="CodeSystem/cs-belrai-residence">BelRAI - Verblijfplaats op het tijdstip van beoordeling
+</span>
+               </a>
+            </td>
+            <td>
+<p>Verblijfplaats van de persoon op het moment van de beoordeling. Opties nog aan te leveren.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpactiv.html" title="CodeSystem/cs-cpactiv">
+                  <span title="CodeSystem/cs-cpactiv">Bevordering van de lichaamsbeweging
+</span>
+               </a>
+            </td>
+            <td>
+<p>Bevordering van de lichaamsbeweging</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhexer.html" title="CodeSystem/cs-cmhexer">
+                  <span title="CodeSystem/cs-cmhexer">Beweging
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beweging</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sbmi.html" title="CodeSystem/cs-sbmi">
+                  <span title="CodeSystem/cs-sbmi">Body Mass Index (sBMI)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Body Mass Index (sBMI)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-schess.html" title="CodeSystem/cs-schess">
+                  <span title="CodeSystem/cs-schess">Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ccognit.html" title="CodeSystem/cs-ccognit">
+                  <span title="CodeSystem/cs-ccognit">Cognitieverlies
+</span>
+               </a>
+            </td>
+            <td>
+<p>Cognitieverlies</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chscognit.html" title="CodeSystem/cs-chscognit">
+                  <span title="CodeSystem/cs-chscognit">Cognitieverlies - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Cognitieverlies - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-scps.html" title="CodeSystem/cs-scps">
+                  <span title="CodeSystem/cs-scps">Cognitive Performance Scale (sCPS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Cognitive Performance Scale (sCPS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-scps2.html" title="CodeSystem/cs-scps2">
+                  <span title="CodeSystem/cs-scps2">Cognitive Performance Scale 2 (sCPS2)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Cognitive Performance Scale 2 (sCPS2)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-common-translations-other.html"
+                  title="CodeSystem/cs-common-translations-other">
+                  <span title="CodeSystem/cs-common-translations-other">Common translations - other concepts
+</span>
+               </a>
+            </td>
+            <td>
+<p>Concepts from the common translations dictionary that do not belong to a numbered <code class="language-plaintext highlighter-rouge">&amp;lt;prefix&amp;gt;_&amp;lt;n&amp;gt;</code> group.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ccommun.html" title="CodeSystem/cs-ccommun">
+                  <span title="CodeSystem/cs-ccommun">Communicatie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Communicatie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chscommun.html" title="CodeSystem/cs-chscommun">
+                  <span title="CodeSystem/cs-chscommun">Communicatie - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Communicatie - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-scomm.html" title="CodeSystem/cs-scomm">
+                  <span title="CodeSystem/cs-scomm">Communication Scale (sCOMM)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Communication Scale (sCOMM)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhcrim.html" title="CodeSystem/cs-cmhcrim">
+                  <span title="CodeSystem/cs-cmhcrim">Criminele activiteiten
+</span>
+               </a>
+            </td>
+            <td>
+<p>Criminele activiteiten</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cbowel.html" title="CodeSystem/cs-cbowel">
+                  <span title="CodeSystem/cs-cbowel">Darmproblemen
+</span>
+               </a>
+            </td>
+            <td>
+<p>Darmproblemen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sdbsi.html" title="CodeSystem/cs-sdbsi">
+                  <span title="CodeSystem/cs-sdbsi">Deafblind Severity Index (sDbSI)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Deafblind Severity Index (sDbSI)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpulcer.html" title="CodeSystem/cs-cpulcer">
+                  <span title="CodeSystem/cs-cpulcer">Decubitus
+</span>
+               </a>
+            </td>
+            <td>
+<p>Decubitus</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cthspulcer.html" title="CodeSystem/cs-cthspulcer">
+                  <span title="CodeSystem/cs-cthspulcer">Decubitus - Behandeling - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Decubitus - Behandeling - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcpuimp.html" title="CodeSystem/cs-cpcpuimp">
+                  <span title="CodeSystem/cs-cpcpuimp">Decubitus - Palliatieve zorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Decubitus - Palliatieve zorg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cphspulcer.html" title="CodeSystem/cs-cphspulcer">
+                  <span title="CodeSystem/cs-cphspulcer">Decubitus - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Decubitus - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cdehyd.html" title="CodeSystem/cs-cdehyd">
+                  <span title="CodeSystem/cs-cdehyd">Dehydratatie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Dehydratatie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cdelir.html" title="CodeSystem/cs-cdelir">
+                  <span title="CodeSystem/cs-cdelir">Delirium
+</span>
+               </a>
+            </td>
+            <td>
+<p>Delirium</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cthsdelirium.html"
+                  title="CodeSystem/cs-cthsdelirium">
+                  <span title="CodeSystem/cs-cthsdelirium">Delirium - Behandeling
+</span>
+               </a>
+            </td>
+            <td>
+<p>Delirium - Behandeling</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cphsdelirium.html"
+                  title="CodeSystem/cs-cphsdelirium">
+                  <span title="CodeSystem/cs-cphsdelirium">Delirium - Preventie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Delirium - Preventie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ahsdelirium.html" title="CodeSystem/cs-ahsdelirium">
+                  <span title="CodeSystem/cs-ahsdelirium">Delirium Screener (aHSDELIRIUM)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Delirium Screener (aHSDELIRIUM)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ahsdementia.html" title="CodeSystem/cs-ahsdementia">
+                  <span title="CodeSystem/cs-ahsdementia">Dementia Screener (aHSDEMENTIA)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Dementia Screener (aHSDEMENTIA)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsdepress.html" title="CodeSystem/cs-chsdepress">
+                  <span title="CodeSystem/cs-chsdepress">Depressie - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Depressie - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sdrs.html" title="CodeSystem/cs-sdrs">
+                  <span title="CodeSystem/cs-sdrs">Depression Rating Scale (sDRS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Depression Rating Scale (sDRS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ahsdepression.html"
+                  title="CodeSystem/cs-ahsdepression">
+                  <span title="CodeSystem/cs-ahsdepression">Depression Screener (aHSDEPRESSION)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Depression Screener (aHSDEPRESSION)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cdentistrefer.html"
+                  title="CodeSystem/cs-cdentistrefer">
+                  <span title="CodeSystem/cs-cdentistrefer">Doorverwijzing naar de tandarts
+</span>
+               </a>
+            </td>
+            <td>
+<p>Doorverwijzing naar de tandarts</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcdys.html" title="CodeSystem/cs-cpcdys">
+                  <span title="CodeSystem/cs-cpcdys">Dyspneu
+</span>
+               </a>
+            </td>
+            <td>
+<p>Dyspneu</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-rhsfalls.html" title="CodeSystem/cs-rhsfalls">
+                  <span title="CodeSystem/cs-rhsfalls">Falls Risk in Hospital (rHSFALLS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Falls Risk in Hospital (rHSFALLS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-sfrailty.html" title="CodeSystem/cs-sfrailty">
+                  <span title="CodeSystem/cs-sfrailty">Frailty Scale (sFrailty)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Frailty Scale (sFrailty)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-crestr.html" title="CodeSystem/cs-crestr">
+                  <span title="CodeSystem/cs-crestr">Fysieke fixatie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Fysieke fixatie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cbehav.html" title="CodeSystem/cs-cbehav">
+                  <span title="CodeSystem/cs-cbehav">Gedrag
+</span>
+               </a>
+            </td>
+            <td>
+<p>Gedrag</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsbehav.html" title="CodeSystem/cs-chsbehav">
+                  <span title="CodeSystem/cs-chsbehav">Gedrag - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Gedrag - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhmedmgt.html" title="CodeSystem/cs-cmhmedmgt">
+                  <span title="CodeSystem/cs-cmhmedmgt">Geneesmiddelenbeheer en therapietrouw
+</span>
+               </a>
+            </td>
+            <td>
+<p>Geneesmiddelenbeheer en therapietrouw</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhwtmgt.html" title="CodeSystem/cs-cmhwtmgt">
+                  <span title="CodeSystem/cs-cmhwtmgt">Gewichtsmanagement
+</span>
+               </a>
+            </td>
+            <td>
+<p>Gewichtsmanagement</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ccardio.html" title="CodeSystem/cs-ccardio">
+                  <span title="CodeSystem/cs-ccardio">Hart en ademhaling
+</span>
+               </a>
+            </td>
+            <td>
+<p>Hart en ademhaling</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhrehosp.html" title="CodeSystem/cs-cmhrehosp">
+                  <span title="CodeSystem/cs-cmhrehosp">Heropname
+</span>
+               </a>
+            </td>
+            <td>
+<p>Heropname</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-siadlch.html" title="CodeSystem/cs-siadlch">
+                  <span title="CodeSystem/cs-siadlch">IADL Capacity Hierarchy Scale (sIADLCH)
+</span>
+               </a>
+            </td>
+            <td>
+<p>IADL Capacity Hierarchy Scale (sIADLCH)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ciadl.html" title="CodeSystem/cs-ciadl">
+                  <span title="CodeSystem/cs-ciadl">Instrumentele activiteiten van het dagelijks leven (IADL)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Instrumentele activiteiten van het dagelijks leven (IADL)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhipcon.html" title="CodeSystem/cs-cmhipcon">
+                  <span title="CodeSystem/cs-cmhipcon">Intermenselijke conflicten
+</span>
+               </a>
+            </td>
+            <td>
+<p>Intermenselijke conflicten</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cdrug.html" title="CodeSystem/cs-cdrug">
+                  <span title="CodeSystem/cs-cdrug">Juist en verantwoord medicatiegebruik
+</span>
+               </a>
+            </td>
+            <td>
+<p>Juist en verantwoord medicatiegebruik</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsreadmission.html"
+                  title="CodeSystem/cs-chsreadmission">
+                  <span title="CodeSystem/cs-chsreadmission">Kans op heropname
+</span>
+               </a>
+            </td>
+            <td>
+<p>Kans op heropname</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-crisk.html" title="CodeSystem/cs-crisk">
+                  <span title="CodeSystem/cs-crisk">Kans op opname in een voorziening
+</span>
+               </a>
+            </td>
+            <td>
+<p>Kans op opname in een voorziening</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsinstitution.html"
+                  title="CodeSystem/cs-chsinstitution">
+                  <span title="CodeSystem/cs-chsinstitution">Kans op opname in een voorziening - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Kans op opname in een voorziening - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cbritsu.html" title="CodeSystem/cs-cbritsu">
+                  <span title="CodeSystem/cs-cbritsu">Mantelzorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Mantelzorg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhinfsupp.html" title="CodeSystem/cs-cmhinfsupp">
+                  <span title="CodeSystem/cs-cmhinfsupp">Mantelzorg - Mentale gezondheid
+</span>
+               </a>
+            </td>
+            <td>
+<p>Mantelzorg - Mentale gezondheid</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-amaple.html" title="CodeSystem/cs-amaple">
+                  <span title="CodeSystem/cs-amaple">Method for Assigning Priority Levels (aMAPLe)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Method for Assigning Priority Levels (aMAPLe)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhsubuse.html" title="CodeSystem/cs-cmhsubuse">
+                  <span title="CodeSystem/cs-cmhsubuse">Middelengebruik
+</span>
+               </a>
+            </td>
+            <td>
+<p>Middelengebruik</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cabuse.html" title="CodeSystem/cs-cabuse">
+                  <span title="CodeSystem/cs-cabuse">Mishandeling/Verwaarlozing
+</span>
+               </a>
+            </td>
+            <td>
+<p>Mishandeling/Verwaarlozing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-coralhyg.html" title="CodeSystem/cs-coralhyg">
+                  <span title="CodeSystem/cs-coralhyg">Mondhygiëne
+</span>
+               </a>
+            </td>
+            <td>
+<p>Mondhygiëne</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ahsnutrition.html"
+                  title="CodeSystem/cs-ahsnutrition">
+                  <span title="CodeSystem/cs-ahsnutrition">Nutrition Screener (aHSNUTRITION)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Nutrition Screener (aHSNUTRITION)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhssdis.html" title="CodeSystem/cs-cmhssdis">
+                  <span title="CodeSystem/cs-cmhssdis">Ondersteuningskader bij ontslag
+</span>
+               </a>
+            </td>
+            <td>
+<p>Ondersteuningskader bij ontslag</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cnutr.html" title="CodeSystem/cs-cnutr">
+                  <span title="CodeSystem/cs-cnutr">Ondervoeding
+</span>
+               </a>
+            </td>
+            <td>
+<p>Ondervoeding</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsundernutrition.html"
+                  title="CodeSystem/cs-chsundernutrition">
+                  <span title="CodeSystem/cs-chsundernutrition">Ondervoeding - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Ondervoeding - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhedemp.html" title="CodeSystem/cs-cmhedemp">
+                  <span title="CodeSystem/cs-cmhedemp">Opleiding en werk
+</span>
+               </a>
+            </td>
+            <td>
+<p>Opleiding en werk</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-spain.html" title="CodeSystem/cs-spain">
+                  <span title="CodeSystem/cs-spain">Pain Scale (sPAIN)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pain Scale (sPAIN)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-shspain.html" title="CodeSystem/cs-shspain">
+                  <span title="CodeSystem/cs-shspain">Pain Scale - Hospital (sHSPAIN)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pain Scale - Hospital (sHSPAIN)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhfinan.html" title="CodeSystem/cs-cmhfinan">
+                  <span title="CodeSystem/cs-cmhfinan">Persoonlijke financiën
+</span>
+               </a>
+            </td>
+            <td>
+<p>Persoonlijke financiën</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpain.html" title="CodeSystem/cs-cpain">
+                  <span title="CodeSystem/cs-cpain">Pijn
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pijn</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhpain.html" title="CodeSystem/cs-cmhpain">
+                  <span title="CodeSystem/cs-cmhpain">Pijn - Mentale gezondheid
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pijn - Mentale gezondheid</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcpain.html" title="CodeSystem/cs-cpcpain">
+                  <span title="CodeSystem/cs-cpcpain">Pijn - Palliatieve zorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pijn - Palliatieve zorg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chspain.html" title="CodeSystem/cs-chspain">
+                  <span title="CodeSystem/cs-chspain">Pijn - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pijn - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-spurs.html" title="CodeSystem/cs-spurs">
+                  <span title="CodeSystem/cs-spurs">Pressure Ulcer Risk Scale (sPURS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pressure Ulcer Risk Scale (sPURS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-shspurs.html" title="CodeSystem/cs-shspurs">
+                  <span title="CodeSystem/cs-shspurs">Pressure Ulcer Risk Scale - Hospital (sHSPURS)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pressure Ulcer Risk Scale - Hospital (sHSPURS)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-rhspulcer.html" title="CodeSystem/cs-rhspulcer">
+                  <span title="CodeSystem/cs-rhspulcer">Pressure Ulcer Risk Scale in Hospital (rHSPULCER)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Pressure Ulcer Risk Scale in Hospital (rHSPULCER)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-rhsadl.html" title="CodeSystem/cs-rhsadl">
+                  <span title="CodeSystem/cs-rhsadl">Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-rhsdelirium.html" title="CodeSystem/cs-rhsdelirium">
+                  <span title="CodeSystem/cs-rhsdelirium">Risk of Delirium in Hospital (rHSDELIRIUM)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Risk of Delirium in Hospital (rHSDELIRIUM)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-rhsreadmission.html"
+                  title="CodeSystem/cs-rhsreadmission">
+                  <span title="CodeSystem/cs-rhsreadmission">Risk of Readmission in Hospital (rHSREADMISSION)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Risk of Readmission in Hospital (rHSREADMISSION)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhsmoke.html" title="CodeSystem/cs-cmhsmoke">
+                  <span title="CodeSystem/cs-cmhsmoke">Roken
+</span>
+               </a>
+            </td>
+            <td>
+<p>Roken</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhharmoth.html" title="CodeSystem/cs-cmhharmoth">
+                  <span title="CodeSystem/cs-cmhharmoth">Schade aan anderen
+</span>
+               </a>
+            </td>
+            <td>
+<p>Schade aan anderen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-ssrmood.html" title="CodeSystem/cs-ssrmood">
+                  <span title="CodeSystem/cs-ssrmood">Self-reported Mood Scale
+</span>
+               </a>
+            </td>
+            <td>
+<p>Self-reported Mood Scale</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcsleep.html" title="CodeSystem/cs-cpcsleep">
+                  <span title="CodeSystem/cs-cpcsleep">Slaapstoornis - Palliatieve zorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Slaapstoornis - Palliatieve zorg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhsleep.html" title="CodeSystem/cs-cmhsleep">
+                  <span title="CodeSystem/cs-cmhsleep">Slaapstoornissen - Mentale gezondheid
+</span>
+               </a>
+            </td>
+            <td>
+<p>Slaapstoornissen - Mentale gezondheid</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-csocfunc.html" title="CodeSystem/cs-csocfunc">
+                  <span title="CodeSystem/cs-csocfunc">Sociale omgang
+</span>
+               </a>
+            </td>
+            <td>
+<p>Sociale omgang</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhsocrel.html" title="CodeSystem/cs-cmhsocrel">
+                  <span title="CodeSystem/cs-cmhsocrel">Sociale relaties - Mentale gezondheid
+</span>
+               </a>
+            </td>
+            <td>
+<p>Sociale relaties - Mentale gezondheid</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cfeedtb.html" title="CodeSystem/cs-cfeedtb">
+                  <span title="CodeSystem/cs-cfeedtb">Sondevoeding
+</span>
+               </a>
+            </td>
+            <td>
+<p>Sondevoeding</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmood.html" title="CodeSystem/cs-cmood">
+                  <span title="CodeSystem/cs-cmood">Stemming
+</span>
+               </a>
+            </td>
+            <td>
+<p>Stemming</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcmood.html" title="CodeSystem/cs-cpcmood">
+                  <span title="CodeSystem/cs-cpcmood">Stemming-Palliative Care
+</span>
+               </a>
+            </td>
+            <td>
+<p>Stemming-Palliative Care</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cadd.html" title="CodeSystem/cs-cadd">
+                  <span title="CodeSystem/cs-cadd">Tabak- en alcoholgebruik
+</span>
+               </a>
+            </td>
+            <td>
+<p>Tabak- en alcoholgebruik</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cenvir.html" title="CodeSystem/cs-cenvir">
+                  <span title="CodeSystem/cs-cenvir">Thuisomgeving
+</span>
+               </a>
+            </td>
+            <td>
+<p>Thuisomgeving</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhtrauma.html" title="CodeSystem/cs-cmhtrauma">
+                  <span title="CodeSystem/cs-cmhtrauma">Traumatische levensgebeurtenissen
+</span>
+               </a>
+            </td>
+            <td>
+<p>Traumatische levensgebeurtenissen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-curin.html" title="CodeSystem/cs-curin">
+                  <span title="CodeSystem/cs-curin">Urine-incontinentie
+</span>
+               </a>
+            </td>
+            <td>
+<p>Urine-incontinentie</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cfalls.html" title="CodeSystem/cs-cfalls">
+                  <span title="CodeSystem/cs-cfalls">Valincidenten
+</span>
+               </a>
+            </td>
+            <td>
+<p>Valincidenten</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-chsfalls.html" title="CodeSystem/cs-chsfalls">
+                  <span title="CodeSystem/cs-chsfalls">Valincidenten - Ziekenhuis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Valincidenten - Ziekenhuis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcfatig.html" title="CodeSystem/cs-cpcfatig">
+                  <span title="CodeSystem/cs-cpcfatig">Vermoeidheid
+</span>
+               </a>
+            </td>
+            <td>
+<p>Vermoeidheid</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cpcnutr.html" title="CodeSystem/cs-cpcnutr">
+                  <span title="CodeSystem/cs-cpcnutr">Voeding - Palliatieve zorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Voeding - Palliatieve zorg</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhctrlint.html" title="CodeSystem/cs-cmhctrlint">
+                  <span title="CodeSystem/cs-cmhctrlint">Vrijheidsbeperkende maatregelen
+</span>
+               </a>
+            </td>
+            <td>
+<p>Vrijheidsbeperkende maatregelen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhselfha.html" title="CodeSystem/cs-cmhselfha">
+                  <span title="CodeSystem/cs-cmhselfha">Zelfmoordgedrag en opzettelijke zelfverwonding
+</span>
+               </a>
+            </td>
+            <td>
+<p>Zelfmoordgedrag en opzettelijke zelfverwonding</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-cs-cmhselfcr.html" title="CodeSystem/cs-cmhselfcr">
+                  <span title="CodeSystem/cs-cmhselfcr">Zelfzorg
+</span>
+               </a>
+            </td>
+            <td>
+<p>Zelfzorg</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PatientExample.html" title="Patient/PatientExample">
+                  <span title="Patient/PatientExample">PatientExample
+</span>
+               </a>
+            </td>
+            <td>
+<p>An example of a patient with a license to krill.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  
+          Package hl7.fhir.be.scoring#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-07-01 12:34:00 +0000">
+    2026-07-01
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <!-- Example Publisher -->
+<!-- draft -->
+
+Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a> |
+                 
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.ehealth.fgov.be/standards/fhir/scoring/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a>
+<!-- no fitting stylesheet found (status/publisher)-->
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

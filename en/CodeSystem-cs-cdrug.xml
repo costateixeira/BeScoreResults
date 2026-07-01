@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cdrug"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cdrug</b></p><a name="cs-cdrug"> </a><a name="hccs-cdrug"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdrug</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cDRUG_0<a name="cs-cdrug-cDRUG_0"> </a></td><td>Niet geactiveerd: medicatiereview is op dit moment geen prioriteit.</td></tr><tr><td style="white-space:nowrap">cDRUG_1<a name="cs-cdrug-cDRUG_1"> </a></td><td>Geactiveerd wegens hoge prioriteit: meer dan negen verschillende geneesmiddelen gecombineerd met een onstabiele gezondheid.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cDRUG_0</td><td>Nicht aktiviert: die Überprüfung der Medikation hat im Moment keine Priorität.</td><td>Non activé : la révision des médicaments n'est pas une priorité pour le moment.</td></tr><tr><td>cDRUG_1</td><td>Aktiviert aufgrund von hohem Risiko: Kombination von mehr als neun verschiedenen Medikamenten mit einem instabilen Gesundheitszustand.</td><td>Activé en raison d'une priorité élevée : combinaison de plus de neuf médicaments différents avec une santé instable.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdrug"/>
+  <version value="0.1.0"/>
+  <name value="CS_cDRUG"/>
+  <title value="Juist en verantwoord medicatiegebruik"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Juist en verantwoord medicatiegebruik"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="cDRUG_0"/>
+    <display value="Niet geactiveerd: medicatiereview is op dit moment geen prioriteit."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: die Überprüfung der Medikation hat im Moment keine Priorität."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé : la révision des médicaments n'est pas une priorité pour le moment."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cDRUG_1"/>
+    <display value="Geactiveerd wegens hoge prioriteit: meer dan negen verschillende geneesmiddelen gecombineerd met een onstabiele gezondheid."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von hohem Risiko: Kombination von mehr als neun verschiedenen Medikamenten mit einem instabilen Gesundheitszustand."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'une priorité élevée : combinaison de plus de neuf médicaments différents avec une santé instable."/>
+    </designation>
+  </concept>
+</CodeSystem>

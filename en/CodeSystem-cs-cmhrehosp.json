@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhrehosp",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhrehosp</b></p><a name=\"cs-cmhrehosp\"> </a><a name=\"hccs-cmhrehosp\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhrehosp</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHREHOSP_0<a name=\"cs-cmhrehosp-cMHREHOSP_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHREHOSP_1<a name=\"cs-cmhrehosp-cMHREHOSP_1\"> </a></td><td>Geactiveerd wegens een matig risico op heropname.</td></tr><tr><td style=\"white-space:nowrap\">cMHREHOSP_2<a name=\"cs-cmhrehosp-cMHREHOSP_2\"> </a></td><td>Geactiveerd wegens een hoog risico op heropname.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHREHOSP_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHREHOSP_1</td><td>Aktiviert aufgrund eines moderaten Rezidivrisikos.</td><td>Activé en raison d'un risque modéré de réadmission.</td></tr><tr><td>cMHREHOSP_2</td><td>Aktiviert aufgrund eines hohen Rezidivrisikos.</td><td>Activé en raison d'un risque élevé de réadmission.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhrehosp",
+  "version" : "0.1.0",
+  "name" : "CS_cMHREHOSP",
+  "title" : "Heropname",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Heropname",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHREHOSP_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHREHOSP_1",
+    "display" : "Geactiveerd wegens een matig risico op heropname.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines moderaten Rezidivrisikos."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque modéré de réadmission."
+    }]
+  },
+  {
+    "code" : "cMHREHOSP_2",
+    "display" : "Geactiveerd wegens een hoog risico op heropname.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines hohen Rezidivrisikos."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé de réadmission."
+    }]
+  }]
+}

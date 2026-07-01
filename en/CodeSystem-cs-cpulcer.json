@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpulcer",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpulcer</b></p><a name=\"cs-cpulcer\"> </a><a name=\"hccs-cpulcer\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpulcer</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPULCER_0<a name=\"cs-cpulcer-cPULCER_0\"> </a></td><td>Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cPULCER_1<a name=\"cs-cpulcer-cPULCER_1\"> </a></td><td>Geactiveerd wegens de aanwezigheid van een decubitus stadium II of hoger waarbij genezing het zorgdoel is.</td></tr><tr><td style=\"white-space:nowrap\">cPULCER_2<a name=\"cs-cpulcer-cPULCER_2\"> </a></td><td>Geactiveerd wegens de aanwezigheid van een decubitus stadium I met risico om een decubitus stadium II of hoger te ontwikkelen.</td></tr><tr><td style=\"white-space:nowrap\">cPULCER_3<a name=\"cs-cpulcer-cPULCER_3\"> </a></td><td>Geactiveerd wegens de aanwezigheid van risicofactoren om decubitus te ontwikkelen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPULCER_0</td><td>Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus.</td><td>Non activé : pas d'escarres et/ou de facteurs de risque.</td></tr><tr><td>cPULCER_1</td><td>Aktiviert wegen eines Dekubitus Stadium II oder mehr und bei dem es das Ziel der Pflege ist diesen zu heilen.</td><td>Activé en raison de présence d'une escarre de stade II ou supérieur et pour lequel la guérison est le but des soins.</td></tr><tr><td>cPULCER_2</td><td>Aktiviert wegen eines Dekubitus Stadium I und bei dem die Gefahr eines Dekubitus Stadium II oder mehr besteht.</td><td>Activé en raison de présence d'une escarre de stade I avec un risque de développer une escarre de stade II ou supérieur.</td></tr><tr><td>cPULCER_3</td><td>Aktiviert wegen einem Risiko eines Dekubitus.</td><td>Activé en raison de présence de facteurs de risques de développer une escarre.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpulcer",
+  "version" : "0.1.0",
+  "name" : "CS_cPULCER",
+  "title" : "Decubitus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Decubitus",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "cPULCER_0",
+    "display" : "Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : pas d'escarres et/ou de facteurs de risque."
+    }]
+  },
+  {
+    "code" : "cPULCER_1",
+    "display" : "Geactiveerd wegens de aanwezigheid van een decubitus stadium II of hoger waarbij genezing het zorgdoel is.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen eines Dekubitus Stadium II oder mehr und bei dem es das Ziel der Pflege ist diesen zu heilen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de présence d'une escarre de stade II ou supérieur et pour lequel la guérison est le but des soins."
+    }]
+  },
+  {
+    "code" : "cPULCER_2",
+    "display" : "Geactiveerd wegens de aanwezigheid van een decubitus stadium I met risico om een decubitus stadium II of hoger te ontwikkelen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen eines Dekubitus Stadium I und bei dem die Gefahr eines Dekubitus Stadium II oder mehr besteht."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de présence d'une escarre de stade I avec un risque de développer une escarre de stade II ou supérieur."
+    }]
+  },
+  {
+    "code" : "cPULCER_3",
+    "display" : "Geactiveerd wegens de aanwezigheid van risicofactoren om decubitus te ontwikkelen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen einem Risiko eines Dekubitus."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de présence de facteurs de risques de développer une escarre."
+    }]
+  }]
+}

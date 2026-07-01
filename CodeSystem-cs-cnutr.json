@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cnutr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cnutr</b></p><a name=\"cs-cnutr\"> </a><a name=\"hccs-cnutr\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cnutr</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cNUTR_0<a name=\"cs-cnutr-cNUTR_0\"> </a></td><td>Niet geactiveerd: BMI-score = 22 of meer, geen gevaar voor ondervoeding.</td></tr><tr><td style=\"white-space:nowrap\">cNUTR_1<a name=\"cs-cnutr-cNUTR_1\"> </a></td><td>Geactiveerd wegens matig risico (BMI-score = 19 tot 21) zonder gevaar voor plots overlijden.</td></tr><tr><td style=\"white-space:nowrap\">cNUTR_2<a name=\"cs-cnutr-cNUTR_2\"> </a></td><td>Geactiveerd wegens hoog risico (BMI-score = lager dan 19) zonder gevaar voor plots overlijden.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cNUTR_0</td><td>Nicht aktiviert: BMI-Score = 22 oder mehr, keine Gefahr von Mangelernährung.</td><td>Non activé : score IMC = 22 ou plus, pas de danger de malnutrition.</td></tr><tr><td>cNUTR_1</td><td>Aktiviert aufgrund eines mittleren Risikos(BMI - Score = 19 bis 21) ohne Gefahr eines plötzlichen Todes.</td><td>Activé en raison d'un risque modéré (Score IMC = 19 à 21) sans risque morbide.</td></tr><tr><td>cNUTR_2</td><td>Aktiviert aufgrund eines hohen Risikos (BMI-Score = kleiner als 19) ohne Gefahr eines plötzlichen Todes.</td><td>Activé en raison d'un risque élevé (Score IMC = inférieur à 19) sans risque morbide.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cnutr",
+  "version" : "0.1.0",
+  "name" : "CS_cNUTR",
+  "title" : "Ondervoeding",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Ondervoeding",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cNUTR_0",
+    "display" : "Niet geactiveerd: BMI-score = 22 of meer, geen gevaar voor ondervoeding.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: BMI-Score = 22 oder mehr, keine Gefahr von Mangelernährung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : score IMC = 22 ou plus, pas de danger de malnutrition."
+    }]
+  },
+  {
+    "code" : "cNUTR_1",
+    "display" : "Geactiveerd wegens matig risico (BMI-score = 19 tot 21) zonder gevaar voor plots overlijden.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines mittleren Risikos(BMI - Score = 19 bis 21) ohne Gefahr eines plötzlichen Todes."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque modéré (Score IMC = 19 à 21) sans risque morbide."
+    }]
+  },
+  {
+    "code" : "cNUTR_2",
+    "display" : "Geactiveerd wegens hoog risico (BMI-score = lager dan 19) zonder gevaar voor plots overlijden.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines hohen Risikos (BMI-Score = kleiner als 19) ohne Gefahr eines plötzlichen Todes."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé (Score IMC = inférieur à 19) sans risque morbide."
+    }]
+  }]
+}

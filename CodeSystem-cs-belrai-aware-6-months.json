@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-aware-6-months",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-aware-6-months</b></p><a name=\"cs-belrai-aware-6-months\"> </a><a name=\"hccs-belrai-aware-6-months\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-aware-6-months</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">aw-no-or-na<a name=\"cs-belrai-aware-6-months-aw-no-or-na\"> </a></td><td>Nee of niet van toepassing</td></tr><tr><td style=\"white-space:nowrap\">aw-yes<a name=\"cs-belrai-aware-6-months-aw-yes\"> </a></td><td>Ja</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-aware-6-months",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiAware6Months",
+  "title" : "BelRAI - Bewustzijn over zes maand of minder",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "De persoon zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "aw-no-or-na",
+    "display" : "Nee of niet van toepassing"
+  },
+  {
+    "code" : "aw-yes",
+    "display" : "Ja"
+  }]
+}

@@ -1,0 +1,100 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-sbmi",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-sbmi</b></p><a name=\"cs-sbmi\"> </a><a name=\"hccs-sbmi\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_0_18.5<a name=\"cs-sbmi-sBMI_interval_0_18.465\"> </a></td><td>0-18.5</td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_18.5_25<a name=\"cs-sbmi-sBMI_interval_18.465_25\"> </a></td><td>18.5-25</td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_25_27<a name=\"cs-sbmi-sBMI_interval_25_27\"> </a></td><td>25-27</td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_27_30<a name=\"cs-sbmi-sBMI_interval_27_30\"> </a></td><td>27-30</td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_30_40<a name=\"cs-sbmi-sBMI_interval_30_40\"> </a></td><td>30-40</td></tr><tr><td style=\"white-space:nowrap\">sBMI_interval_40_99<a name=\"cs-sbmi-sBMI_interval_40_99\"> </a></td><td>40-99</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sBMI_interval_0_18.5</td><td>0-18.5</td><td>0-18.5</td></tr><tr><td>sBMI_interval_18.5_25</td><td>18.5-25</td><td>18.5-25</td></tr><tr><td>sBMI_interval_25_27</td><td>25-27</td><td>25-27</td></tr><tr><td>sBMI_interval_27_30</td><td>27-30</td><td>27-30</td></tr><tr><td>sBMI_interval_30_40</td><td>30-40</td><td>30-40</td></tr><tr><td>sBMI_interval_40_99</td><td>40-99</td><td>40-99</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi",
+  "version" : "0.1.0",
+  "name" : "CS_sBMI",
+  "title" : "Body Mass Index (sBMI)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Body Mass Index (sBMI)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "sBMI_interval_0_18.5",
+    "display" : "0-18.5",
+    "designation" : [{
+      "language" : "de",
+      "value" : "0-18.5"
+    },
+    {
+      "language" : "fr",
+      "value" : "0-18.5"
+    }]
+  },
+  {
+    "code" : "sBMI_interval_18.5_25",
+    "display" : "18.5-25",
+    "designation" : [{
+      "language" : "de",
+      "value" : "18.5-25"
+    },
+    {
+      "language" : "fr",
+      "value" : "18.5-25"
+    }]
+  },
+  {
+    "code" : "sBMI_interval_25_27",
+    "display" : "25-27",
+    "designation" : [{
+      "language" : "de",
+      "value" : "25-27"
+    },
+    {
+      "language" : "fr",
+      "value" : "25-27"
+    }]
+  },
+  {
+    "code" : "sBMI_interval_27_30",
+    "display" : "27-30",
+    "designation" : [{
+      "language" : "de",
+      "value" : "27-30"
+    },
+    {
+      "language" : "fr",
+      "value" : "27-30"
+    }]
+  },
+  {
+    "code" : "sBMI_interval_30_40",
+    "display" : "30-40",
+    "designation" : [{
+      "language" : "de",
+      "value" : "30-40"
+    },
+    {
+      "language" : "fr",
+      "value" : "30-40"
+    }]
+  },
+  {
+    "code" : "sBMI_interval_40_99",
+    "display" : "40-99",
+    "designation" : [{
+      "language" : "de",
+      "value" : "40-99"
+    },
+    {
+      "language" : "fr",
+      "value" : "40-99"
+    }]
+  }]
+}

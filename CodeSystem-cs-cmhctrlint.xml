@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhctrlint"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhctrlint</b></p><a name="cs-cmhctrlint"> </a><a name="hccs-cmhctrlint"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhctrlint</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHCTRLINT_0<a name="cs-cmhctrlint-cMHCTRLINT_0"> </a></td><td>Niet geactiveerd: afwezigheid van fixatie, afzonderingskamer of acute control medication.</td></tr><tr><td style="white-space:nowrap">cMHCTRLINT_1<a name="cs-cmhctrlint-cMHCTRLINT_1"> </a></td><td>Geactiveerd om vrijheidsbeperkende maatregelen te elimineren - personen die niet in een psychiatrische noodsituatie verkeren.</td></tr><tr><td style="white-space:nowrap">cMHCTRLINT_2<a name="cs-cmhctrlint-cMHCTRLINT_2"> </a></td><td>Geactiveerd om de behoefte aan vrijheidsbeperkende maatregelen te elimineren - personen in een psychiatrische noodsituatie.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHCTRLINT_0</td><td>Nicht aktiviert: keine Fixierung, Isolationszimmer oder akute Kontrolle der Medikation.</td><td>Pas activé : absence de fixation, chambre d'isolement ou contrôle aigu de la médication.</td></tr><tr><td>cMHCTRLINT_1</td><td>Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich nicht in einer akuten psychiatrischen Situation befinden.</td><td>Activé pour éliminer des mesures limitant la liberté - personnes qui ne sont pas en situation d'urgence psychiatrique.</td></tr><tr><td>cMHCTRLINT_2</td><td>Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich in einer akuten psychiatrischen Situation befinden.</td><td>Activé pour éliminer le besoin de mesures limitant la liberté - personnes en situation d'urgence psychiatrique.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhctrlint"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHCTRLINT"/>
+  <title value="Vrijheidsbeperkende maatregelen"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Vrijheidsbeperkende maatregelen"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHCTRLINT_0"/>
+    <display value="Niet geactiveerd: afwezigheid van fixatie, afzonderingskamer of acute control medication."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine Fixierung, Isolationszimmer oder akute Kontrolle der Medikation."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé : absence de fixation, chambre d'isolement ou contrôle aigu de la médication."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHCTRLINT_1"/>
+    <display value="Geactiveerd om vrijheidsbeperkende maatregelen te elimineren - personen die niet in een psychiatrische noodsituatie verkeren."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich nicht in einer akuten psychiatrischen Situation befinden."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour éliminer des mesures limitant la liberté - personnes qui ne sont pas en situation d'urgence psychiatrique."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHCTRLINT_2"/>
+    <display value="Geactiveerd om de behoefte aan vrijheidsbeperkende maatregelen te elimineren - personen in een psychiatrische noodsituatie."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich in einer akuten psychiatrischen Situation befinden."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour éliminer le besoin de mesures limitant la liberté - personnes en situation d'urgence psychiatrique."/>
+    </designation>
+  </concept>
+</CodeSystem>

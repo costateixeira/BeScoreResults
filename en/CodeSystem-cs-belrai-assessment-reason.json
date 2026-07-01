@@ -1,0 +1,56 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-assessment-reason",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-assessment-reason</b></p><a name=\"cs-belrai-assessment-reason\"> </a><a name=\"hccs-belrai-assessment-reason\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-assessment-reason</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ar-first<a name=\"cs-belrai-assessment-reason-ar-first\"> </a></td><td>Eerste beoordeling</td></tr><tr><td style=\"white-space:nowrap\">ar-routine<a name=\"cs-belrai-assessment-reason-ar-routine\"> </a></td><td>Routinematige herbeoordeling</td></tr><tr><td style=\"white-space:nowrap\">ar-return<a name=\"cs-belrai-assessment-reason-ar-return\"> </a></td><td>Terugkeerbeoordeling</td></tr><tr><td style=\"white-space:nowrap\">ar-condition-change<a name=\"cs-belrai-assessment-reason-ar-condition-change\"> </a></td><td>Herbeoordeling wegens een significante toestandsverandering</td></tr><tr><td style=\"white-space:nowrap\">ar-discharge-3d<a name=\"cs-belrai-assessment-reason-ar-discharge-3d\"> </a></td><td>Ontslagbeoordeling over de laatste 3 dagen van de zorgverlening</td></tr><tr><td style=\"white-space:nowrap\">ar-discharge-followup<a name=\"cs-belrai-assessment-reason-ar-discharge-followup\"> </a></td><td>Ontslagbeoordeling enkel voor het volgen van de persoon</td></tr><tr><td style=\"white-space:nowrap\">ar-other<a name=\"cs-belrai-assessment-reason-ar-other\"> </a></td><td>Ander</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-assessment-reason",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiAssessmentReason",
+  "title" : "BelRAI - Reden voor beoordeling",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Reden waarom de BelRAI beoordeling wordt uitgevoerd.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "ar-first",
+    "display" : "Eerste beoordeling"
+  },
+  {
+    "code" : "ar-routine",
+    "display" : "Routinematige herbeoordeling"
+  },
+  {
+    "code" : "ar-return",
+    "display" : "Terugkeerbeoordeling"
+  },
+  {
+    "code" : "ar-condition-change",
+    "display" : "Herbeoordeling wegens een significante toestandsverandering"
+  },
+  {
+    "code" : "ar-discharge-3d",
+    "display" : "Ontslagbeoordeling over de laatste 3 dagen van de zorgverlening"
+  },
+  {
+    "code" : "ar-discharge-followup",
+    "display" : "Ontslagbeoordeling enkel voor het volgen van de persoon"
+  },
+  {
+    "code" : "ar-other",
+    "display" : "Ander"
+  }]
+}

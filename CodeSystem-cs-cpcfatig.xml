@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cpcfatig"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cpcfatig</b></p><a name="cs-cpcfatig"> </a><a name="hccs-cpcfatig"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcfatig</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cPCFATIG_0<a name="cs-cpcfatig-cPCFATIG_0"> </a></td><td>Niet geactiveerd: geen vermoeidheid.</td></tr><tr><td style="white-space:nowrap">cPCFATIG_1<a name="cs-cpcfatig-cPCFATIG_1"> </a></td><td>Geactiveerd wegens een matig risico op vermoeidheid.</td></tr><tr><td style="white-space:nowrap">cPCFATIG_2<a name="cs-cpcfatig-cPCFATIG_2"> </a></td><td>Geactiveerd wegens een ernstig risico op vermoeidheid.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCFATIG_0</td><td>Nicht aktiviert: keine Müdigkeit.</td><td>Pas activé : pas de fatigue.</td></tr><tr><td>cPCFATIG_1</td><td>Aktiviert aufgrund von einem mittleren Risiko von Ermüdung.</td><td>Activé en raison d'un risque modéré de fatigue.</td></tr><tr><td>cPCFATIG_2</td><td>Aktiviert aufgrund von einem ernsten Risiko von Ermüdung.</td><td>Activé en raison d'un risque sévère de fatigue.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcfatig"/>
+  <version value="0.1.0"/>
+  <name value="CS_cPCFATIG"/>
+  <title value="Vermoeidheid"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Vermoeidheid"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cPCFATIG_0"/>
+    <display value="Niet geactiveerd: geen vermoeidheid."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine Müdigkeit."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé : pas de fatigue."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPCFATIG_1"/>
+    <display value="Geactiveerd wegens een matig risico op vermoeidheid."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von einem mittleren Risiko von Ermüdung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un risque modéré de fatigue."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cPCFATIG_2"/>
+    <display value="Geactiveerd wegens een ernstig risico op vermoeidheid."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von einem ernsten Risiko von Ermüdung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un risque sévère de fatigue."/>
+    </designation>
+  </concept>
+</CodeSystem>

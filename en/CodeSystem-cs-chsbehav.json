@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-chsbehav",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-chsbehav</b></p><a name=\"cs-chsbehav\"> </a><a name=\"hccs-chsbehav\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cHSBEHAV_0<a name=\"cs-chsbehav-cHSBEHAV_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cHSBEHAV_1<a name=\"cs-chsbehav-cHSBEHAV_1\"> </a></td><td>Geactiveerd</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cHSBEHAV_0</td><td>Nicht aktiviert</td><td>Non activé</td></tr><tr><td>cHSBEHAV_1</td><td>Aktiviert</td><td>Activé</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav",
+  "version" : "0.1.0",
+  "name" : "CS_cHSBEHAV",
+  "title" : "Gedrag - Ziekenhuis",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Gedrag - Ziekenhuis",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cHSBEHAV_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé"
+    }]
+  },
+  {
+    "code" : "cHSBEHAV_1",
+    "display" : "Geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé"
+    }]
+  }]
+}

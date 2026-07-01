@@ -1,0 +1,100 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-sdbsi",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-sdbsi</b></p><a name=\"cs-sdbsi\"> </a><a name=\"hccs-sdbsi\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdbsi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sDbSI_0<a name=\"cs-sdbsi-sDbSI_0\"> </a></td><td>Beide zintuigen zijn intact.</td></tr><tr><td style=\"white-space:nowrap\">sDbSI_1<a name=\"cs-sdbsi-sDbSI_1\"> </a></td><td>Eén zintuig is intact en het andere zintuig is licht tot matig verstoord.</td></tr><tr><td style=\"white-space:nowrap\">sDbSI_2<a name=\"cs-sdbsi-sDbSI_2\"> </a></td><td>Eén zintuig is intact en het andere zintuig is ernstig verstoord.</td></tr><tr><td style=\"white-space:nowrap\">sDbSI_3<a name=\"cs-sdbsi-sDbSI_3\"> </a></td><td>Beide zintuigen zijn licht tot matig verstoord.</td></tr><tr><td style=\"white-space:nowrap\">sDbSI_4<a name=\"cs-sdbsi-sDbSI_4\"> </a></td><td>Eén zintuig is licht tot matig verstoord en het andere zintuig is ernstig verstoord.</td></tr><tr><td style=\"white-space:nowrap\">sDbSI_5<a name=\"cs-sdbsi-sDbSI_5\"> </a></td><td>Beide zintuigen zijn ernstig verstoord.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sDbSI_0</td><td>Beide Sinne sind intakt.</td><td>Les 2 sens sont intacts.</td></tr><tr><td>sDbSI_1</td><td>Ein Sinn ist intakt ein anderer Sinn ist leicht oder moderat beeinträchtigt.</td><td>Un sens est intact et l'autre sens légèrement ou modérément perturbé.</td></tr><tr><td>sDbSI_2</td><td>Ein Sinn ist intakt ein anderer Sinn ist ernsthaft beeinträchtigt.</td><td>Un sens est intact et l'autre sens est sévèrement perturbé.</td></tr><tr><td>sDbSI_3</td><td>Beide Sinne sind leicht oder moderat beeinträchtigt.</td><td>Les 2 sens sont légèrement ou modérément perturbés.</td></tr><tr><td>sDbSI_4</td><td>Ein Sinn ist leicht oder moderat beeinträchtigt und ein anderer Sinn ist ernsthaft beeinträchtigt.</td><td>Un sens est légèrement ou modérément perturbé et l'autre sens est sévèrement perturbé.</td></tr><tr><td>sDbSI_5</td><td>Beide Sinne sind ernsthaft beeinträchtigt.</td><td>Les 2 sens sont sévèrement perturbé.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdbsi",
+  "version" : "0.1.0",
+  "name" : "CS_sDbSI",
+  "title" : "Deafblind Severity Index (sDbSI)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Deafblind Severity Index (sDbSI)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "sDbSI_0",
+    "display" : "Beide zintuigen zijn intact.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Beide Sinne sind intakt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Les 2 sens sont intacts."
+    }]
+  },
+  {
+    "code" : "sDbSI_1",
+    "display" : "Eén zintuig is intact en het andere zintuig is licht tot matig verstoord.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Ein Sinn ist intakt ein anderer Sinn ist leicht oder moderat beeinträchtigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Un sens est intact et l'autre sens légèrement ou modérément perturbé."
+    }]
+  },
+  {
+    "code" : "sDbSI_2",
+    "display" : "Eén zintuig is intact en het andere zintuig is ernstig verstoord.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Ein Sinn ist intakt ein anderer Sinn ist ernsthaft beeinträchtigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Un sens est intact et l'autre sens est sévèrement perturbé."
+    }]
+  },
+  {
+    "code" : "sDbSI_3",
+    "display" : "Beide zintuigen zijn licht tot matig verstoord.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Beide Sinne sind leicht oder moderat beeinträchtigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Les 2 sens sont légèrement ou modérément perturbés."
+    }]
+  },
+  {
+    "code" : "sDbSI_4",
+    "display" : "Eén zintuig is licht tot matig verstoord en het andere zintuig is ernstig verstoord.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Ein Sinn ist leicht oder moderat beeinträchtigt und ein anderer Sinn ist ernsthaft beeinträchtigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Un sens est légèrement ou modérément perturbé et l'autre sens est sévèrement perturbé."
+    }]
+  },
+  {
+    "code" : "sDbSI_5",
+    "display" : "Beide zintuigen zijn ernstig verstoord.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Beide Sinne sind ernsthaft beeinträchtigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Les 2 sens sont sévèrement perturbé."
+    }]
+  }]
+}

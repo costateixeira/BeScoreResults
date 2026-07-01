@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-observation-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-observation-code</b></p><a name=\"vs-observation-code\"> </a><a name=\"hcvs-observation-code\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-observation-code.html\"><code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-observation-code</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/ValueSet/vs-observation-code",
+  "version" : "0.1.0",
+  "name" : "VS_ObservationCode",
+  "title" : "BelRAI - Observation codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Codes identifying each BelRAI scoring scale/screener, used as Observation.code.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-observation-code"
+    }]
+  }
+}

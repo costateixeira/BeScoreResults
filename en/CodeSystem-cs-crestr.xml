@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-crestr"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-crestr</b></p><a name="cs-crestr"> </a><a name="hccs-crestr"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crestr</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cRESTR_0<a name="cs-crestr-cRESTR_0"> </a></td><td>Niet geactiveerd: de bewegingsvrijheid van de persoon wordt niet beperkt door fixatiemateriaal.</td></tr><tr><td style="white-space:nowrap">cRESTR_1<a name="cs-crestr-cRESTR_1"> </a></td><td>Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf (bijna) niet meer in staat is ‘middle loss’ of ‘early loss’ ADL-activiteiten uit te voeren.</td></tr><tr><td style="white-space:nowrap">cRESTR_2<a name="cs-crestr-cRESTR_2"> </a></td><td>Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf nog enkele ‘middle loss’ of ‘early loss’ ADL-activiteiten kan uitvoeren.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cRESTR_0</td><td>Nicht aktiviert: Die Bewegungsfreiheit der Person ist nicht durch freiheitsbeschränkende Maßnahmen eingeschränkt.</td><td>Non activé : la liberté de mouvement de la personne n'est pas limitée par du matériel de contention.</td></tr><tr><td>cRESTR_1</td><td>Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person nicht mehr oder kaum in der Lage ist ADLs auszuführen.</td><td>Activé pour enlever une restriction physique chez une personne ne disposant presque plus d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ.</td></tr><tr><td>cRESTR_2</td><td>Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person kaum oder teilweise noch in der Lage ist ADLs auszuführen.</td><td>Activé pour enlever une restriction physique chez une personne disposant encore d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crestr"/>
+  <version value="0.1.0"/>
+  <name value="CS_cRESTR"/>
+  <title value="Fysieke fixatie"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Fysieke fixatie"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cRESTR_0"/>
+    <display value="Niet geactiveerd: de bewegingsvrijheid van de persoon wordt niet beperkt door fixatiemateriaal."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: Die Bewegungsfreiheit der Person ist nicht durch freiheitsbeschränkende Maßnahmen eingeschränkt."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé : la liberté de mouvement de la personne n'est pas limitée par du matériel de contention."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cRESTR_1"/>
+    <display value="Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf (bijna) niet meer in staat is ‘middle loss’ of ‘early loss’ ADL-activiteiten uit te voeren."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person nicht mehr oder kaum in der Lage ist ADLs auszuführen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour enlever une restriction physique chez une personne ne disposant presque plus d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cRESTR_2"/>
+    <display value="Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf nog enkele ‘middle loss’ of ‘early loss’ ADL-activiteiten kan uitvoeren."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person kaum oder teilweise noch in der Lage ist ADLs auszuführen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour enlever une restriction physique chez une personne disposant encore d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ."/>
+    </designation>
+  </concept>
+</CodeSystem>

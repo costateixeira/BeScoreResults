@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-sbmi"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-sbmi</b></p><a name="cs-sbmi"> </a><a name="hccs-sbmi"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sBMI_interval_0_18.5<a name="cs-sbmi-sBMI_interval_0_18.465"> </a></td><td>0-18.5</td></tr><tr><td style="white-space:nowrap">sBMI_interval_18.5_25<a name="cs-sbmi-sBMI_interval_18.465_25"> </a></td><td>18.5-25</td></tr><tr><td style="white-space:nowrap">sBMI_interval_25_27<a name="cs-sbmi-sBMI_interval_25_27"> </a></td><td>25-27</td></tr><tr><td style="white-space:nowrap">sBMI_interval_27_30<a name="cs-sbmi-sBMI_interval_27_30"> </a></td><td>27-30</td></tr><tr><td style="white-space:nowrap">sBMI_interval_30_40<a name="cs-sbmi-sBMI_interval_30_40"> </a></td><td>30-40</td></tr><tr><td style="white-space:nowrap">sBMI_interval_40_99<a name="cs-sbmi-sBMI_interval_40_99"> </a></td><td>40-99</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sBMI_interval_0_18.5</td><td>0-18.5</td><td>0-18.5</td></tr><tr><td>sBMI_interval_18.5_25</td><td>18.5-25</td><td>18.5-25</td></tr><tr><td>sBMI_interval_25_27</td><td>25-27</td><td>25-27</td></tr><tr><td>sBMI_interval_27_30</td><td>27-30</td><td>27-30</td></tr><tr><td>sBMI_interval_30_40</td><td>30-40</td><td>30-40</td></tr><tr><td>sBMI_interval_40_99</td><td>40-99</td><td>40-99</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi"/>
+  <version value="0.1.0"/>
+  <name value="CS_sBMI"/>
+  <title value="Body Mass Index (sBMI)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Body Mass Index (sBMI)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="sBMI_interval_0_18.5"/>
+    <display value="0-18.5"/>
+    <designation>
+      <language value="de"/>
+      <value value="0-18.5"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="0-18.5"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sBMI_interval_18.5_25"/>
+    <display value="18.5-25"/>
+    <designation>
+      <language value="de"/>
+      <value value="18.5-25"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="18.5-25"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sBMI_interval_25_27"/>
+    <display value="25-27"/>
+    <designation>
+      <language value="de"/>
+      <value value="25-27"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="25-27"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sBMI_interval_27_30"/>
+    <display value="27-30"/>
+    <designation>
+      <language value="de"/>
+      <value value="27-30"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="27-30"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sBMI_interval_30_40"/>
+    <display value="30-40"/>
+    <designation>
+      <language value="de"/>
+      <value value="30-40"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="30-40"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sBMI_interval_40_99"/>
+    <display value="40-99"/>
+    <designation>
+      <language value="de"/>
+      <value value="40-99"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="40-99"/>
+    </designation>
+  </concept>
+</CodeSystem>

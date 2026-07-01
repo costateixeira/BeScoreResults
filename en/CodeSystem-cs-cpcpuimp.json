@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpcpuimp",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpcpuimp</b></p><a name=\"cs-cpcpuimp\"> </a><a name=\"hccs-cpcpuimp\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpuimp</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cpcPUIMP_0<a name=\"cs-cpcpuimp-cpcPUIMP_0\"> </a></td><td>Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cpcPUIMP_1<a name=\"cs-cpcpuimp-cpcPUIMP_1\"> </a></td><td>Geactiveerd wegens een moeilijke verbetering van decubitus.</td></tr><tr><td style=\"white-space:nowrap\">cpcPUIMP_2<a name=\"cs-cpcpuimp-cpcPUIMP_2\"> </a></td><td>Geactiveerd wegens meer kans op verbetering van decubitus.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cpcPUIMP_0</td><td>Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus.</td><td>Pas activé : pas de présence d'escarres et ou des facteurs de risque.</td></tr><tr><td>cpcPUIMP_1</td><td>Aktiviert aufgrund einer geringen Chance auf Besserung des Dekubitus.</td><td>Activé en raison d'une amélioration difficile de l'escarre.</td></tr><tr><td>cpcPUIMP_2</td><td>Aktiviert aufgrund einer guten Chance auf Besserung des Dekubitus.</td><td>Activé en raison de plus de chance d'amélioration de l'escarre.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpuimp",
+  "version" : "0.1.0",
+  "name" : "CS_cpcPUIMP",
+  "title" : "Decubitus - Palliatieve zorg",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Decubitus - Palliatieve zorg",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cpcPUIMP_0",
+    "display" : "Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : pas de présence d'escarres et ou des facteurs de risque."
+    }]
+  },
+  {
+    "code" : "cpcPUIMP_1",
+    "display" : "Geactiveerd wegens een moeilijke verbetering van decubitus.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund einer geringen Chance auf Besserung des Dekubitus."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'une amélioration difficile de l'escarre."
+    }]
+  },
+  {
+    "code" : "cpcPUIMP_2",
+    "display" : "Geactiveerd wegens meer kans op verbetering van decubitus.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund einer guten Chance auf Besserung des Dekubitus."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de plus de chance d'amélioration de l'escarre."
+    }]
+  }]
+}

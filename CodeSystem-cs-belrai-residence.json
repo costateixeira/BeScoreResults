@@ -1,0 +1,31 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-residence",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-residence</b></p><a name=\"cs-belrai-residence\"> </a><a name=\"hccs-belrai-residence\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-residence</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">res-tbd<a name=\"cs-belrai-residence-res-tbd\"> </a></td><td>TODO: opties nog te verzenden</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-residence",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiResidence",
+  "title" : "BelRAI - Verblijfplaats op het tijdstip van beoordeling",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Verblijfplaats van de persoon op het moment van de beoordeling. Opties nog aan te leveren.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "res-tbd",
+    "display" : "TODO: opties nog te verzenden"
+  }]
+}

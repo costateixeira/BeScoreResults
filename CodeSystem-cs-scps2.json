@@ -1,0 +1,135 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-scps2",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-scps2</b></p><a name=\"cs-scps2\"> </a><a name=\"hccs-scps2\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sCPS2_0<a name=\"cs-scps2-sCPS2_0\"> </a></td><td>Intact</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_1<a name=\"cs-scps2-sCPS2_1\"> </a></td><td>Intact</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_2<a name=\"cs-scps2-sCPS2_2\"> </a></td><td>Zo goed als intact</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_3<a name=\"cs-scps2-sCPS2_3\"> </a></td><td>Zo goed als intact</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_4<a name=\"cs-scps2-sCPS2_4\"> </a></td><td>Matig verstoord</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_5<a name=\"cs-scps2-sCPS2_5\"> </a></td><td>Matig verstoord</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_6<a name=\"cs-scps2-sCPS2_6\"> </a></td><td>Ernstig verstoord</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_7<a name=\"cs-scps2-sCPS2_7\"> </a></td><td>Ernstig verstoord</td></tr><tr><td style=\"white-space:nowrap\">sCPS2_8<a name=\"cs-scps2-sCPS2_8\"> </a></td><td>Zeer ernstig verstoord</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sCPS2_0</td><td>Intakt</td><td>Intact</td></tr><tr><td>sCPS2_1</td><td>Intakt</td><td>Intact</td></tr><tr><td>sCPS2_2</td><td>Fast intakt</td><td>Pratiquement intact</td></tr><tr><td>sCPS2_3</td><td>Fast intakt</td><td>Pratiquement intact</td></tr><tr><td>sCPS2_4</td><td>Moderater Rückgang</td><td>Déclin modéré</td></tr><tr><td>sCPS2_5</td><td>Moderater Rückgang</td><td>Déclin modéré</td></tr><tr><td>sCPS2_6</td><td>Ernster Rückgang</td><td>Déclin important</td></tr><tr><td>sCPS2_7</td><td>Ernster Rückgang</td><td>Déclin important</td></tr><tr><td>sCPS2_8</td><td>Sehr ernster Rückgang</td><td>Déclin très important</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps2",
+  "version" : "0.1.0",
+  "name" : "CS_sCPS2",
+  "title" : "Cognitive Performance Scale 2 (sCPS2)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Cognitive Performance Scale 2 (sCPS2)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "sCPS2_0",
+    "display" : "Intact",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Intakt"
+    },
+    {
+      "language" : "fr",
+      "value" : "Intact"
+    }]
+  },
+  {
+    "code" : "sCPS2_1",
+    "display" : "Intact",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Intakt"
+    },
+    {
+      "language" : "fr",
+      "value" : "Intact"
+    }]
+  },
+  {
+    "code" : "sCPS2_2",
+    "display" : "Zo goed als intact",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Fast intakt"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pratiquement intact"
+    }]
+  },
+  {
+    "code" : "sCPS2_3",
+    "display" : "Zo goed als intact",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Fast intakt"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pratiquement intact"
+    }]
+  },
+  {
+    "code" : "sCPS2_4",
+    "display" : "Matig verstoord",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Moderater Rückgang"
+    },
+    {
+      "language" : "fr",
+      "value" : "Déclin modéré"
+    }]
+  },
+  {
+    "code" : "sCPS2_5",
+    "display" : "Matig verstoord",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Moderater Rückgang"
+    },
+    {
+      "language" : "fr",
+      "value" : "Déclin modéré"
+    }]
+  },
+  {
+    "code" : "sCPS2_6",
+    "display" : "Ernstig verstoord",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Ernster Rückgang"
+    },
+    {
+      "language" : "fr",
+      "value" : "Déclin important"
+    }]
+  },
+  {
+    "code" : "sCPS2_7",
+    "display" : "Ernstig verstoord",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Ernster Rückgang"
+    },
+    {
+      "language" : "fr",
+      "value" : "Déclin important"
+    }]
+  },
+  {
+    "code" : "sCPS2_8",
+    "display" : "Zeer ernstig verstoord",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Sehr ernster Rückgang"
+    },
+    {
+      "language" : "fr",
+      "value" : "Déclin très important"
+    }]
+  }]
+}

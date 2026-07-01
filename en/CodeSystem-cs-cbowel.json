@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cbowel",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cbowel</b></p><a name=\"cs-cbowel\"> </a><a name=\"hccs-cbowel\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbowel</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cBOWEL_0<a name=\"cs-cbowel-cBOWEL_0\"> </a></td><td>Niet geactiveerd: eventueel behandelde darmproblemen.</td></tr><tr><td style=\"white-space:nowrap\">cBOWEL_1<a name=\"cs-cbowel-cBOWEL_1\"> </a></td><td>Geactiveerd om achteruitgang te voorkomen.</td></tr><tr><td style=\"white-space:nowrap\">cBOWEL_2<a name=\"cs-cbowel-cBOWEL_2\"> </a></td><td>Geactiveerd op potentiële vooruitgang.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cBOWEL_0</td><td>Nicht aktiviert: mögliche Behandlung eines Darmproblems.</td><td>Non activé : traitement éventuel des problèmes d'intestin.</td></tr><tr><td>cBOWEL_1</td><td>Aktiviert um einen Rückfall vorzubeugen.</td><td>Activé pour la prévention du déclin.</td></tr><tr><td>cBOWEL_2</td><td>Aktiviert zur Vorbeugung eines Rückfalls.</td><td>Activé pour un potentiel déclin.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbowel",
+  "version" : "0.1.0",
+  "name" : "CS_cBOWEL",
+  "title" : "Darmproblemen",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Darmproblemen",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cBOWEL_0",
+    "display" : "Niet geactiveerd: eventueel behandelde darmproblemen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: mögliche Behandlung eines Darmproblems."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : traitement éventuel des problèmes d'intestin."
+    }]
+  },
+  {
+    "code" : "cBOWEL_1",
+    "display" : "Geactiveerd om achteruitgang te voorkomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um einen Rückfall vorzubeugen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour la prévention du déclin."
+    }]
+  },
+  {
+    "code" : "cBOWEL_2",
+    "display" : "Geactiveerd op potentiële vooruitgang.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert zur Vorbeugung eines Rückfalls."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour un potentiel déclin."
+    }]
+  }]
+}

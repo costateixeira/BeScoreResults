@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-sfrailty",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-sfrailty</b></p><a name=\"cs-sfrailty\"> </a><a name=\"hccs-sfrailty\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sFRAILTY_0<a name=\"cs-sfrailty-sFRAILTY_0\"> </a></td><td>Persoon is niet kwetsbaar</td></tr><tr><td style=\"white-space:nowrap\">sFRAILTY_1<a name=\"cs-sfrailty-sFRAILTY_1\"> </a></td><td>Persoon is kwetsbaar</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sFRAILTY_0</td><td>Die Person ist nicht schutzbedürftig</td><td>La personne n'est pas vulnérable</td></tr><tr><td>sFRAILTY_1</td><td>Die Person ist schutzbedürftig</td><td>La personne est vulnérable</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty",
+  "version" : "0.1.0",
+  "name" : "CS_sFRAILTY",
+  "title" : "Frailty Scale (sFrailty)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Frailty Scale (sFrailty)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "sFRAILTY_0",
+    "display" : "Persoon is niet kwetsbaar",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Die Person ist nicht schutzbedürftig"
+    },
+    {
+      "language" : "fr",
+      "value" : "La personne n'est pas vulnérable"
+    }]
+  },
+  {
+    "code" : "sFRAILTY_1",
+    "display" : "Persoon is kwetsbaar",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Die Person ist schutzbedürftig"
+    },
+    {
+      "language" : "fr",
+      "value" : "La personne est vulnérable"
+    }]
+  }]
+}

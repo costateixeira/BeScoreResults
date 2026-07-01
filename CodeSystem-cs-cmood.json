@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmood",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmood</b></p><a name=\"cs-cmood\"> </a><a name=\"hccs-cmood\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmood</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMOOD_0<a name=\"cs-cmood-cMOOD_0\"> </a></td><td>Niet geactiveerd: DRS-score = nul.</td></tr><tr><td style=\"white-space:nowrap\">cMOOD_1<a name=\"cs-cmood-cMOOD_1\"> </a></td><td>Geactiveerd wegens laag risico: DRS-score = één of twee.</td></tr><tr><td style=\"white-space:nowrap\">cMOOD_2<a name=\"cs-cmood-cMOOD_2\"> </a></td><td>Geactiveerd wegens hoog risico: DRS-score = drie of hoger.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMOOD_0</td><td>Nicht aktiviert: DRS-score = 0.</td><td>Pas activé : score DRS = 0.</td></tr><tr><td>cMOOD_1</td><td>Aktiviert wegen leichtem Risiko: DRS-score = 1 oder 2.</td><td>Activé en raison d'un risque faible : score DRS = 1 ou 2.</td></tr><tr><td>cMOOD_2</td><td>Aktiviert wegen hohem Risiko: DRS-score = 3 oder mehr.</td><td>Activé en raison d'un risque élevé : score DRS = 3 ou +.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmood",
+  "version" : "0.1.0",
+  "name" : "CS_cMOOD",
+  "title" : "Stemming",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Stemming",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMOOD_0",
+    "display" : "Niet geactiveerd: DRS-score = nul.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: DRS-score = 0."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : score DRS = 0."
+    }]
+  },
+  {
+    "code" : "cMOOD_1",
+    "display" : "Geactiveerd wegens laag risico: DRS-score = één of twee.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen leichtem Risiko: DRS-score = 1 oder 2."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque faible : score DRS = 1 ou 2."
+    }]
+  },
+  {
+    "code" : "cMOOD_2",
+    "display" : "Geactiveerd wegens hoog risico: DRS-score = drie of hoger.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert wegen hohem Risiko: DRS-score = 3 oder mehr."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé : score DRS = 3 ou +."
+    }]
+  }]
+}

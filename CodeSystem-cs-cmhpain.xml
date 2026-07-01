@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhpain"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhpain</b></p><a name="cs-cmhpain"> </a><a name="hccs-cmhpain"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhpain</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHPAIN_0<a name="cs-cmhpain-cMHPAIN_0"> </a></td><td>Niet geactiveerd:  geen pijn of minder dan dagelijks milde tot matige pijn.</td></tr><tr><td style="white-space:nowrap">cMHPAIN_1<a name="cs-cmhpain-cMHPAIN_1"> </a></td><td>Geactiveerd met middelhoge prioriteit: dagelijkse pijn die omschreven wordt als mild of matig.</td></tr><tr><td style="white-space:nowrap">cMHPAIN_2<a name="cs-cmhpain-cMHPAIN_2"> </a></td><td>Geactiveerd met hoge prioriteit: pijn die omschreven wordt als ernstig, afschuwelijk of ondraaglijk (ongeacht of de pijn dagelijks of minder vaak voorkomt).</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHPAIN_0</td><td>Nicht aktiviert: keine Schmerzen oder weniger als leichte und moderate tägliche Schmerzen.</td><td>Pas activité : pas de douleur ou moins que la douleur quotidienne légère à modérée.</td></tr><tr><td>cMHPAIN_1</td><td>Aktiviert mit mittlerer Priorität: tägliche Schmerzen, die als leicht oder moderat beschrieben werden.</td><td>Activé avec une priorité moyenne : douleur quotidienne qui est décrite comme légère ou modérée.</td></tr><tr><td>cMHPAIN_2</td><td>Aktiviert mit hoher Priorität: Schmerzen, die als ernst, schrecklich und unerträglich beschrieben werden (unabhängig davon ob der Schmerz täglich oder weniger häufig auftritt).</td><td>Activé avec une priorité élevée : douleur qui est décrite comme sérieux, horrible ou intolérable (que la douleur se produise tous les jours ou moins souvent).</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhpain"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHPAIN"/>
+  <title value="Pijn - Mentale gezondheid"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Pijn - Mentale gezondheid"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHPAIN_0"/>
+    <display value="Niet geactiveerd:  geen pijn of minder dan dagelijks milde tot matige pijn."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine Schmerzen oder weniger als leichte und moderate tägliche Schmerzen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activité : pas de douleur ou moins que la douleur quotidienne légère à modérée."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHPAIN_1"/>
+    <display value="Geactiveerd met middelhoge prioriteit: dagelijkse pijn die omschreven wordt als mild of matig."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert mit mittlerer Priorität: tägliche Schmerzen, die als leicht oder moderat beschrieben werden."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé avec une priorité moyenne : douleur quotidienne qui est décrite comme légère ou modérée."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHPAIN_2"/>
+    <display value="Geactiveerd met hoge prioriteit: pijn die omschreven wordt als ernstig, afschuwelijk of ondraaglijk (ongeacht of de pijn dagelijks of minder vaak voorkomt)."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert mit hoher Priorität: Schmerzen, die als ernst, schrecklich und unerträglich beschrieben werden (unabhängig davon ob der Schmerz täglich oder weniger häufig auftritt)."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé avec une priorité élevée : douleur qui est décrite comme sérieux, horrible ou intolérable (que la douleur se produise tous les jours ou moins souvent)."/>
+    </designation>
+  </concept>
+</CodeSystem>

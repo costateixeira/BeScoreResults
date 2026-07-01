@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-ciadl"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-ciadl</b></p><a name="cs-ciadl"> </a><a name="hccs-ciadl"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cIADL_0<a name="cs-ciadl-cIADL_0"> </a></td><td>Niet geactiveerd: geen mogelijkheid tot verbetering.</td></tr><tr><td style="white-space:nowrap">cIADL_1<a name="cs-ciadl-cIADL_1"> </a></td><td>Geactiveerd op de mogelijkheid tot verbetering.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cIADL_0</td><td>Nicht aktiviert: keine Möglichkeit der Verbesserung.</td><td>Pas activé : pas de possibilité d'amélioration.</td></tr><tr><td>cIADL_1</td><td>Aktiviert: Möglichkeit der Verbesserung.</td><td>Activé : possibilité d’amélioration.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl"/>
+  <version value="0.1.0"/>
+  <name value="CS_cIADL"/>
+  <title value="Instrumentele activiteiten van het dagelijks leven (IADL)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Instrumentele activiteiten van het dagelijks leven (IADL)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="cIADL_0"/>
+    <display value="Niet geactiveerd: geen mogelijkheid tot verbetering."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: keine Möglichkeit der Verbesserung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé : pas de possibilité d'amélioration."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cIADL_1"/>
+    <display value="Geactiveerd op de mogelijkheid tot verbetering."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: Möglichkeit der Verbesserung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé : possibilité d’amélioration."/>
+    </designation>
+  </concept>
+</CodeSystem>

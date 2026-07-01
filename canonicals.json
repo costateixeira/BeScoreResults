@@ -1,0 +1,770 @@
+[{
+  "id" : "cs-ahsdelirium",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdelirium",
+  "version" : "0.1.0",
+  "name" : "CS_aHSDELIRIUM"
+},
+{
+  "id" : "cs-ahsdementia",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdementia",
+  "version" : "0.1.0",
+  "name" : "CS_aHSDEMENTIA"
+},
+{
+  "id" : "cs-ahsdepression",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdepression",
+  "version" : "0.1.0",
+  "name" : "CS_aHSDEPRESSION"
+},
+{
+  "id" : "cs-ahsnutrition",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsnutrition",
+  "version" : "0.1.0",
+  "name" : "CS_aHSNUTRITION"
+},
+{
+  "id" : "cs-amaple",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-amaple",
+  "version" : "0.1.0",
+  "name" : "CS_aMAPLE"
+},
+{
+  "id" : "cs-belrai-assessment-reason",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-assessment-reason",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiAssessmentReason"
+},
+{
+  "id" : "cs-belrai-aware-6-months",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-aware-6-months",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiAware6Months"
+},
+{
+  "id" : "cs-belrai-life-expectancy",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-life-expectancy",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiLifeExpectancy"
+},
+{
+  "id" : "cs-belrai-marital-status",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-marital-status",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiMaritalStatus"
+},
+{
+  "id" : "cs-belrai-palliative-program-type",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-palliative-program-type",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiPalliativeProgramType"
+},
+{
+  "id" : "cs-belrai-residence",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-residence",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiResidence"
+},
+{
+  "id" : "cs-belrai-time-since-hospital-stay",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-time-since-hospital-stay",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiTimeSinceHospitalStay"
+},
+{
+  "id" : "cs-cabuse",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse",
+  "version" : "0.1.0",
+  "name" : "CS_cABUSE"
+},
+{
+  "id" : "cs-cactiv",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cactiv",
+  "version" : "0.1.0",
+  "name" : "CS_cACTIV"
+},
+{
+  "id" : "cs-cadd",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadd",
+  "version" : "0.1.0",
+  "name" : "CS_cADD"
+},
+{
+  "id" : "cs-cadl",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadl",
+  "version" : "0.1.0",
+  "name" : "CS_cADL"
+},
+{
+  "id" : "cs-cbehav",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbehav",
+  "version" : "0.1.0",
+  "name" : "CS_cBEHAV"
+},
+{
+  "id" : "cs-cbowel",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbowel",
+  "version" : "0.1.0",
+  "name" : "CS_cBOWEL"
+},
+{
+  "id" : "cs-cbritsu",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbritsu",
+  "version" : "0.1.0",
+  "name" : "CS_cBRITSU"
+},
+{
+  "id" : "cs-ccardio",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccardio",
+  "version" : "0.1.0",
+  "name" : "CS_cCARDIO"
+},
+{
+  "id" : "cs-ccognit",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccognit",
+  "version" : "0.1.0",
+  "name" : "CS_cCOGNIT"
+},
+{
+  "id" : "cs-ccommun",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccommun",
+  "version" : "0.1.0",
+  "name" : "CS_cCOMMUN"
+},
+{
+  "id" : "cs-cdehyd",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdehyd",
+  "version" : "0.1.0",
+  "name" : "CS_cDEHYD"
+},
+{
+  "id" : "cs-cdelir",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdelir",
+  "version" : "0.1.0",
+  "name" : "CS_cDELIR"
+},
+{
+  "id" : "cs-cdentistrefer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdentistrefer",
+  "version" : "0.1.0",
+  "name" : "CS_cDENTISTREFER"
+},
+{
+  "id" : "cs-cdrug",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdrug",
+  "version" : "0.1.0",
+  "name" : "CS_cDRUG"
+},
+{
+  "id" : "cs-cenvir",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cenvir",
+  "version" : "0.1.0",
+  "name" : "CS_cENVIR"
+},
+{
+  "id" : "cs-cfalls",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfalls",
+  "version" : "0.1.0",
+  "name" : "CS_cFALLS"
+},
+{
+  "id" : "cs-cfeedtb",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfeedtb",
+  "version" : "0.1.0",
+  "name" : "CS_cFEEDTB"
+},
+{
+  "id" : "cs-chsbehav",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav",
+  "version" : "0.1.0",
+  "name" : "CS_cHSBEHAV"
+},
+{
+  "id" : "cs-chscognit",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chscognit",
+  "version" : "0.1.0",
+  "name" : "CS_cHSCOGNIT"
+},
+{
+  "id" : "cs-chscommun",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chscommun",
+  "version" : "0.1.0",
+  "name" : "CS_cHSCOMMUN"
+},
+{
+  "id" : "cs-chsdepress",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsdepress",
+  "version" : "0.1.0",
+  "name" : "CS_cHSDEPRESS"
+},
+{
+  "id" : "cs-chsfalls",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsfalls",
+  "version" : "0.1.0",
+  "name" : "CS_cHSFALLS"
+},
+{
+  "id" : "cs-chsinstitution",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution",
+  "version" : "0.1.0",
+  "name" : "CS_cHSINSTITUTION"
+},
+{
+  "id" : "cs-chspain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chspain",
+  "version" : "0.1.0",
+  "name" : "CS_cHSPAIN"
+},
+{
+  "id" : "cs-chsreadmission",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsreadmission",
+  "version" : "0.1.0",
+  "name" : "CS_cHSREADMISSION"
+},
+{
+  "id" : "cs-chsundernutrition",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsundernutrition",
+  "version" : "0.1.0",
+  "name" : "CS_cHSUNDERNUTRITION"
+},
+{
+  "id" : "cs-ciadl",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl",
+  "version" : "0.1.0",
+  "name" : "CS_cIADL"
+},
+{
+  "id" : "cs-cmhcrim",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhcrim",
+  "version" : "0.1.0",
+  "name" : "CS_cMHCRIM"
+},
+{
+  "id" : "cs-cmhctrlint",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhctrlint",
+  "version" : "0.1.0",
+  "name" : "CS_cMHCTRLINT"
+},
+{
+  "id" : "cs-cmhedemp",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhedemp",
+  "version" : "0.1.0",
+  "name" : "CS_cMHEDEMP"
+},
+{
+  "id" : "cs-cmhexer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhexer",
+  "version" : "0.1.0",
+  "name" : "CS_cMHEXER"
+},
+{
+  "id" : "cs-cmhfinan",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhfinan",
+  "version" : "0.1.0",
+  "name" : "CS_cMHFINAN"
+},
+{
+  "id" : "cs-cmhharmoth",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhharmoth",
+  "version" : "0.1.0",
+  "name" : "CS_cMHHARMOTH"
+},
+{
+  "id" : "cs-cmhinfsupp",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhinfsupp",
+  "version" : "0.1.0",
+  "name" : "CS_cMHINFSUPP"
+},
+{
+  "id" : "cs-cmhipcon",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhipcon",
+  "version" : "0.1.0",
+  "name" : "CS_cMHIPCON"
+},
+{
+  "id" : "cs-cmhmedmgt",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt",
+  "version" : "0.1.0",
+  "name" : "CS_cMHMEDMGT"
+},
+{
+  "id" : "cs-cmhpain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhpain",
+  "version" : "0.1.0",
+  "name" : "CS_cMHPAIN"
+},
+{
+  "id" : "cs-cmhrehosp",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhrehosp",
+  "version" : "0.1.0",
+  "name" : "CS_cMHREHOSP"
+},
+{
+  "id" : "cs-cmhselfcr",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhselfcr",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSELFCR"
+},
+{
+  "id" : "cs-cmhselfha",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhselfha",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSELFHA"
+},
+{
+  "id" : "cs-cmhsleep",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsleep",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSLEEP"
+},
+{
+  "id" : "cs-cmhsmoke",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsmoke",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSMOKE"
+},
+{
+  "id" : "cs-cmhsocrel",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsocrel",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSOCREL"
+},
+{
+  "id" : "cs-cmhssdis",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhssdis",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSSDIS"
+},
+{
+  "id" : "cs-cmhsubuse",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsubuse",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSUBUSE"
+},
+{
+  "id" : "cs-cmhtrauma",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhtrauma",
+  "version" : "0.1.0",
+  "name" : "CS_cMHTRAUMA"
+},
+{
+  "id" : "cs-cmhwtmgt",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt",
+  "version" : "0.1.0",
+  "name" : "CS_cMHWTMGT"
+},
+{
+  "id" : "cs-cmood",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmood",
+  "version" : "0.1.0",
+  "name" : "CS_cMOOD"
+},
+{
+  "id" : "cs-cnutr",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cnutr",
+  "version" : "0.1.0",
+  "name" : "CS_cNUTR"
+},
+{
+  "id" : "cs-common-translations-other",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-common-translations-other",
+  "version" : "0.1.0",
+  "name" : "CS_CommonTranslationsOther"
+},
+{
+  "id" : "cs-coralhyg",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-coralhyg",
+  "version" : "0.1.0",
+  "name" : "CS_cORALHYG"
+},
+{
+  "id" : "cs-cpactiv",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpactiv",
+  "version" : "0.1.0",
+  "name" : "CS_cPACTIV"
+},
+{
+  "id" : "cs-cpain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain",
+  "version" : "0.1.0",
+  "name" : "CS_cPAIN"
+},
+{
+  "id" : "cs-cpcdys",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcdys",
+  "version" : "0.1.0",
+  "name" : "CS_cPCDYS"
+},
+{
+  "id" : "cs-cpcfatig",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcfatig",
+  "version" : "0.1.0",
+  "name" : "CS_cPCFATIG"
+},
+{
+  "id" : "cs-cpcmood",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcmood",
+  "version" : "0.1.0",
+  "name" : "CS_cPCMOOD"
+},
+{
+  "id" : "cs-cpcnutr",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcnutr",
+  "version" : "0.1.0",
+  "name" : "CS_cPCNUTR"
+},
+{
+  "id" : "cs-cpcpain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpain",
+  "version" : "0.1.0",
+  "name" : "CS_cPCPAIN"
+},
+{
+  "id" : "cs-cpcpuimp",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpuimp",
+  "version" : "0.1.0",
+  "name" : "CS_cpcPUIMP"
+},
+{
+  "id" : "cs-cpcsleep",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcsleep",
+  "version" : "0.1.0",
+  "name" : "CS_cPCSLEEP"
+},
+{
+  "id" : "cs-cphsadl",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphsadl",
+  "version" : "0.1.0",
+  "name" : "CS_cpHSADL"
+},
+{
+  "id" : "cs-cphsdelirium",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphsdelirium",
+  "version" : "0.1.0",
+  "name" : "CS_cpHSDELIRIUM"
+},
+{
+  "id" : "cs-cphspulcer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphspulcer",
+  "version" : "0.1.0",
+  "name" : "CS_cpHSPULCER"
+},
+{
+  "id" : "cs-cpulcer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpulcer",
+  "version" : "0.1.0",
+  "name" : "CS_cPULCER"
+},
+{
+  "id" : "cs-crestr",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crestr",
+  "version" : "0.1.0",
+  "name" : "CS_cRESTR"
+},
+{
+  "id" : "cs-crisk",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crisk",
+  "version" : "0.1.0",
+  "name" : "CS_cRISK"
+},
+{
+  "id" : "cs-csocfunc",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-csocfunc",
+  "version" : "0.1.0",
+  "name" : "CS_cSOCFUNC"
+},
+{
+  "id" : "cs-cthsadl",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthsadl",
+  "version" : "0.1.0",
+  "name" : "CS_ctHSADL"
+},
+{
+  "id" : "cs-cthsdelirium",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthsdelirium",
+  "version" : "0.1.0",
+  "name" : "CS_ctHSDELIRIUM"
+},
+{
+  "id" : "cs-cthspulcer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthspulcer",
+  "version" : "0.1.0",
+  "name" : "CS_ctHSPULCER"
+},
+{
+  "id" : "cs-curin",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-curin",
+  "version" : "0.1.0",
+  "name" : "CS_cURIN"
+},
+{
+  "id" : "cs-observation-code",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-observation-code",
+  "version" : "0.1.0",
+  "name" : "CS_ObservationCode"
+},
+{
+  "id" : "cs-rhsadl",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsadl",
+  "version" : "0.1.0",
+  "name" : "CS_rHSADL"
+},
+{
+  "id" : "cs-rhsdelirium",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsdelirium",
+  "version" : "0.1.0",
+  "name" : "CS_rHSDELIRIUM"
+},
+{
+  "id" : "cs-rhsfalls",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsfalls",
+  "version" : "0.1.0",
+  "name" : "CS_rHSFALLS"
+},
+{
+  "id" : "cs-rhspulcer",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhspulcer",
+  "version" : "0.1.0",
+  "name" : "CS_rHSPULCER"
+},
+{
+  "id" : "cs-rhsreadmission",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsreadmission",
+  "version" : "0.1.0",
+  "name" : "CS_rHSREADMISSION"
+},
+{
+  "id" : "cs-sabs",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sabs",
+  "version" : "0.1.0",
+  "name" : "CS_sABS"
+},
+{
+  "id" : "cs-sadlh",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sadlh",
+  "version" : "0.1.0",
+  "name" : "CS_sADLH"
+},
+{
+  "id" : "cs-sbmi",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi",
+  "version" : "0.1.0",
+  "name" : "CS_sBMI"
+},
+{
+  "id" : "cs-scage",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage",
+  "version" : "0.1.0",
+  "name" : "CS_sCAGE"
+},
+{
+  "id" : "cs-schess",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-schess",
+  "version" : "0.1.0",
+  "name" : "CS_sCHESS"
+},
+{
+  "id" : "cs-scomm",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scomm",
+  "version" : "0.1.0",
+  "name" : "CS_sCOMM"
+},
+{
+  "id" : "cs-scps",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps",
+  "version" : "0.1.0",
+  "name" : "CS_sCPS"
+},
+{
+  "id" : "cs-scps2",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps2",
+  "version" : "0.1.0",
+  "name" : "CS_sCPS2"
+},
+{
+  "id" : "cs-sdbsi",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdbsi",
+  "version" : "0.1.0",
+  "name" : "CS_sDbSI"
+},
+{
+  "id" : "cs-sdrs",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdrs",
+  "version" : "0.1.0",
+  "name" : "CS_sDRS"
+},
+{
+  "id" : "cs-sfrailty",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty",
+  "version" : "0.1.0",
+  "name" : "CS_sFRAILTY"
+},
+{
+  "id" : "cs-shsadlh",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shsadlh",
+  "version" : "0.1.0",
+  "name" : "CS_sHSADLH"
+},
+{
+  "id" : "cs-shspain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspain",
+  "version" : "0.1.0",
+  "name" : "CS_sHSPAIN"
+},
+{
+  "id" : "cs-shspurs",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspurs",
+  "version" : "0.1.0",
+  "name" : "CS_sHSPURS"
+},
+{
+  "id" : "cs-siadlch",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-siadlch",
+  "version" : "0.1.0",
+  "name" : "CS_sIADLCH"
+},
+{
+  "id" : "cs-spain",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spain",
+  "version" : "0.1.0",
+  "name" : "CS_sPAIN"
+},
+{
+  "id" : "cs-spurs",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs",
+  "version" : "0.1.0",
+  "name" : "CS_sPURS"
+},
+{
+  "id" : "cs-ssrmood",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ssrmood",
+  "version" : "0.1.0",
+  "name" : "CS_sSRMOOD"
+},
+{
+  "id" : "hl7.fhir.be.scoring",
+  "type" : "ImplementationGuide",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/ImplementationGuide/hl7.fhir.be.scoring",
+  "version" : "0.1.0",
+  "name" : "bescoring"
+},
+{
+  "id" : "MyPatient",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/StructureDefinition/MyPatient",
+  "version" : "0.1.0",
+  "name" : "MyPatient"
+},
+{
+  "id" : "vs-observation-code",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/ValueSet/vs-observation-code",
+  "version" : "0.1.0",
+  "name" : "VS_ObservationCode"
+}]

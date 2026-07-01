@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-coralhyg"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-coralhyg</b></p><a name="cs-coralhyg"> </a><a name="hccs-coralhyg"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-coralhyg</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cORALHYG_0<a name="cs-coralhyg-cORALHYG_0"> </a></td><td>Niet geactiveerd, geen plaque en tandsteen zichtbaar.
+</td></tr><tr><td style="white-space:nowrap">cORALHYG_1<a name="cs-coralhyg-cORALHYG_1"> </a></td><td>Geactiveerd om dagelijkse mondhygiëne te verbeteren.
+</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cORALHYG_0</td><td> Nicht aktiviert, keine sichtbaren Plaque-oder Kalkablagerungen
+</td><td>Non activé, pas de plaque ni de tartre visibles.
+</td></tr><tr><td>cORALHYG_1</td><td>Aktiviert um die tägliche Mundhygiene zu verbessern
+</td><td>Activé pour améliorer l'hygiène bucco-dentaire quotidienne. 
+</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-coralhyg"/>
+  <version value="0.1.0"/>
+  <name value="CS_cORALHYG"/>
+  <title value="Mondhygiëne"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Mondhygiëne"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="cORALHYG_0"/>
+    <display value="Niet geactiveerd, geen plaque en tandsteen zichtbaar.&#xA;"/>
+    <designation>
+      <language value="de"/>
+      <value value=" Nicht aktiviert, keine sichtbaren Plaque-oder Kalkablagerungen&#xA;"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé, pas de plaque ni de tartre visibles.&#xA;"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cORALHYG_1"/>
+    <display value="Geactiveerd om dagelijkse mondhygiëne te verbeteren.&#xA;"/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um die tägliche Mundhygiene zu verbessern&#xA;"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour améliorer l'hygiène bucco-dentaire quotidienne. &#xA;"/>
+    </designation>
+  </concept>
+</CodeSystem>

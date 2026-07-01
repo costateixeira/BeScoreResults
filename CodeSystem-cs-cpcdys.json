@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpcdys",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpcdys</b></p><a name=\"cs-cpcdys\"> </a><a name=\"hccs-cpcdys\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcdys</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPCDYS_0<a name=\"cs-cpcdys-cPCDYS_0\"> </a></td><td>Niet geactiveerd: geen dyspneu of geen dyspneu in rust maar wel tijdens zware activiteiten.</td></tr><tr><td style=\"white-space:nowrap\">cPCDYS_1<a name=\"cs-cpcdys-cPCDYS_1\"> </a></td><td>Geactiveerd: dyspneu  in rust of geen dyspneu in rust maar wel tijdens normale dagelijkse activiteiten.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCDYS_0</td><td>Nicht aktiviert: Keine Dyspnoe oder keine Dyspnoe im Ruhezustand, wohl aber während anstrengenden Aktivitäten.</td><td>Pas activé : pas de dyspnée ou pas de dyspnée au repos mais bien durant des activités lourdes.</td></tr><tr><td>cPCDYS_1</td><td>Aktiviert: Keine Dyspnoe oder Dyspnoe im Ruhezustand, wohl aber während normalen alltäglichen Aktivitäten. </td><td>Activé : dyspnées au repos ou pas de dyspnée au repos mais bien durant des activités quotidiennes normales.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcdys",
+  "version" : "0.1.0",
+  "name" : "CS_cPCDYS",
+  "title" : "Dyspneu",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Dyspneu",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cPCDYS_0",
+    "display" : "Niet geactiveerd: geen dyspneu of geen dyspneu in rust maar wel tijdens zware activiteiten.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: Keine Dyspnoe oder keine Dyspnoe im Ruhezustand, wohl aber während anstrengenden Aktivitäten."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : pas de dyspnée ou pas de dyspnée au repos mais bien durant des activités lourdes."
+    }]
+  },
+  {
+    "code" : "cPCDYS_1",
+    "display" : "Geactiveerd: dyspneu  in rust of geen dyspneu in rust maar wel tijdens normale dagelijkse activiteiten.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: Keine Dyspnoe oder Dyspnoe im Ruhezustand, wohl aber während normalen alltäglichen Aktivitäten. "
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé : dyspnées au repos ou pas de dyspnée au repos mais bien durant des activités quotidiennes normales."
+    }]
+  }]
+}

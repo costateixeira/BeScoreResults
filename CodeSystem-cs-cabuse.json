@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cabuse",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cabuse</b></p><a name=\"cs-cabuse\"> </a><a name=\"hccs-cabuse\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cABUSE_0<a name=\"cs-cabuse-cABUSE_0\"> </a></td><td>Niet geactiveerd: geen directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig.</td></tr><tr><td style=\"white-space:nowrap\">cABUSE_1<a name=\"cs-cabuse-cABUSE_1\"> </a></td><td>Geactiveerd wegens matig risico: alleen directe indicatoren van mishandeling.</td></tr><tr><td style=\"white-space:nowrap\">cABUSE_2<a name=\"cs-cabuse-cABUSE_2\"> </a></td><td>Geactiveerd wegens hoogste risico: directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig (in laatste dertig dagen).</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cABUSE_0</td><td>Nicht aktiviert: keine direkten Indikatoren von Misshandlungen und Stressfaktoren.</td><td>Non activé : pas d'indicateurs directs de maltraitance et de présence de facteurs de stress.</td></tr><tr><td>cABUSE_1</td><td>Aktiviert: wegen mittlerem Risiko von direkten Indikatoren für Misshandlungen.</td><td>Activé en raison d'un risque modéré : uniquement indicateurs direct de maltraitance.</td></tr><tr><td>cABUSE_2</td><td>Aktiviert: wegen sehr hohem Risiko von direkten Indikatoren für Misshandlungen und Stressfaktoren (innerhalb der letzten 30 Tage).</td><td>Activé en raison du risque le plus élevé : indicateurs directs de maltraitance et de présence de facteurs de stress (dans les trente derniers jours).</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse",
+  "version" : "0.1.0",
+  "name" : "CS_cABUSE",
+  "title" : "Mishandeling/Verwaarlozing",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Mishandeling/Verwaarlozing",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cABUSE_0",
+    "display" : "Niet geactiveerd: geen directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine direkten Indikatoren von Misshandlungen und Stressfaktoren."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : pas d'indicateurs directs de maltraitance et de présence de facteurs de stress."
+    }]
+  },
+  {
+    "code" : "cABUSE_1",
+    "display" : "Geactiveerd wegens matig risico: alleen directe indicatoren van mishandeling.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: wegen mittlerem Risiko von direkten Indikatoren für Misshandlungen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque modéré : uniquement indicateurs direct de maltraitance."
+    }]
+  },
+  {
+    "code" : "cABUSE_2",
+    "display" : "Geactiveerd wegens hoogste risico: directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig (in laatste dertig dagen).",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: wegen sehr hohem Risiko von direkten Indikatoren für Misshandlungen und Stressfaktoren (innerhalb der letzten 30 Tage)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison du risque le plus élevé : indicateurs directs de maltraitance et de présence de facteurs de stress (dans les trente derniers jours)."
+    }]
+  }]
+}

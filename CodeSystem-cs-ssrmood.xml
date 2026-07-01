@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-ssrmood"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-ssrmood</b></p><a name="cs-ssrmood"> </a><a name="hccs-ssrmood"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ssrmood</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sSRMOOD_0<a name="cs-ssrmood-sSRMOOD_0"> </a></td><td>Geen verstoring van de gemoedstoestand </td></tr><tr><td style="white-space:nowrap">sSRMOOD_range_1_2<a name="cs-ssrmood-sSRMOOD_range_1_2"> </a></td><td>1-2 Milde verstoring van de gemoedstoestand </td></tr><tr><td style="white-space:nowrap">sSRMOOD_range_3_4<a name="cs-ssrmood-sSRMOOD_range_3_4"> </a></td><td>3-4 Matige verstoring van de gemoedstoestand </td></tr><tr><td style="white-space:nowrap">sSRMOOD_range_5_9<a name="cs-ssrmood-sSRMOOD_range_5_9"> </a></td><td>5-9 Ernstige verstoring van de gemoedstoestand </td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sSRMOOD_0</td><td>keine</td><td>Pas de perturbation de l’humeur</td></tr><tr><td>sSRMOOD_range_1_2</td><td>1-2 mild</td><td>1-2 Perturbation légère de l’humeur</td></tr><tr><td>sSRMOOD_range_3_4</td><td>3-4 mäßig</td><td>3-4 Perturbation modérée de l’humeur</td></tr><tr><td>sSRMOOD_range_5_9</td><td>5-9 schwer</td><td>5-9 Perturbation sévère de l’humeur</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ssrmood"/>
+  <version value="0.1.0"/>
+  <name value="CS_sSRMOOD"/>
+  <title value="Self-reported Mood Scale"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Self-reported Mood Scale"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="sSRMOOD_0"/>
+    <display value="Geen verstoring van de gemoedstoestand "/>
+    <designation>
+      <language value="de"/>
+      <value value="keine"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas de perturbation de l’humeur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sSRMOOD_range_1_2"/>
+    <display value="1-2 Milde verstoring van de gemoedstoestand "/>
+    <designation>
+      <language value="de"/>
+      <value value="1-2 mild"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="1-2 Perturbation légère de l’humeur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sSRMOOD_range_3_4"/>
+    <display value="3-4 Matige verstoring van de gemoedstoestand "/>
+    <designation>
+      <language value="de"/>
+      <value value="3-4 mäßig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="3-4 Perturbation modérée de l’humeur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sSRMOOD_range_5_9"/>
+    <display value="5-9 Ernstige verstoring van de gemoedstoestand "/>
+    <designation>
+      <language value="de"/>
+      <value value="5-9 schwer"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="5-9 Perturbation sévère de l’humeur"/>
+    </designation>
+  </concept>
+</CodeSystem>

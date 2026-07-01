@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-scage"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-scage</b></p><a name="cs-scage"> </a><a name="hccs-scage"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sCAGE_interval_0_2<a name="cs-scage-sCAGE_interval_0_2"> </a></td><td>0-2</td></tr><tr><td style="white-space:nowrap">sCAGE_interval_2_5<a name="cs-scage-sCAGE_interval_2_5"> </a></td><td>2-5</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sCAGE_interval_0_2</td><td>0-2</td><td>0-2</td></tr><tr><td>sCAGE_interval_2_5</td><td>2-5</td><td>2-5</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage"/>
+  <version value="0.1.0"/>
+  <name value="CS_sCAGE"/>
+  <title value="Addictions and Substance Use Scale (sCAGE)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="sCAGE_interval_0_2"/>
+    <display value="0-2"/>
+    <designation>
+      <language value="de"/>
+      <value value="0-2"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="0-2"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCAGE_interval_2_5"/>
+    <display value="2-5"/>
+    <designation>
+      <language value="de"/>
+      <value value="2-5"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="2-5"/>
+    </designation>
+  </concept>
+</CodeSystem>

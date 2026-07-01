@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpcsleep",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpcsleep</b></p><a name=\"cs-cpcsleep\"> </a><a name=\"hccs-cpcsleep\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcsleep</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPCSLEEP_0<a name=\"cs-cpcsleep-cPCSLEEP_0\"> </a></td><td>Niet geactiveerd: geen slaapstoornissen.</td></tr><tr><td style=\"white-space:nowrap\">cPCSLEEP_1<a name=\"cs-cpcsleep-cPCSLEEP_1\"> </a></td><td>Geactiveerd wegens minder kans op verbetering.</td></tr><tr><td style=\"white-space:nowrap\">cPCSLEEP_2<a name=\"cs-cpcsleep-cPCSLEEP_2\"> </a></td><td>Geactiveerd wegens een grote kans op verbetering.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPCSLEEP_0</td><td>Nicht aktiviert: keine Schlafstörungen.</td><td>Pas activé : pas de troubles du sommeil.</td></tr><tr><td>cPCSLEEP_1</td><td>Aktiviert aufgrund einer geringen Chance auf Besserung.</td><td>Activé en raison de moins de chance d'amélioration.</td></tr><tr><td>cPCSLEEP_2</td><td> Aktiviert aufgrund einer großen Chance auf Besserung.</td><td>Activé en raison de plus de chance d'amélioration.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcsleep",
+  "version" : "0.1.0",
+  "name" : "CS_cPCSLEEP",
+  "title" : "Slaapstoornis - Palliatieve zorg",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Slaapstoornis - Palliatieve zorg",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cPCSLEEP_0",
+    "display" : "Niet geactiveerd: geen slaapstoornissen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine Schlafstörungen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : pas de troubles du sommeil."
+    }]
+  },
+  {
+    "code" : "cPCSLEEP_1",
+    "display" : "Geactiveerd wegens minder kans op verbetering.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund einer geringen Chance auf Besserung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de moins de chance d'amélioration."
+    }]
+  },
+  {
+    "code" : "cPCSLEEP_2",
+    "display" : "Geactiveerd wegens een grote kans op verbetering.",
+    "designation" : [{
+      "language" : "de",
+      "value" : " Aktiviert aufgrund einer großen Chance auf Besserung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de plus de chance d'amélioration."
+    }]
+  }]
+}

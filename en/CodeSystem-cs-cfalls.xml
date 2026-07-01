@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cfalls"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cfalls</b></p><a name="cs-cfalls"> </a><a name="hccs-cfalls"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfalls</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cFALLS_0<a name="cs-cfalls-cFALLS_0"> </a></td><td>Niet geactiveerd: geen valincidenten in de laatste 90 dagen.</td></tr><tr><td style="white-space:nowrap">cFALLS_1<a name="cs-cfalls-cFALLS_1"> </a></td><td>Geactiveerd wegens een gemiddeld risico op valincidenten, gebaseerd op één gerapporteerd valincident in de laatste 90 dagen.</td></tr><tr><td style="white-space:nowrap">cFALLS_2<a name="cs-cfalls-cFALLS_2"> </a></td><td>Geactiveerd wegens een hoog risico op valincidenten, gebaseerd op veel gerapporteerde valincidenten in de laatste 30 dagen.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cFALLS_0</td><td>Nicht aktiviert: kein Sturz in den letzten 90 Tagen.</td><td>Non activé : pas de chute dans les 90 derniers jours.</td></tr><tr><td>cFALLS_1</td><td>Aktiviert: mittleres Sturzrisiko, aufgrund eines Sturzes innerhalb der letzten 90 Tage.</td><td>Activé pour cause d'un risque moyen de chutes, basé sur un incident de chute rapporté dans les 90 derniers jours.</td></tr><tr><td>cFALLS_2</td><td>Aktiviert: hohes Sturzrisiko, aufgrund mehrerer Stürze innerhalb der letzten 30 Tage.</td><td>Activé en raison d'un risque élevé de chutes, basé sur beaucoup de chutes rapportées dans les 30 derniers jours.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfalls"/>
+  <version value="0.1.0"/>
+  <name value="CS_cFALLS"/>
+  <title value="Valincidenten"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Valincidenten"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cFALLS_0"/>
+    <display value="Niet geactiveerd: geen valincidenten in de laatste 90 dagen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: kein Sturz in den letzten 90 Tagen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé : pas de chute dans les 90 derniers jours."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cFALLS_1"/>
+    <display value="Geactiveerd wegens een gemiddeld risico op valincidenten, gebaseerd op één gerapporteerd valincident in de laatste 90 dagen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: mittleres Sturzrisiko, aufgrund eines Sturzes innerhalb der letzten 90 Tage."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour cause d'un risque moyen de chutes, basé sur un incident de chute rapporté dans les 90 derniers jours."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cFALLS_2"/>
+    <display value="Geactiveerd wegens een hoog risico op valincidenten, gebaseerd op veel gerapporteerde valincidenten in de laatste 30 dagen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: hohes Sturzrisiko, aufgrund mehrerer Stürze innerhalb der letzten 30 Tage."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'un risque élevé de chutes, basé sur beaucoup de chutes rapportées dans les 30 derniers jours."/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-chsfalls",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-chsfalls</b></p><a name=\"cs-chsfalls\"> </a><a name=\"hccs-chsfalls\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsfalls</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cHSFALLS_0<a name=\"cs-chsfalls-cHSFALLS_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cHSFALLS_1<a name=\"cs-chsfalls-cHSFALLS_1\"> </a></td><td>Geactiveerd wegens een matig risico op valincidenten.</td></tr><tr><td style=\"white-space:nowrap\">cHSFALLS_2<a name=\"cs-chsfalls-cHSFALLS_2\"> </a></td><td>Geactiveerd wegens een hoog risico op valincidenten.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cHSFALLS_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cHSFALLS_1</td><td>Aktiviert aufgrund von einem moderaten Sturzrisiko.</td><td>Activé en raison d'un risque modéré de chutes.</td></tr><tr><td>cHSFALLS_2</td><td>Aktiviert aufgrund von einem hohen Sturzrisiko.</td><td>Activé en raison d'un risque élevé de chutes.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsfalls",
+  "version" : "0.1.0",
+  "name" : "CS_cHSFALLS",
+  "title" : "Valincidenten - Ziekenhuis",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Valincidenten - Ziekenhuis",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cHSFALLS_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cHSFALLS_1",
+    "display" : "Geactiveerd wegens een matig risico op valincidenten.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von einem moderaten Sturzrisiko."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque modéré de chutes."
+    }]
+  },
+  {
+    "code" : "cHSFALLS_2",
+    "display" : "Geactiveerd wegens een hoog risico op valincidenten.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von einem hohen Sturzrisiko."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé de chutes."
+    }]
+  }]
+}

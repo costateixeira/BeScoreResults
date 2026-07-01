@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-siadlch"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-siadlch</b></p><a name="cs-siadlch"> </a><a name="hccs-siadlch"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-siadlch</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sIADLCH_0<a name="cs-siadlch-sIADLCH_0"> </a></td><td>Geen problemen</td></tr><tr><td style="white-space:nowrap">sIADLCH_1<a name="cs-siadlch-sIADLCH_1"> </a></td><td>Een enkel probleem</td></tr><tr><td style="white-space:nowrap">sIADLCH_2<a name="cs-siadlch-sIADLCH_2"> </a></td><td>Twee of drie problemen</td></tr><tr><td style="white-space:nowrap">sIADLCH_3<a name="cs-siadlch-sIADLCH_3"> </a></td><td>Vier of meer problemen</td></tr><tr><td style="white-space:nowrap">sIADLCH_4<a name="cs-siadlch-sIADLCH_4"> </a></td><td>Soms afhankelijk</td></tr><tr><td style="white-space:nowrap">sIADLCH_5<a name="cs-siadlch-sIADLCH_5"> </a></td><td>Meestal afhankelijk</td></tr><tr><td style="white-space:nowrap">sIADLCH_6<a name="cs-siadlch-sIADLCH_6"> </a></td><td>Altijd afhankelijk</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sIADLCH_0</td><td>Keine Probleme</td><td>Pas de problème</td></tr><tr><td>sIADLCH_1</td><td>Ein einziges Problem</td><td>Un seul problème </td></tr><tr><td>sIADLCH_2</td><td>2 oder 3 Probleme</td><td>2 ou 3 problèmes</td></tr><tr><td>sIADLCH_3</td><td>4 oder mehr Probleme</td><td>4 ou plus de 4 problèmes</td></tr><tr><td>sIADLCH_4</td><td>Manchmal abhängig</td><td>Parfois dépendant</td></tr><tr><td>sIADLCH_5</td><td>Meistens abhängig</td><td>Souvent dépendant</td></tr><tr><td>sIADLCH_6</td><td>Immer abhängig</td><td>Toujours dépendant</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-siadlch"/>
+  <version value="0.1.0"/>
+  <name value="CS_sIADLCH"/>
+  <title value="IADL Capacity Hierarchy Scale (sIADLCH)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="IADL Capacity Hierarchy Scale (sIADLCH)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="sIADLCH_0"/>
+    <display value="Geen problemen"/>
+    <designation>
+      <language value="de"/>
+      <value value="Keine Probleme"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas de problème"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_1"/>
+    <display value="Een enkel probleem"/>
+    <designation>
+      <language value="de"/>
+      <value value="Ein einziges Problem"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Un seul problème "/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_2"/>
+    <display value="Twee of drie problemen"/>
+    <designation>
+      <language value="de"/>
+      <value value="2 oder 3 Probleme"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="2 ou 3 problèmes"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_3"/>
+    <display value="Vier of meer problemen"/>
+    <designation>
+      <language value="de"/>
+      <value value="4 oder mehr Probleme"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="4 ou plus de 4 problèmes"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_4"/>
+    <display value="Soms afhankelijk"/>
+    <designation>
+      <language value="de"/>
+      <value value="Manchmal abhängig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Parfois dépendant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_5"/>
+    <display value="Meestal afhankelijk"/>
+    <designation>
+      <language value="de"/>
+      <value value="Meistens abhängig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Souvent dépendant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sIADLCH_6"/>
+    <display value="Altijd afhankelijk"/>
+    <designation>
+      <language value="de"/>
+      <value value="Immer abhängig"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Toujours dépendant"/>
+    </designation>
+  </concept>
+</CodeSystem>

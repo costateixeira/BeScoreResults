@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhwtmgt",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhwtmgt</b></p><a name=\"cs-cmhwtmgt\"> </a><a name=\"hccs-cmhwtmgt\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHWTMGT_0<a name=\"cs-cmhwtmgt-cMHWTMGT_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHWTMGT_1<a name=\"cs-cmhwtmgt-cMHWTMGT_1\"> </a></td><td>Geactiveerd wegens een problematisch eetgedrag.</td></tr><tr><td style=\"white-space:nowrap\">cMHWTMGT_2<a name=\"cs-cmhwtmgt-cMHWTMGT_2\"> </a></td><td>Geactiveerd wegens een afwijkende lichaamsbouw.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHWTMGT_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHWTMGT_1</td><td>Aktiviert aufgrund von problematischem Essensverhalten.</td><td>Activé en raison d'un comportement alimentaire problématique.</td></tr><tr><td>cMHWTMGT_2</td><td>Aktiviert aufgrund einer anderen Morphologie.</td><td>Activé en raison d'une morphologie différente.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt",
+  "version" : "0.1.0",
+  "name" : "CS_cMHWTMGT",
+  "title" : "Gewichtsmanagement",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Gewichtsmanagement",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHWTMGT_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHWTMGT_1",
+    "display" : "Geactiveerd wegens een problematisch eetgedrag.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von problematischem Essensverhalten."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un comportement alimentaire problématique."
+    }]
+  },
+  {
+    "code" : "cMHWTMGT_2",
+    "display" : "Geactiveerd wegens een afwijkende lichaamsbouw.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund einer anderen Morphologie."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'une morphologie différente."
+    }]
+  }]
+}

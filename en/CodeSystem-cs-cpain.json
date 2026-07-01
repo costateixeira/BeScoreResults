@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cpain",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cpain</b></p><a name=\"cs-cpain\"> </a><a name=\"hccs-cpain\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cPAIN_0<a name=\"cs-cpain-cPAIN_0\"> </a></td><td>Niet geactiveerd: geen lichte of hevige pijn.</td></tr><tr><td style=\"white-space:nowrap\">cPAIN_1<a name=\"cs-cpain-cPAIN_1\"> </a></td><td>Geactiveerd als matige prioriteit wegens dagelijks lichte pijn.</td></tr><tr><td style=\"white-space:nowrap\">cPAIN_2<a name=\"cs-cpain-cPAIN_2\"> </a></td><td>Geactiveerd als hoge prioriteit wegens hevige, vreselijke of ondraaglijke pijn ongeacht de frequentie.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cPAIN_0</td><td>Nicht aktiviert: keine leichten oder starken Schmerzen.</td><td>Non activé : pas de douleur légère ou intense.</td></tr><tr><td>cPAIN_1</td><td>Aktiviert mit mittlerer Priorität aufgrund von leichten täglichen Schmerzen.</td><td>Activé comme priorité modérée en raison de douleurs quotidiennes légères.</td></tr><tr><td>cPAIN_2</td><td>Aktiviert mit hoher Priorität aufgrund von starken, heftigen oder nichtaushaltbaren Schmerzen unabhängig von der Frequenz.</td><td>Activé comme priorité élevée en raison de douleurs intenses, terribles ou insupportables indépendamment de la fréquence.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain",
+  "version" : "0.1.0",
+  "name" : "CS_cPAIN",
+  "title" : "Pijn",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Pijn",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cPAIN_0",
+    "display" : "Niet geactiveerd: geen lichte of hevige pijn.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine leichten oder starken Schmerzen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : pas de douleur légère ou intense."
+    }]
+  },
+  {
+    "code" : "cPAIN_1",
+    "display" : "Geactiveerd als matige prioriteit wegens dagelijks lichte pijn.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert mit mittlerer Priorität aufgrund von leichten täglichen Schmerzen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé comme priorité modérée en raison de douleurs quotidiennes légères."
+    }]
+  },
+  {
+    "code" : "cPAIN_2",
+    "display" : "Geactiveerd als hoge prioriteit wegens hevige, vreselijke of ondraaglijke pijn ongeacht de frequentie.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert mit hoher Priorität aufgrund von starken, heftigen oder nichtaushaltbaren Schmerzen unabhängig von der Frequenz."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé comme priorité élevée en raison de douleurs intenses, terribles ou insupportables indépendamment de la fréquence."
+    }]
+  }]
+}

@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-belrai-palliative-program-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-belrai-palliative-program-type</b></p><a name=\"cs-belrai-palliative-program-type\"> </a><a name=\"hccs-belrai-palliative-program-type\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-palliative-program-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pp-home-care<a name=\"cs-belrai-palliative-program-type-pp-home-care\"> </a></td><td>Palliatieve thuiszorg</td></tr><tr><td style=\"white-space:nowrap\">pp-day-center<a name=\"cs-belrai-palliative-program-type-pp-day-center\"> </a></td><td>Palliatief dagcentrum</td></tr><tr><td style=\"white-space:nowrap\">pp-short-stay<a name=\"cs-belrai-palliative-program-type-pp-short-stay\"> </a></td><td>Kortverblijf</td></tr><tr><td style=\"white-space:nowrap\">pp-bed-care-facility<a name=\"cs-belrai-palliative-program-type-pp-bed-care-facility\"> </a></td><td>Palliatief bed in WZC</td></tr><tr><td style=\"white-space:nowrap\">pp-palliative-unit<a name=\"cs-belrai-palliative-program-type-pp-palliative-unit\"> </a></td><td>Palliatieve eenheid (SP-dienst)</td></tr><tr><td style=\"white-space:nowrap\">pp-hospice<a name=\"cs-belrai-palliative-program-type-pp-hospice\"> </a></td><td>Hospice</td></tr><tr><td style=\"white-space:nowrap\">pp-none<a name=\"cs-belrai-palliative-program-type-pp-none\"> </a></td><td>Geen</td></tr><tr><td style=\"white-space:nowrap\">pp-other<a name=\"cs-belrai-palliative-program-type-pp-other\"> </a></td><td>Anders</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-palliative-program-type",
+  "version" : "0.1.0",
+  "name" : "CS_BelRaiPalliativeProgramType",
+  "title" : "BelRAI - Type palliatief programma",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Type palliatief zorgprogramma waar de persoon van geniet.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "pp-home-care",
+    "display" : "Palliatieve thuiszorg"
+  },
+  {
+    "code" : "pp-day-center",
+    "display" : "Palliatief dagcentrum"
+  },
+  {
+    "code" : "pp-short-stay",
+    "display" : "Kortverblijf"
+  },
+  {
+    "code" : "pp-bed-care-facility",
+    "display" : "Palliatief bed in WZC"
+  },
+  {
+    "code" : "pp-palliative-unit",
+    "display" : "Palliatieve eenheid (SP-dienst)"
+  },
+  {
+    "code" : "pp-hospice",
+    "display" : "Hospice"
+  },
+  {
+    "code" : "pp-none",
+    "display" : "Geen"
+  },
+  {
+    "code" : "pp-other",
+    "display" : "Anders"
+  }]
+}

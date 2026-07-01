@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-scomm"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-scomm</b></p><a name="cs-scomm"> </a><a name="hccs-scomm"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scomm</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sCOMM_0<a name="cs-scomm-sCOMM_0"> </a></td><td>Intact</td></tr><tr><td style="white-space:nowrap">sCOMM_1<a name="cs-scomm-sCOMM_1"> </a></td><td>Zo goed als intact</td></tr><tr><td style="white-space:nowrap">sCOMM_2<a name="cs-scomm-sCOMM_2"> </a></td><td>Licht verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_3<a name="cs-scomm-sCOMM_3"> </a></td><td>Licht tot matig verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_4<a name="cs-scomm-sCOMM_4"> </a></td><td>Matig verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_5<a name="cs-scomm-sCOMM_5"> </a></td><td>Matig tot ernstig verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_6<a name="cs-scomm-sCOMM_6"> </a></td><td>Ernstig verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_7<a name="cs-scomm-sCOMM_7"> </a></td><td>Ernstig tot zeer ernstig verstoord</td></tr><tr><td style="white-space:nowrap">sCOMM_8<a name="cs-scomm-sCOMM_8"> </a></td><td>Zeer ernstig verstoord</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sCOMM_0</td><td>Intakt</td><td>Intact</td></tr><tr><td>sCOMM_1</td><td>Fast intakt</td><td>Pratiquement intact</td></tr><tr><td>sCOMM_2</td><td>Leichter Rückgang</td><td>Déclin léger</td></tr><tr><td>sCOMM_3</td><td>Leichter bis moderater Rückgang</td><td>Déclin léger à modéré</td></tr><tr><td>sCOMM_4</td><td>Moderater Rückgang</td><td>Déclin modéré</td></tr><tr><td>sCOMM_5</td><td>Moderater bis ernster Rückgang</td><td>Déclin modéré à important</td></tr><tr><td>sCOMM_6</td><td>Ernster Rückgang</td><td>Déclin important</td></tr><tr><td>sCOMM_7</td><td>Ernst bis sehr ernster Rückgang</td><td>Déclin important à très important</td></tr><tr><td>sCOMM_8</td><td>Sehr ernster Rückgang</td><td>Déclin très important</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scomm"/>
+  <version value="0.1.0"/>
+  <name value="CS_sCOMM"/>
+  <title value="Communication Scale (sCOMM)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Communication Scale (sCOMM)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="sCOMM_0"/>
+    <display value="Intact"/>
+    <designation>
+      <language value="de"/>
+      <value value="Intakt"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Intact"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_1"/>
+    <display value="Zo goed als intact"/>
+    <designation>
+      <language value="de"/>
+      <value value="Fast intakt"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pratiquement intact"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_2"/>
+    <display value="Licht verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Leichter Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin léger"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_3"/>
+    <display value="Licht tot matig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Leichter bis moderater Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin léger à modéré"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_4"/>
+    <display value="Matig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderater Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin modéré"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_5"/>
+    <display value="Matig tot ernstig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderater bis ernster Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin modéré à important"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_6"/>
+    <display value="Ernstig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Ernster Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin important"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_7"/>
+    <display value="Ernstig tot zeer ernstig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Ernst bis sehr ernster Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin important à très important"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sCOMM_8"/>
+    <display value="Zeer ernstig verstoord"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr ernster Rückgang"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Déclin très important"/>
+    </designation>
+  </concept>
+</CodeSystem>

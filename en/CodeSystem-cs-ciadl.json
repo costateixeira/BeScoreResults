@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-ciadl",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-ciadl</b></p><a name=\"cs-ciadl\"> </a><a name=\"hccs-ciadl\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cIADL_0<a name=\"cs-ciadl-cIADL_0\"> </a></td><td>Niet geactiveerd: geen mogelijkheid tot verbetering.</td></tr><tr><td style=\"white-space:nowrap\">cIADL_1<a name=\"cs-ciadl-cIADL_1\"> </a></td><td>Geactiveerd op de mogelijkheid tot verbetering.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cIADL_0</td><td>Nicht aktiviert: keine Möglichkeit der Verbesserung.</td><td>Pas activé : pas de possibilité d'amélioration.</td></tr><tr><td>cIADL_1</td><td>Aktiviert: Möglichkeit der Verbesserung.</td><td>Activé : possibilité d’amélioration.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl",
+  "version" : "0.1.0",
+  "name" : "CS_cIADL",
+  "title" : "Instrumentele activiteiten van het dagelijks leven (IADL)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Instrumentele activiteiten van het dagelijks leven (IADL)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cIADL_0",
+    "display" : "Niet geactiveerd: geen mogelijkheid tot verbetering.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: keine Möglichkeit der Verbesserung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé : pas de possibilité d'amélioration."
+    }]
+  },
+  {
+    "code" : "cIADL_1",
+    "display" : "Geactiveerd op de mogelijkheid tot verbetering.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert: Möglichkeit der Verbesserung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé : possibilité d’amélioration."
+    }]
+  }]
+}

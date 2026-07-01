@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-chsinstitution"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-chsinstitution</b></p><a name="cs-chsinstitution"> </a><a name="hccs-chsinstitution"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cHSINSTITUTION_0<a name="cs-chsinstitution-cHSINSTITUTION_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cHSINSTITUTION_1<a name="cs-chsinstitution-cHSINSTITUTION_1"> </a></td><td>Matig risico</td></tr><tr><td style="white-space:nowrap">cHSINSTITUTION_2<a name="cs-chsinstitution-cHSINSTITUTION_2"> </a></td><td>Hoog risico</td></tr><tr><td style="white-space:nowrap">cHSINSTITUTION_8<a name="cs-chsinstitution-cHSINSTITUTION_8"> </a></td><td>In voorziening vóór de opname</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cHSINSTITUTION_0</td><td>Nicht aktiviert</td><td>Non activé</td></tr><tr><td>cHSINSTITUTION_1</td><td>Moderates Risiko</td><td>Risque modéré</td></tr><tr><td>cHSINSTITUTION_2</td><td>Hohes Risiko</td><td>Risque élevé</td></tr><tr><td>cHSINSTITUTION_8</td><td>In der Einrichtung vor der Aufnahme</td><td>Dans l'institution avant l'admission</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution"/>
+  <version value="0.1.0"/>
+  <name value="CS_cHSINSTITUTION"/>
+  <title value="Kans op opname in een voorziening - Ziekenhuis"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Kans op opname in een voorziening - Ziekenhuis"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="cHSINSTITUTION_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Non activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cHSINSTITUTION_1"/>
+    <display value="Matig risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderates Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque modéré"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cHSINSTITUTION_2"/>
+    <display value="Hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Hohes Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque élevé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cHSINSTITUTION_8"/>
+    <display value="In voorziening vóór de opname"/>
+    <designation>
+      <language value="de"/>
+      <value value="In der Einrichtung vor der Aufnahme"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Dans l'institution avant l'admission"/>
+    </designation>
+  </concept>
+</CodeSystem>

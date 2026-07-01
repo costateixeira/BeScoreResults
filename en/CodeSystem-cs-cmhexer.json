@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhexer",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhexer</b></p><a name=\"cs-cmhexer\"> </a><a name=\"hccs-cmhexer\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhexer</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHEXER_0<a name=\"cs-cmhexer-cMHEXER_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHEXER_1<a name=\"cs-cmhexer-cMHEXER_1\"> </a></td><td>Geactiveerd om de fysieke activiteit te verhogen, maar met nood aan extra aandacht wegens een medische aandoening.</td></tr><tr><td style=\"white-space:nowrap\">cMHEXER_2<a name=\"cs-cmhexer-cMHEXER_2\"> </a></td><td>Geactiveerd om de fysieke activiteit te verhogen bij personen die tot fysieke activiteit in staat zijn.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHEXER_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHEXER_1</td><td>Aktiviert um die physische Aktivität zu steigern, aufgrund einer Erkrankung jedoch eine zusätzliche Beobachtung benötigt.</td><td>Activé pour augmenter l'activité physique, mais nécessitant une attention particulière en raison d'une maladie.</td></tr><tr><td>cMHEXER_2</td><td> Aktiviert um die physische Aktivität zu steigern bei Personen die dazu in der Lage sind;</td><td>Activé pour augmenter l'activité physique chez les personnes capables d'activité physique.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhexer",
+  "version" : "0.1.0",
+  "name" : "CS_cMHEXER",
+  "title" : "Beweging",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Beweging",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHEXER_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHEXER_1",
+    "display" : "Geactiveerd om de fysieke activiteit te verhogen, maar met nood aan extra aandacht wegens een medische aandoening.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um die physische Aktivität zu steigern, aufgrund einer Erkrankung jedoch eine zusätzliche Beobachtung benötigt."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour augmenter l'activité physique, mais nécessitant une attention particulière en raison d'une maladie."
+    }]
+  },
+  {
+    "code" : "cMHEXER_2",
+    "display" : "Geactiveerd om de fysieke activiteit te verhogen bij personen die tot fysieke activiteit in staat zijn.",
+    "designation" : [{
+      "language" : "de",
+      "value" : " Aktiviert um die physische Aktivität zu steigern bei Personen die dazu in der Lage sind;"
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour augmenter l'activité physique chez les personnes capables d'activité physique."
+    }]
+  }]
+}

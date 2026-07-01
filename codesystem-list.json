@@ -1,0 +1,858 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdelirium",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_aHSDELIRIUM",
+    "title" : "Delirium Screener (aHSDELIRIUM)",
+    "description" : "Delirium Screener (aHSDELIRIUM)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdementia",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_aHSDEMENTIA",
+    "title" : "Dementia Screener (aHSDEMENTIA)",
+    "description" : "Dementia Screener (aHSDEMENTIA)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsdepression",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_aHSDEPRESSION",
+    "title" : "Depression Screener (aHSDEPRESSION)",
+    "description" : "Depression Screener (aHSDEPRESSION)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ahsnutrition",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_aHSNUTRITION",
+    "title" : "Nutrition Screener (aHSNUTRITION)",
+    "description" : "Nutrition Screener (aHSNUTRITION)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-amaple",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_aMAPLE",
+    "title" : "Method for Assigning Priority Levels (aMAPLe)",
+    "description" : "Method for Assigning Priority Levels (aMAPLe)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-assessment-reason",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiAssessmentReason",
+    "title" : "BelRAI - Reden voor beoordeling",
+    "description" : "Reden waarom de BelRAI beoordeling wordt uitgevoerd."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-aware-6-months",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiAware6Months",
+    "title" : "BelRAI - Bewustzijn over zes maand of minder",
+    "description" : "De persoon zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-life-expectancy",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiLifeExpectancy",
+    "title" : "BelRAI - Geschatte levensverwachting",
+    "description" : "Geschatte resterende levensverwachting vanaf de beoordelingsreferentiedatum."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-marital-status",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiMaritalStatus",
+    "title" : "BelRAI - Relatiestatus",
+    "description" : "Relatiestatus van de persoon."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-palliative-program-type",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiPalliativeProgramType",
+    "title" : "BelRAI - Type palliatief programma",
+    "description" : "Type palliatief zorgprogramma waar de persoon van geniet."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-residence",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "CS_BelRaiResidence",
+    "title" : "BelRAI - Verblijfplaats op het tijdstip van beoordeling",
+    "description" : "Verblijfplaats van de persoon op het moment van de beoordeling. Opties nog aan te leveren."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-time-since-hospital-stay",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_BelRaiTimeSinceHospitalStay",
+    "title" : "BelRAI - Tijd sinds laatste ziekenhuisverblijf",
+    "description" : "Tijd verstreken sinds het meest recente ziekenhuisverblijf in de laatste 90 dagen."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cabuse",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cABUSE",
+    "title" : "Mishandeling/Verwaarlozing",
+    "description" : "Mishandeling/Verwaarlozing"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cactiv",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cACTIV",
+    "title" : "Activiteiten",
+    "description" : "Activiteiten"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadd",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cADD",
+    "title" : "Tabak- en alcoholgebruik",
+    "description" : "Tabak- en alcoholgebruik"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cADL",
+    "title" : "Activiteiten van het dagelijks leven (ADL)",
+    "description" : "Activiteiten van het dagelijks leven (ADL)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbehav",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cBEHAV",
+    "title" : "Gedrag",
+    "description" : "Gedrag"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbowel",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cBOWEL",
+    "title" : "Darmproblemen",
+    "description" : "Darmproblemen"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cbritsu",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cBRITSU",
+    "title" : "Mantelzorg",
+    "description" : "Mantelzorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccardio",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cCARDIO",
+    "title" : "Hart en ademhaling",
+    "description" : "Hart en ademhaling"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccognit",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cCOGNIT",
+    "title" : "Cognitieverlies",
+    "description" : "Cognitieverlies"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ccommun",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cCOMMUN",
+    "title" : "Communicatie",
+    "description" : "Communicatie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdehyd",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cDEHYD",
+    "title" : "Dehydratatie",
+    "description" : "Dehydratatie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdelir",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cDELIR",
+    "title" : "Delirium",
+    "description" : "Delirium"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdentistrefer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cDENTISTREFER",
+    "title" : "Doorverwijzing naar de tandarts",
+    "description" : "Doorverwijzing naar de tandarts"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdrug",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cDRUG",
+    "title" : "Juist en verantwoord medicatiegebruik",
+    "description" : "Juist en verantwoord medicatiegebruik"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cenvir",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cENVIR",
+    "title" : "Thuisomgeving",
+    "description" : "Thuisomgeving"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfalls",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cFALLS",
+    "title" : "Valincidenten",
+    "description" : "Valincidenten"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfeedtb",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cFEEDTB",
+    "title" : "Sondevoeding",
+    "description" : "Sondevoeding"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsbehav",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSBEHAV",
+    "title" : "Gedrag - Ziekenhuis",
+    "description" : "Gedrag - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chscognit",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSCOGNIT",
+    "title" : "Cognitieverlies - Ziekenhuis",
+    "description" : "Cognitieverlies - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chscommun",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSCOMMUN",
+    "title" : "Communicatie - Ziekenhuis",
+    "description" : "Communicatie - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsdepress",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSDEPRESS",
+    "title" : "Depressie - Ziekenhuis",
+    "description" : "Depressie - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsfalls",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSFALLS",
+    "title" : "Valincidenten - Ziekenhuis",
+    "description" : "Valincidenten - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsinstitution",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSINSTITUTION",
+    "title" : "Kans op opname in een voorziening - Ziekenhuis",
+    "description" : "Kans op opname in een voorziening - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chspain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSPAIN",
+    "title" : "Pijn - Ziekenhuis",
+    "description" : "Pijn - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsreadmission",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSREADMISSION",
+    "title" : "Kans op heropname",
+    "description" : "Kans op heropname"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-chsundernutrition",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cHSUNDERNUTRITION",
+    "title" : "Ondervoeding - Ziekenhuis",
+    "description" : "Ondervoeding - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ciadl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cIADL",
+    "title" : "Instrumentele activiteiten van het dagelijks leven (IADL)",
+    "description" : "Instrumentele activiteiten van het dagelijks leven (IADL)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhcrim",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHCRIM",
+    "title" : "Criminele activiteiten",
+    "description" : "Criminele activiteiten"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhctrlint",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHCTRLINT",
+    "title" : "Vrijheidsbeperkende maatregelen",
+    "description" : "Vrijheidsbeperkende maatregelen"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhedemp",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHEDEMP",
+    "title" : "Opleiding en werk",
+    "description" : "Opleiding en werk"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhexer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHEXER",
+    "title" : "Beweging",
+    "description" : "Beweging"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhfinan",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHFINAN",
+    "title" : "Persoonlijke financiën",
+    "description" : "Persoonlijke financiën"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhharmoth",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHHARMOTH",
+    "title" : "Schade aan anderen",
+    "description" : "Schade aan anderen"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhinfsupp",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHINFSUPP",
+    "title" : "Mantelzorg - Mentale gezondheid",
+    "description" : "Mantelzorg - Mentale gezondheid"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhipcon",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHIPCON",
+    "title" : "Intermenselijke conflicten",
+    "description" : "Intermenselijke conflicten"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHMEDMGT",
+    "title" : "Geneesmiddelenbeheer en therapietrouw",
+    "description" : "Geneesmiddelenbeheer en therapietrouw"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhpain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHPAIN",
+    "title" : "Pijn - Mentale gezondheid",
+    "description" : "Pijn - Mentale gezondheid"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhrehosp",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHREHOSP",
+    "title" : "Heropname",
+    "description" : "Heropname"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhselfcr",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSELFCR",
+    "title" : "Zelfzorg",
+    "description" : "Zelfzorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhselfha",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSELFHA",
+    "title" : "Zelfmoordgedrag en opzettelijke zelfverwonding",
+    "description" : "Zelfmoordgedrag en opzettelijke zelfverwonding"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsleep",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSLEEP",
+    "title" : "Slaapstoornissen - Mentale gezondheid",
+    "description" : "Slaapstoornissen - Mentale gezondheid"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsmoke",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSMOKE",
+    "title" : "Roken",
+    "description" : "Roken"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsocrel",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSOCREL",
+    "title" : "Sociale relaties - Mentale gezondheid",
+    "description" : "Sociale relaties - Mentale gezondheid"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhssdis",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSSDIS",
+    "title" : "Ondersteuningskader bij ontslag",
+    "description" : "Ondersteuningskader bij ontslag"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsubuse",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHSUBUSE",
+    "title" : "Middelengebruik",
+    "description" : "Middelengebruik"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhtrauma",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHTRAUMA",
+    "title" : "Traumatische levensgebeurtenissen",
+    "description" : "Traumatische levensgebeurtenissen"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhwtmgt",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMHWTMGT",
+    "title" : "Gewichtsmanagement",
+    "description" : "Gewichtsmanagement"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmood",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cMOOD",
+    "title" : "Stemming",
+    "description" : "Stemming"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cnutr",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cNUTR",
+    "title" : "Ondervoeding",
+    "description" : "Ondervoeding"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-common-translations-other",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_CommonTranslationsOther",
+    "title" : "Common translations - other concepts",
+    "description" : "Concepts from the common translations dictionary that do not belong to a numbered `<prefix>_<n>` group."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-coralhyg",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cORALHYG",
+    "title" : "Mondhygiëne",
+    "description" : "Mondhygiëne"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpactiv",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPACTIV",
+    "title" : "Bevordering van de lichaamsbeweging",
+    "description" : "Bevordering van de lichaamsbeweging"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPAIN",
+    "title" : "Pijn",
+    "description" : "Pijn"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcdys",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCDYS",
+    "title" : "Dyspneu",
+    "description" : "Dyspneu"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcfatig",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCFATIG",
+    "title" : "Vermoeidheid",
+    "description" : "Vermoeidheid"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcmood",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCMOOD",
+    "title" : "Stemming-Palliative Care",
+    "description" : "Stemming-Palliative Care"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcnutr",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCNUTR",
+    "title" : "Voeding - Palliatieve zorg",
+    "description" : "Voeding - Palliatieve zorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCPAIN",
+    "title" : "Pijn - Palliatieve zorg",
+    "description" : "Pijn - Palliatieve zorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcpuimp",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cpcPUIMP",
+    "title" : "Decubitus - Palliatieve zorg",
+    "description" : "Decubitus - Palliatieve zorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpcsleep",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPCSLEEP",
+    "title" : "Slaapstoornis - Palliatieve zorg",
+    "description" : "Slaapstoornis - Palliatieve zorg"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphsadl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cpHSADL",
+    "title" : "Activiteiten van het dagelijks leven (ADL)- Preventie",
+    "description" : "Activiteiten van het dagelijks leven (ADL)- Preventie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphsdelirium",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cpHSDELIRIUM",
+    "title" : "Delirium - Preventie",
+    "description" : "Delirium - Preventie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphspulcer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cpHSPULCER",
+    "title" : "Decubitus - Ziekenhuis",
+    "description" : "Decubitus - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cpulcer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cPULCER",
+    "title" : "Decubitus",
+    "description" : "Decubitus"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crestr",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cRESTR",
+    "title" : "Fysieke fixatie",
+    "description" : "Fysieke fixatie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-crisk",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cRISK",
+    "title" : "Kans op opname in een voorziening",
+    "description" : "Kans op opname in een voorziening"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-csocfunc",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cSOCFUNC",
+    "title" : "Sociale omgang",
+    "description" : "Sociale omgang"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthsadl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_ctHSADL",
+    "title" : "Activiteiten van het dagelijks leven (ADL)- Behandeling",
+    "description" : "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthsdelirium",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_ctHSDELIRIUM",
+    "title" : "Delirium - Behandeling",
+    "description" : "Delirium - Behandeling"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cthspulcer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_ctHSPULCER",
+    "title" : "Decubitus - Behandeling - Ziekenhuis",
+    "description" : "Decubitus - Behandeling - Ziekenhuis"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-curin",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_cURIN",
+    "title" : "Urine-incontinentie",
+    "description" : "Urine-incontinentie"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-observation-code",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_ObservationCode",
+    "title" : "BelRAI - Observation codes",
+    "description" : "Codes identifying each BelRAI scoring scale/screener, used as Observation.code."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsadl",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_rHSADL",
+    "title" : "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)",
+    "description" : "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsdelirium",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_rHSDELIRIUM",
+    "title" : "Risk of Delirium in Hospital (rHSDELIRIUM)",
+    "description" : "Risk of Delirium in Hospital (rHSDELIRIUM)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsfalls",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_rHSFALLS",
+    "title" : "Falls Risk in Hospital (rHSFALLS)",
+    "description" : "Falls Risk in Hospital (rHSFALLS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhspulcer",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_rHSPULCER",
+    "title" : "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)",
+    "description" : "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-rhsreadmission",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_rHSREADMISSION",
+    "title" : "Risk of Readmission in Hospital (rHSREADMISSION)",
+    "description" : "Risk of Readmission in Hospital (rHSREADMISSION)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sabs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sABS",
+    "title" : "Aggressive Behaviour Scale (sABS)",
+    "description" : "Aggressive Behaviour Scale (sABS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sadlh",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sADLH",
+    "title" : "ADL Hierarchy Scale (sADLH)",
+    "description" : "ADL Hierarchy Scale (sADLH)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sbmi",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sBMI",
+    "title" : "Body Mass Index (sBMI)",
+    "description" : "Body Mass Index (sBMI)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sCAGE",
+    "title" : "Addictions and Substance Use Scale (sCAGE)",
+    "description" : "Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-schess",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sCHESS",
+    "title" : "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)",
+    "description" : "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scomm",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sCOMM",
+    "title" : "Communication Scale (sCOMM)",
+    "description" : "Communication Scale (sCOMM)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sCPS",
+    "title" : "Cognitive Performance Scale (sCPS)",
+    "description" : "Cognitive Performance Scale (sCPS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scps2",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sCPS2",
+    "title" : "Cognitive Performance Scale 2 (sCPS2)",
+    "description" : "Cognitive Performance Scale 2 (sCPS2)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdbsi",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sDbSI",
+    "title" : "Deafblind Severity Index (sDbSI)",
+    "description" : "Deafblind Severity Index (sDbSI)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sdrs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sDRS",
+    "title" : "Depression Rating Scale (sDRS)",
+    "description" : "Depression Rating Scale (sDRS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sfrailty",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sFRAILTY",
+    "title" : "Frailty Scale (sFrailty)",
+    "description" : "Frailty Scale (sFrailty)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shsadlh",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sHSADLH",
+    "title" : "ADL Hierarchy Scale – Hospital (sHSADLH)",
+    "description" : "ADL Hierarchy Scale – Hospital (sHSADLH)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sHSPAIN",
+    "title" : "Pain Scale - Hospital (sHSPAIN)",
+    "description" : "Pain Scale - Hospital (sHSPAIN)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspurs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sHSPURS",
+    "title" : "Pressure Ulcer Risk Scale - Hospital (sHSPURS)",
+    "description" : "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-siadlch",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sIADLCH",
+    "title" : "IADL Capacity Hierarchy Scale (sIADLCH)",
+    "description" : "IADL Capacity Hierarchy Scale (sIADLCH)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spain",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sPAIN",
+    "title" : "Pain Scale (sPAIN)",
+    "description" : "Pain Scale (sPAIN)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sPURS",
+    "title" : "Pressure Ulcer Risk Scale (sPURS)",
+    "description" : "Pressure Ulcer Risk Scale (sPURS)"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-ssrmood",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CS_sSRMOOD",
+    "title" : "Self-reported Mood Scale",
+    "description" : "Self-reported Mood Scale"
+  }]
+}

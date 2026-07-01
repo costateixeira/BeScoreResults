@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-amaple"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-amaple</b></p><a name="cs-amaple"> </a><a name="hccs-amaple"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-amaple</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">aMAPLE_1<a name="cs-amaple-aMAPLE_1"> </a></td><td>Lage prioriteit</td></tr><tr><td style="white-space:nowrap">aMAPLE_2<a name="cs-amaple-aMAPLE_2"> </a></td><td>Milde prioriteit</td></tr><tr><td style="white-space:nowrap">aMAPLE_3<a name="cs-amaple-aMAPLE_3"> </a></td><td>Matige prioriteit</td></tr><tr><td style="white-space:nowrap">aMAPLE_4<a name="cs-amaple-aMAPLE_4"> </a></td><td>Hoge prioriteit</td></tr><tr><td style="white-space:nowrap">aMAPLE_5<a name="cs-amaple-aMAPLE_5"> </a></td><td>Zeer hoge prioriteit</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>aMAPLE_1</td><td>Geringe Priorität</td><td>Priorité basse</td></tr><tr><td>aMAPLE_2</td><td>Leichte Priorität</td><td>Priorité faible</td></tr><tr><td>aMAPLE_3</td><td>Moderate Priorität</td><td>Priorité modérée</td></tr><tr><td>aMAPLE_4</td><td>Hohe Priorität</td><td>Haute priorité</td></tr><tr><td>aMAPLE_5</td><td>Sehr hohe Priorität</td><td>Très haute priorité</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-amaple"/>
+  <version value="0.1.0"/>
+  <name value="CS_aMAPLE"/>
+  <title value="Method for Assigning Priority Levels (aMAPLe)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Method for Assigning Priority Levels (aMAPLe)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="aMAPLE_1"/>
+    <display value="Lage prioriteit"/>
+    <designation>
+      <language value="de"/>
+      <value value="Geringe Priorität"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Priorité basse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="aMAPLE_2"/>
+    <display value="Milde prioriteit"/>
+    <designation>
+      <language value="de"/>
+      <value value="Leichte Priorität"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Priorité faible"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="aMAPLE_3"/>
+    <display value="Matige prioriteit"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderate Priorität"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Priorité modérée"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="aMAPLE_4"/>
+    <display value="Hoge prioriteit"/>
+    <designation>
+      <language value="de"/>
+      <value value="Hohe Priorität"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Haute priorité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="aMAPLE_5"/>
+    <display value="Zeer hoge prioriteit"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr hohe Priorität"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Très haute priorité"/>
+    </designation>
+  </concept>
+</CodeSystem>

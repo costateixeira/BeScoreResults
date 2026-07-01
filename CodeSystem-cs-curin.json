@@ -1,0 +1,75 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-curin",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-curin</b></p><a name=\"cs-curin\"> </a><a name=\"hccs-curin\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-curin</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cURIN_0<a name=\"cs-curin-cURIN_0\"> </a></td><td>Niet geactiveerd : zwakke besluitvorming en/of beperkte cognitieve vaardigheden bij het begin van het onderzoek.</td></tr><tr><td style=\"white-space:nowrap\">cURIN_1<a name=\"cs-curin-cURIN_1\"> </a></td><td>Niet geactiveerd: continent bij het begin van het onderzoek.</td></tr><tr><td style=\"white-space:nowrap\">cURIN_2<a name=\"cs-curin-cURIN_2\"> </a></td><td>Geactiveerd om achteruitgang te voorkomen: hogere mate van achteruitgang verwacht.</td></tr><tr><td style=\"white-space:nowrap\">cURIN_3<a name=\"cs-curin-cURIN_3\"> </a></td><td>Geactiveerd om de blaasfunctie te bevorderen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cURIN_0</td><td>Nicht aktiviert: schwache Entscheidungsfindung und oder Einschränkungen der kognitiven Fähigkeiten bei dem Beginn einer Recherche.</td><td>Non activé : processus décisionnel faible et/ou restrictions des aptitudes cognitives lors du début de la recherche.</td></tr><tr><td>cURIN_1</td><td>Nicht aktiviert: kontinent bei dem Beginn einer Recherche.</td><td>Non activé : continent au début de la recherche.</td></tr><tr><td>cURIN_2</td><td>Aktiviert um einen Rückfall vorzubeugen: starker Rückfall erwartet.</td><td>Activé pour prévenir le declin : plus haut degré de declin attendu.</td></tr><tr><td>cURIN_3</td><td>Aktiviert zur Verbesserung der Blasenfunktionen.</td><td>Activé pour améliorer la fonction urinaire.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-curin",
+  "version" : "0.1.0",
+  "name" : "CS_cURIN",
+  "title" : "Urine-incontinentie",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Urine-incontinentie",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "cURIN_0",
+    "display" : "Niet geactiveerd : zwakke besluitvorming en/of beperkte cognitieve vaardigheden bij het begin van het onderzoek.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: schwache Entscheidungsfindung und oder Einschränkungen der kognitiven Fähigkeiten bei dem Beginn einer Recherche."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : processus décisionnel faible et/ou restrictions des aptitudes cognitives lors du début de la recherche."
+    }]
+  },
+  {
+    "code" : "cURIN_1",
+    "display" : "Niet geactiveerd: continent bij het begin van het onderzoek.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert: kontinent bei dem Beginn einer Recherche."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé : continent au début de la recherche."
+    }]
+  },
+  {
+    "code" : "cURIN_2",
+    "display" : "Geactiveerd om achteruitgang te voorkomen: hogere mate van achteruitgang verwacht.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um einen Rückfall vorzubeugen: starker Rückfall erwartet."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour prévenir le declin : plus haut degré de declin attendu."
+    }]
+  },
+  {
+    "code" : "cURIN_3",
+    "display" : "Geactiveerd om de blaasfunctie te bevorderen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert zur Verbesserung der Blasenfunktionen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour améliorer la fonction urinaire."
+    }]
+  }]
+}

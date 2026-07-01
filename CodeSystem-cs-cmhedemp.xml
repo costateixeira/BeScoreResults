@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhedemp"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhedemp</b></p><a name="cs-cmhedemp"> </a><a name="hccs-cmhedemp"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhedemp</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHEDEMP_0<a name="cs-cmhedemp-cMHEDEMP_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHEDEMP_1<a name="cs-cmhedemp-cMHEDEMP_1"> </a></td><td>Geactiveerd op hulp om een job te vinden of aan een opleidingsprogramma deel te nemen.</td></tr><tr><td style="white-space:nowrap">cMHEDEMP_2<a name="cs-cmhedemp-cMHEDEMP_2"> </a></td><td>Geactiveerd om het risico op werkloosheid of schoolmoeheid te verminderen.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHEDEMP_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHEDEMP_1</td><td>Aktiviert: Braucht Unterstützung um eine Arbeitsstelle zu finden oder einem Weiterbildungsprogramm zu folgen.</td><td>Activé : aide pour trouver un job ou participer à un programme de formation.</td></tr><tr><td>cMHEDEMP_2</td><td>Aktiviert um das Risiko einer Arbeitslosigkeit oder Schuldermüdung zu verringern.</td><td>Activé pour diminuer le risque de chômage ou lassitude scolaire.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhedemp"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHEDEMP"/>
+  <title value="Opleiding en werk"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Opleiding en werk"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHEDEMP_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHEDEMP_1"/>
+    <display value="Geactiveerd op hulp om een job te vinden of aan een opleidingsprogramma deel te nemen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: Braucht Unterstützung um eine Arbeitsstelle zu finden oder einem Weiterbildungsprogramm zu folgen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé : aide pour trouver un job ou participer à un programme de formation."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHEDEMP_2"/>
+    <display value="Geactiveerd om het risico op werkloosheid of schoolmoeheid te verminderen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um das Risiko einer Arbeitslosigkeit oder Schuldermüdung zu verringern."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour diminuer le risque de chômage ou lassitude scolaire."/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-belrai-time-since-hospital-stay"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-belrai-time-since-hospital-stay</b></p><a name="cs-belrai-time-since-hospital-stay"> </a><a name="hccs-belrai-time-since-hospital-stay"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-time-since-hospital-stay</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">hs-none-90d<a name="cs-belrai-time-since-hospital-stay-hs-none-90d"> </a></td><td>Geen ziekenhuisopname in de laatste 90 dagen</td></tr><tr><td style="white-space:nowrap">hs-31-90d<a name="cs-belrai-time-since-hospital-stay-hs-31-90d"> </a></td><td>31-90 dagen geleden</td></tr><tr><td style="white-space:nowrap">hs-15-30d<a name="cs-belrai-time-since-hospital-stay-hs-15-30d"> </a></td><td>15-30 dagen geleden</td></tr><tr><td style="white-space:nowrap">hs-8-14d<a name="cs-belrai-time-since-hospital-stay-hs-8-14d"> </a></td><td>8-14 dagen geleden</td></tr><tr><td style="white-space:nowrap">hs-last-7d<a name="cs-belrai-time-since-hospital-stay-hs-last-7d"> </a></td><td>In de laatste 7 dagen</td></tr><tr><td style="white-space:nowrap">hs-currently<a name="cs-belrai-time-since-hospital-stay-hs-currently"> </a></td><td>Nu in het ziekenhuis</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-belrai-time-since-hospital-stay"/>
+  <version value="0.1.0"/>
+  <name value="CS_BelRaiTimeSinceHospitalStay"/>
+  <title value="BelRAI - Tijd sinds laatste ziekenhuisverblijf"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Tijd verstreken sinds het meest recente ziekenhuisverblijf in de laatste 90 dagen."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="hs-none-90d"/>
+    <display value="Geen ziekenhuisopname in de laatste 90 dagen"/>
+  </concept>
+  <concept>
+    <code value="hs-31-90d"/>
+    <display value="31-90 dagen geleden"/>
+  </concept>
+  <concept>
+    <code value="hs-15-30d"/>
+    <display value="15-30 dagen geleden"/>
+  </concept>
+  <concept>
+    <code value="hs-8-14d"/>
+    <display value="8-14 dagen geleden"/>
+  </concept>
+  <concept>
+    <code value="hs-last-7d"/>
+    <display value="In de laatste 7 dagen"/>
+  </concept>
+  <concept>
+    <code value="hs-currently"/>
+    <display value="Nu in het ziekenhuis"/>
+  </concept>
+</CodeSystem>

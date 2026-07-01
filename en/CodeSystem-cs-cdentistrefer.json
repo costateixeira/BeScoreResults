@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cdentistrefer",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cdentistrefer</b></p><a name=\"cs-cdentistrefer\"> </a><a name=\"hccs-cdentistrefer\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdentistrefer</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cDENTISTREFER_0<a name=\"cs-cdentistrefer-cDENTISTREFER_0\"> </a></td><td>Niet geactiveerd, doorverwijzing naar een tandarts is momenteel geen prioriteit.\n</td></tr><tr><td style=\"white-space:nowrap\">cDENTISTREFER_1<a name=\"cs-cdentistrefer-cDENTISTREFER_1\"> </a></td><td>Geactiveerd, doorverwijzing naar een tandarts is aangewezen.\n</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cDENTISTREFER_0</td><td>Nicht aktiviert,der Besuch eines Zahnarztes hat deerzeit keine Priorität\n</td><td>Non activé, la consultation d'un dentiste n'est pas une priorité actuellement.\n</td></tr><tr><td>cDENTISTREFER_1</td><td>Aktiviert, Zahnarztbesuch wird empfohlen\n</td><td>Activé, la consultation d'un dentiste est conseillée\n</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cdentistrefer",
+  "version" : "0.1.0",
+  "name" : "CS_cDENTISTREFER",
+  "title" : "Doorverwijzing naar de tandarts",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Doorverwijzing naar de tandarts",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "cDENTISTREFER_0",
+    "display" : "Niet geactiveerd, doorverwijzing naar een tandarts is momenteel geen prioriteit.\n",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert,der Besuch eines Zahnarztes hat deerzeit keine Priorität\n"
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé, la consultation d'un dentiste n'est pas une priorité actuellement.\n"
+    }]
+  },
+  {
+    "code" : "cDENTISTREFER_1",
+    "display" : "Geactiveerd, doorverwijzing naar een tandarts is aangewezen.\n",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert, Zahnarztbesuch wird empfohlen\n"
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé, la consultation d'un dentiste est conseillée\n"
+    }]
+  }]
+}

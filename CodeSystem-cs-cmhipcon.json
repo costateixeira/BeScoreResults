@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhipcon",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhipcon</b></p><a name=\"cs-cmhipcon\"> </a><a name=\"hccs-cmhipcon\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhipcon</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHIPCON_0<a name=\"cs-cmhipcon-cMHIPCON_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHIPCON_1<a name=\"cs-cmhipcon-cMHIPCON_1\"> </a></td><td>Geactiveerd om conflicten binnen specifieke relaties te beperken.</td></tr><tr><td style=\"white-space:nowrap\">cMHIPCON_2<a name=\"cs-cmhipcon-cMHIPCON_2\"> </a></td><td>Geactiveerd om wijdverspreide conflicten te beperken.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHIPCON_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHIPCON_1</td><td>Aktiviert um Konflikte in spezifischen Beziehungen zu begrenzen.</td><td>Activé pour limiter les conflits dans des relations spécifiques.</td></tr><tr><td>cMHIPCON_2</td><td>Aktiviert um Konflikte generell zu begrenzen.</td><td>Activé pour limiter les conflits généralisés.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhipcon",
+  "version" : "0.1.0",
+  "name" : "CS_cMHIPCON",
+  "title" : "Intermenselijke conflicten",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Intermenselijke conflicten",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHIPCON_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHIPCON_1",
+    "display" : "Geactiveerd om conflicten binnen specifieke relaties te beperken.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um Konflikte in spezifischen Beziehungen zu begrenzen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour limiter les conflits dans des relations spécifiques."
+    }]
+  },
+  {
+    "code" : "cMHIPCON_2",
+    "display" : "Geactiveerd om wijdverspreide conflicten te beperken.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert um Konflikte generell zu begrenzen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé pour limiter les conflits généralisés."
+    }]
+  }]
+}

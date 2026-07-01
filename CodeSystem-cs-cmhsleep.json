@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhsleep",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhsleep</b></p><a name=\"cs-cmhsleep\"> </a><a name=\"hccs-cmhsleep\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsleep</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHSLEEP_0<a name=\"cs-cmhsleep-cMHSLEEP_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHSLEEP_1<a name=\"cs-cmhsleep-cMHSLEEP_1\"> </a></td><td>Geactiveerd wegens slaapstoornissen en een matige cognitieve stoornis.</td></tr><tr><td style=\"white-space:nowrap\">cMHSLEEP_2<a name=\"cs-cmhsleep-cMHSLEEP_2\"> </a></td><td>Geactiveerd wegens slaapstoornissen en een ernstige cognitieve stoornis.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHSLEEP_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHSLEEP_1</td><td>Aktiviert aufgrund von Schlafstörungen und moderaten kognitiven Störungen.</td><td>Activé en raison de troubles du sommeil et d'une déficience cognitive modérée.</td></tr><tr><td>cMHSLEEP_2</td><td>Aktiviert aufgrund von Schlafstörungen und ernsten kognitiven Störungen.</td><td>Activé en raison de troubles du sommeil et d'une déficience cognitive sévère.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhsleep",
+  "version" : "0.1.0",
+  "name" : "CS_cMHSLEEP",
+  "title" : "Slaapstoornissen - Mentale gezondheid",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Slaapstoornissen - Mentale gezondheid",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHSLEEP_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHSLEEP_1",
+    "display" : "Geactiveerd wegens slaapstoornissen en een matige cognitieve stoornis.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von Schlafstörungen und moderaten kognitiven Störungen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de troubles du sommeil et d'une déficience cognitive modérée."
+    }]
+  },
+  {
+    "code" : "cMHSLEEP_2",
+    "display" : "Geactiveerd wegens slaapstoornissen en een ernstige cognitieve stoornis.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von Schlafstörungen und ernsten kognitiven Störungen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de troubles du sommeil et d'une déficience cognitive sévère."
+    }]
+  }]
+}

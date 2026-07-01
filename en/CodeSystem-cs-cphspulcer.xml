@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cphspulcer"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cphspulcer</b></p><a name="cs-cphspulcer"> </a><a name="hccs-cphspulcer"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphspulcer</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cpHSPULCER_0<a name="cs-cphspulcer-cpHSPULCER_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cpHSPULCER_1<a name="cs-cphspulcer-cpHSPULCER_1"> </a></td><td>Geactiveerd wegens een matig risico op decubitus.</td></tr><tr><td style="white-space:nowrap">cpHSPULCER_2<a name="cs-cphspulcer-cpHSPULCER_2"> </a></td><td>Geactiveerd wegens een hoog risico op decubitus.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cpHSPULCER_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cpHSPULCER_1</td><td>Aktiviert aufgrund eines moderaten Risikos auf einen Dekubitus.</td><td>Activé en raison du risque modéré d'escarres.</td></tr><tr><td>cpHSPULCER_2</td><td>Aktiviert aufgrund eines hohen Risikos auf einen Dekubitus.</td><td>Activé en raison du risque élevé d'escarres.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cphspulcer"/>
+  <version value="0.1.0"/>
+  <name value="CS_cpHSPULCER"/>
+  <title value="Decubitus - Ziekenhuis"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Decubitus - Ziekenhuis"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cpHSPULCER_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cpHSPULCER_1"/>
+    <display value="Geactiveerd wegens een matig risico op decubitus."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund eines moderaten Risikos auf einen Dekubitus."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison du risque modéré d'escarres."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cpHSPULCER_2"/>
+    <display value="Geactiveerd wegens een hoog risico op decubitus."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund eines hohen Risikos auf einen Dekubitus."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison du risque élevé d'escarres."/>
+    </designation>
+  </concept>
+</CodeSystem>

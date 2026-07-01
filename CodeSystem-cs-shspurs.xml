@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-shspurs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-shspurs</b></p><a name="cs-shspurs"> </a><a name="hccs-shspurs"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspurs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sHSPURS_0<a name="cs-shspurs-sHSPURS_0"> </a></td><td>Zeer laag risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_1<a name="cs-shspurs-sHSPURS_1"> </a></td><td>Laag risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_2<a name="cs-shspurs-sHSPURS_2"> </a></td><td>Laag risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_3<a name="cs-shspurs-sHSPURS_3"> </a></td><td>Matig risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_4<a name="cs-shspurs-sHSPURS_4"> </a></td><td>Hoog risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_5<a name="cs-shspurs-sHSPURS_5"> </a></td><td>Hoog risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_6<a name="cs-shspurs-sHSPURS_6"> </a></td><td>Zeer hoog risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_7<a name="cs-shspurs-sHSPURS_7"> </a></td><td>Zeer hoog risico</td></tr><tr><td style="white-space:nowrap">sHSPURS_8<a name="cs-shspurs-sHSPURS_8"> </a></td><td>Zeer hoog risico</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sHSPURS_0</td><td>Sehr geringes Risiko</td><td>Risque très faible</td></tr><tr><td>sHSPURS_1</td><td>Geringes Risiko</td><td>Risque faible</td></tr><tr><td>sHSPURS_2</td><td>Geringes Risiko </td><td>Risque faible</td></tr><tr><td>sHSPURS_3</td><td>Moderates Risiko</td><td>Risque modéré</td></tr><tr><td>sHSPURS_4</td><td>Hohes Risiko</td><td>Risque élevé</td></tr><tr><td>sHSPURS_5</td><td>Hohes Risiko </td><td>Risque élevé</td></tr><tr><td>sHSPURS_6</td><td>Sehr hohes Risiko </td><td>Risque très élevé</td></tr><tr><td>sHSPURS_7</td><td>Sehr hohes Risiko </td><td>Risque très élevé</td></tr><tr><td>sHSPURS_8</td><td>Sehr hohes Risiko </td><td>Risque très élevé</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-shspurs"/>
+  <version value="0.1.0"/>
+  <name value="CS_sHSPURS"/>
+  <title value="Pressure Ulcer Risk Scale - Hospital (sHSPURS)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Pressure Ulcer Risk Scale - Hospital (sHSPURS)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="sHSPURS_0"/>
+    <display value="Zeer laag risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr geringes Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque très faible"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_1"/>
+    <display value="Laag risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Geringes Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque faible"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_2"/>
+    <display value="Laag risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Geringes Risiko "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque faible"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_3"/>
+    <display value="Matig risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderates Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque modéré"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_4"/>
+    <display value="Hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Hohes Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque élevé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_5"/>
+    <display value="Hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Hohes Risiko "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque élevé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_6"/>
+    <display value="Zeer hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr hohes Risiko "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque très élevé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_7"/>
+    <display value="Zeer hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr hohes Risiko "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque très élevé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sHSPURS_8"/>
+    <display value="Zeer hoog risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr hohes Risiko "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque très élevé"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-spurs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-spurs</b></p><a name="cs-spurs"> </a><a name="hccs-spurs"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sPURS_0<a name="cs-spurs-sPURS_0"> </a></td><td>Zeer laag risico</td></tr><tr><td style="white-space:nowrap">sPURS_3<a name="cs-spurs-sPURS_3"> </a></td><td>Matig risico</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sPURS_0</td><td>Sehr geringes Risiko</td><td>Risque très faible</td></tr><tr><td>sPURS_3</td><td>Moderates Risiko</td><td>Risque modéré</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-spurs"/>
+  <version value="0.1.0"/>
+  <name value="CS_sPURS"/>
+  <title value="Pressure Ulcer Risk Scale (sPURS)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Pressure Ulcer Risk Scale (sPURS)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="sPURS_0"/>
+    <display value="Zeer laag risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Sehr geringes Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque très faible"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="sPURS_3"/>
+    <display value="Matig risico"/>
+    <designation>
+      <language value="de"/>
+      <value value="Moderates Risiko"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Risque modéré"/>
+    </designation>
+  </concept>
+</CodeSystem>

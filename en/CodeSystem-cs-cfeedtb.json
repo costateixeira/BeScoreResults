@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cfeedtb",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cfeedtb</b></p><a name=\"cs-cfeedtb\"> </a><a name=\"hccs-cfeedtb\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfeedtb</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cFEEDTB_0<a name=\"cs-cfeedtb-cFEEDTB_0\"> </a></td><td>Niet geactiveerd.</td></tr><tr><td style=\"white-space:nowrap\">cFEEDTB_1<a name=\"cs-cfeedtb-cFEEDTB_1\"> </a></td><td>Geactiveerd wegens laag risico: de persoon heeft geen cognitieve capaciteiten meer.</td></tr><tr><td style=\"white-space:nowrap\">cFEEDTB_2<a name=\"cs-cfeedtb-cFEEDTB_2\"> </a></td><td>Geactiveerd wegens hoog risico: de persoon heeft nog enkele cognitieve capaciteiten.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cFEEDTB_0</td><td>Nicht aktiviert.</td><td>Non activé.</td></tr><tr><td>cFEEDTB_1</td><td>Aktiviert aufgrund von leichtem Risiko: die Person hat keine kognitiven Fähigkeiten mehr.</td><td>Activé en raison d'un faible risque : la personne n'a plus de capacités cognitives.</td></tr><tr><td>cFEEDTB_2</td><td>Aktiviert aufgrund von hohem Risiko: die Person hat noch einige kognitive Fähigkeiten.</td><td>Activé en raison d'un risque élevé : la personne a encore quelques capacités cognitives.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cfeedtb",
+  "version" : "0.1.0",
+  "name" : "CS_cFEEDTB",
+  "title" : "Sondevoeding",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Sondevoeding",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cFEEDTB_0",
+    "display" : "Niet geactiveerd.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert."
+    },
+    {
+      "language" : "fr",
+      "value" : "Non activé."
+    }]
+  },
+  {
+    "code" : "cFEEDTB_1",
+    "display" : "Geactiveerd wegens laag risico: de persoon heeft geen cognitieve capaciteiten meer.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von leichtem Risiko: die Person hat keine kognitiven Fähigkeiten mehr."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un faible risque : la personne n'a plus de capacités cognitives."
+    }]
+  },
+  {
+    "code" : "cFEEDTB_2",
+    "display" : "Geactiveerd wegens hoog risico: de persoon heeft nog enkele cognitieve capaciteiten.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von hohem Risiko: die Person hat noch einige kognitive Fähigkeiten."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un risque élevé : la personne a encore quelques capacités cognitives."
+    }]
+  }]
+}

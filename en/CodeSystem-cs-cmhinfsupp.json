@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhinfsupp",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhinfsupp</b></p><a name=\"cs-cmhinfsupp\"> </a><a name=\"hccs-cmhinfsupp\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhinfsupp</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHINFSUPP_0<a name=\"cs-cmhinfsupp-cMHINFSUPP_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHINFSUPP_1<a name=\"cs-cmhinfsupp-cMHINFSUPP_1\"> </a></td><td>Geactiveerd wegens de behoefte aan ondersteuning naar aanleiding van psychische symptomen.</td></tr><tr><td style=\"white-space:nowrap\">cMHINFSUPP_2<a name=\"cs-cmhinfsupp-cMHINFSUPP_2\"> </a></td><td>Geactiveerd wegens de behoefte aan functionele ondersteuning naar aanleiding van een fysieke beperking of een cognitief onvermogen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHINFSUPP_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHINFSUPP_1</td><td>Aktiviert aufgrund der Notwendigkeit nach Unterstützung aufgrund von psychischen Symptomen.</td><td>Activé en raison du besoin de soutien en raison de symptômes psychologiques.</td></tr><tr><td>cMHINFSUPP_2</td><td>Aktiviert aufgrund der Notwendigkeit nach einer funktionellen Unterstützung aufgrund einer physischen oder kognitiven Einschränkung.</td><td>Activé en raison du besoin de soutien fonctionnel en raison d'une limitation physique ou d'une incapacité cognitive.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhinfsupp",
+  "version" : "0.1.0",
+  "name" : "CS_cMHINFSUPP",
+  "title" : "Mantelzorg - Mentale gezondheid",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Mantelzorg - Mentale gezondheid",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHINFSUPP_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHINFSUPP_1",
+    "display" : "Geactiveerd wegens de behoefte aan ondersteuning naar aanleiding van psychische symptomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund der Notwendigkeit nach Unterstützung aufgrund von psychischen Symptomen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison du besoin de soutien en raison de symptômes psychologiques."
+    }]
+  },
+  {
+    "code" : "cMHINFSUPP_2",
+    "display" : "Geactiveerd wegens de behoefte aan functionele ondersteuning naar aanleiding van een fysieke beperking of een cognitief onvermogen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund der Notwendigkeit nach einer funktionellen Unterstützung aufgrund einer physischen oder kognitiven Einschränkung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison du besoin de soutien fonctionnel en raison d'une limitation physique ou d'une incapacité cognitive."
+    }]
+  }]
+}

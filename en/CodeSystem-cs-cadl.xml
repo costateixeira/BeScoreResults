@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cadl"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cadl</b></p><a name="cs-cadl"> </a><a name="hccs-cadl"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadl</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cADL_0<a name="cs-cadl-cADL_0"> </a></td><td>Niet geactiveerd: het herstellen of het behouden van de functionele status om een ADL-terugval te voorkomen is geen prioriteit.</td></tr><tr><td style="white-space:nowrap">cADL_1<a name="cs-cadl-cADL_1"> </a></td><td>Geactiveerd om achteruitgang te voorkomen.</td></tr><tr><td style="white-space:nowrap">cADL_2<a name="cs-cadl-cADL_2"> </a></td><td>Geactiveerd op de mogelijkheid tot verbetering.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cADL_0</td><td>Nicht aktiviert: Es ist nicht prioritär; die Funktionen wiederherzustellen oder zu erhalten um einen Rückfall vorzubeugen (insbesondere in Bezug auf die ADLs).</td><td>Pas activé : le rétablissement ou le maintien du statut fonctionnel n’est pas une priorité pour prévenir une rechute dans les AVQ.</td></tr><tr><td>cADL_1</td><td>Aktiviert um einen Rückfall vorzubeugen.</td><td>Activé pour prévenir un déclin.</td></tr><tr><td>cADL_2</td><td>Aktiviert: Möglichkeit der Verbesserung.</td><td>Activé : possibilité d'amélioration.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cadl"/>
+  <version value="0.1.0"/>
+  <name value="CS_cADL"/>
+  <title value="Activiteiten van het dagelijks leven (ADL)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Activiteiten van het dagelijks leven (ADL)"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cADL_0"/>
+    <display value="Niet geactiveerd: het herstellen of het behouden van de functionele status om een ADL-terugval te voorkomen is geen prioriteit."/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert: Es ist nicht prioritär; die Funktionen wiederherzustellen oder zu erhalten um einen Rückfall vorzubeugen (insbesondere in Bezug auf die ADLs)."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé : le rétablissement ou le maintien du statut fonctionnel n’est pas une priorité pour prévenir une rechute dans les AVQ."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cADL_1"/>
+    <display value="Geactiveerd om achteruitgang te voorkomen."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert um einen Rückfall vorzubeugen."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé pour prévenir un déclin."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cADL_2"/>
+    <display value="Geactiveerd op de mogelijkheid tot verbetering."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert: Möglichkeit der Verbesserung."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé : possibilité d'amélioration."/>
+    </designation>
+  </concept>
+</CodeSystem>

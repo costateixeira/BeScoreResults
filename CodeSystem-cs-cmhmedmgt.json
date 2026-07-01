@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-cmhmedmgt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-cmhmedmgt</b></p><a name=\"cs-cmhmedmgt\"> </a><a name=\"hccs-cmhmedmgt\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">cMHMEDMGT_0<a name=\"cs-cmhmedmgt-cMHMEDMGT_0\"> </a></td><td>Niet geactiveerd</td></tr><tr><td style=\"white-space:nowrap\">cMHMEDMGT_1<a name=\"cs-cmhmedmgt-cMHMEDMGT_1\"> </a></td><td>Geactiveerd wegens het vroegtijdig stoppen van geneesmiddelen ten gevolge van bijwerkingen.</td></tr><tr><td style=\"white-space:nowrap\">cMHMEDMGT_2<a name=\"cs-cmhmedmgt-cMHMEDMGT_2\"> </a></td><td>Geactiveerd wegens problemen met geneesmiddelenbeheer en therapietrouw in verband met cognitieve stoornissen en positieve symptomen.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHMEDMGT_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHMEDMGT_1</td><td>Aktiviert aufgrund eines frühzeitigen Absetzens von Medikamenten aufgrund von Nebenwirkungen.</td><td>Activé en raison d'un arrêt prématurés de médicaments suite à des effets secondaires.</td></tr><tr><td>cMHMEDMGT_2</td><td>Aktiviert aufgrund von Problem verbunden mit der Medikation im Zusammenhang mit kognitiven Einschränkungen und positiven Symptomen.</td><td>Activé en raison de problèmes liés à la gestion des médicaments et à l'observance liée aux troubles cognitifs et aux symptômes positifs.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhmedmgt",
+  "version" : "0.1.0",
+  "name" : "CS_cMHMEDMGT",
+  "title" : "Geneesmiddelenbeheer en therapietrouw",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Geneesmiddelenbeheer en therapietrouw",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "cMHMEDMGT_0",
+    "display" : "Niet geactiveerd",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Nicht aktiviert"
+    },
+    {
+      "language" : "fr",
+      "value" : "Pas activé"
+    }]
+  },
+  {
+    "code" : "cMHMEDMGT_1",
+    "display" : "Geactiveerd wegens het vroegtijdig stoppen van geneesmiddelen ten gevolge van bijwerkingen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund eines frühzeitigen Absetzens von Medikamenten aufgrund von Nebenwirkungen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison d'un arrêt prématurés de médicaments suite à des effets secondaires."
+    }]
+  },
+  {
+    "code" : "cMHMEDMGT_2",
+    "display" : "Geactiveerd wegens problemen met geneesmiddelenbeheer en therapietrouw in verband met cognitieve stoornissen en positieve symptomen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Aktiviert aufgrund von Problem verbunden mit der Medikation im Zusammenhang mit kognitiven Einschränkungen und positiven Symptomen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Activé en raison de problèmes liés à la gestion des médicaments et à l'observance liée aux troubles cognitifs et aux symptômes positifs."
+    }]
+  }]
+}

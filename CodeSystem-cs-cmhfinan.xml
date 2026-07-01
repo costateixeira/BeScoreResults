@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-cmhfinan"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem cs-cmhfinan</b></p><a name="cs-cmhfinan"> </a><a name="hccs-cmhfinan"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhfinan</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">cMHFINAN_0<a name="cs-cmhfinan-cMHFINAN_0"> </a></td><td>Niet geactiveerd</td></tr><tr><td style="white-space:nowrap">cMHFINAN_1<a name="cs-cmhfinan-cMHFINAN_1"> </a></td><td>Geactiveerd wegens het onvermogen om de persoonlijke financiën te beheren.</td></tr><tr><td style="white-space:nowrap">cMHFINAN_2<a name="cs-cmhfinan-cMHFINAN_2"> </a></td><td>Geactiveerd wegens financiële moeilijkheden.</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>cMHFINAN_0</td><td>Nicht aktiviert</td><td>Pas activé</td></tr><tr><td>cMHFINAN_1</td><td>Aktiviert wegen der Unfähigkeit die eigenen finanziellen Angelegenheiten zu regeln. </td><td>Activé en raison d'une incapacité à gérer des finances personnelles.</td></tr><tr><td>cMHFINAN_2</td><td>Aktiviert aufgrund von finanziellen Schwierigkeiten.</td><td>Activé en raison de difficultés financières.</td></tr></table></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-cmhfinan"/>
+  <version value="0.1.0"/>
+  <name value="CS_cMHFINAN"/>
+  <title value="Persoonlijke financiën"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T12:34:01+00:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Persoonlijke financiën"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="cMHFINAN_0"/>
+    <display value="Niet geactiveerd"/>
+    <designation>
+      <language value="de"/>
+      <value value="Nicht aktiviert"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Pas activé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHFINAN_1"/>
+    <display value="Geactiveerd wegens het onvermogen om de persoonlijke financiën te beheren."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert wegen der Unfähigkeit die eigenen finanziellen Angelegenheiten zu regeln. "/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison d'une incapacité à gérer des finances personnelles."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="cMHFINAN_2"/>
+    <display value="Geactiveerd wegens financiële moeilijkheden."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aktiviert aufgrund von finanziellen Schwierigkeiten."/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Activé en raison de difficultés financières."/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-scage",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-scage</b></p><a name=\"cs-scage\"> </a><a name=\"hccs-scage\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sCAGE_interval_0_2<a name=\"cs-scage-sCAGE_interval_0_2\"> </a></td><td>0-2</td></tr><tr><td style=\"white-space:nowrap\">sCAGE_interval_2_5<a name=\"cs-scage-sCAGE_interval_2_5\"> </a></td><td>2-5</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sCAGE_interval_0_2</td><td>0-2</td><td>0-2</td></tr><tr><td>sCAGE_interval_2_5</td><td>2-5</td><td>2-5</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-scage",
+  "version" : "0.1.0",
+  "name" : "CS_sCAGE",
+  "title" : "Addictions and Substance Use Scale (sCAGE)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "sCAGE_interval_0_2",
+    "display" : "0-2",
+    "designation" : [{
+      "language" : "de",
+      "value" : "0-2"
+    },
+    {
+      "language" : "fr",
+      "value" : "0-2"
+    }]
+  },
+  {
+    "code" : "sCAGE_interval_2_5",
+    "display" : "2-5",
+    "designation" : [{
+      "language" : "de",
+      "value" : "2-5"
+    },
+    {
+      "language" : "fr",
+      "value" : "2-5"
+    }]
+  }]
+}

@@ -1,0 +1,111 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cs-sadlh",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem cs-sadlh</b></p><a name=\"cs-sadlh\"> </a><a name=\"hccs-sadlh\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sadlh</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sADLH_0<a name=\"cs-sadlh-sADLH_0\"> </a></td><td>Zelfstandig bij de 4 ADL-functies.</td></tr><tr><td style=\"white-space:nowrap\">sADLH_1<a name=\"cs-sadlh-sADLH_1\"> </a></td><td>Tenminste toezicht bij één ADL-functie (en minder dan beperkte hulp bij alle 4 ADL-functies).</td></tr><tr><td style=\"white-space:nowrap\">sADLH_2<a name=\"cs-sadlh-sADLH_2\"> </a></td><td>Beperkte hulp vereist bij 1 of meer van de 4 ADL-functies (en minder dan uitgebreide hulp bij alle 4 ADL-functies).</td></tr><tr><td style=\"white-space:nowrap\">sADLH_3<a name=\"cs-sadlh-sADLH_3\"> </a></td><td>Tenminste uitgebreide hulp vereist bij de persoonlijke hygiëne en/of het toiletgebruik (en minder dan uitgebreide hulp vereist bij het eten en het zich verplaatsen).</td></tr><tr><td style=\"white-space:nowrap\">sADLH_4<a name=\"cs-sadlh-sADLH_4\"> </a></td><td>Uitgebreide hulp vereist bij het eten en/of het zich verplaatsen (geen totale afhankelijkheid bij het eten en het zich verplaatsen).</td></tr><tr><td style=\"white-space:nowrap\">sADLH_5<a name=\"cs-sadlh-sADLH_5\"> </a></td><td>Totale afhankelijkheid bij het eten en/of het zich verplaatsen.</td></tr><tr><td style=\"white-space:nowrap\">sADLH_6<a name=\"cs-sadlh-sADLH_6\"> </a></td><td>Totale afhankelijkheid bij de 4 ADL-functies.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td><td><b>French (fr)</b></td></tr><tr><td>sADLH_0</td><td>Selbständig für die 4 ADL-Funktionen.</td><td>Indépendant pour les 4 fonctions AVQ.</td></tr><tr><td>sADLH_1</td><td>Begleitung bei mindestens einer ADL-Funktion (und mindestens eine leichte Unterstützung bei den 4 ADL-Funktionen).</td><td>Supervision d'au moins une fonction AVQ (et moins qu’une assistance limitée pour les 4 fonctions AVQ).</td></tr><tr><td>sADLH_2</td><td>Leichte Unterstützung bei mindestens einer ADL-Funktion (und mindestens eine erweiterte Unterstützung bei den 4 ADL-Funktionen).</td><td>Assistance limitée exigée pour minimum une des 4 fonctions AVQ (et moins qu’une assistance étendue pour les toutes les 4 fonctions AVQ).</td></tr><tr><td>sADLH_3</td><td>Unterstützung mindestens bei der Körpertoilette und/oder dem Toilettengang (und mindestens eine erweiterte Unterstützung zur Nahrungsaufnahme und Fortbewegung).</td><td>Au moins une assistance importante exigée pour l’hygiène personnelle et/ou l’utilisation des toilettes (et moins qu’une assistance étendue exigée pour l’alimentation et le déplacement).</td></tr><tr><td>sADLH_4</td><td>Unterstützung mindestens bei der Nahrungsaufnahme und/oder der Fortbewegung (keine vollständige Unterstützung zur Nahrungsaufnahme und/oder Fortbewegung).</td><td>Assistance importante exigée pour l’alimentation et/ou le déplacement (pas de dépendance totale pour l’alimentation et/ou pour le déplacement).</td></tr><tr><td>sADLH_5</td><td>Vollständige Abhängigkeit bei der Nahrungsaufnahme und/oder der Fortbewegung.</td><td>Dépendance totale pour l’alimentation et/ou pour le déplacement.</td></tr><tr><td>sADLH_6</td><td>Vollständige Abhängigkeit für die 4 ADL-Funktionen.</td><td>Dépendance totale pour les 4 fonctions AVQ.</td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/scoring/CodeSystem/cs-sadlh",
+  "version" : "0.1.0",
+  "name" : "CS_sADLH",
+  "title" : "ADL Hierarchy Scale (sADLH)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-01T12:34:01+00:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "ADL Hierarchy Scale (sADLH)",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "sADLH_0",
+    "display" : "Zelfstandig bij de 4 ADL-functies.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Selbständig für die 4 ADL-Funktionen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Indépendant pour les 4 fonctions AVQ."
+    }]
+  },
+  {
+    "code" : "sADLH_1",
+    "display" : "Tenminste toezicht bij één ADL-functie (en minder dan beperkte hulp bij alle 4 ADL-functies).",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Begleitung bei mindestens einer ADL-Funktion (und mindestens eine leichte Unterstützung bei den 4 ADL-Funktionen)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Supervision d'au moins une fonction AVQ (et moins qu’une assistance limitée pour les 4 fonctions AVQ)."
+    }]
+  },
+  {
+    "code" : "sADLH_2",
+    "display" : "Beperkte hulp vereist bij 1 of meer van de 4 ADL-functies (en minder dan uitgebreide hulp bij alle 4 ADL-functies).",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Leichte Unterstützung bei mindestens einer ADL-Funktion (und mindestens eine erweiterte Unterstützung bei den 4 ADL-Funktionen)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Assistance limitée exigée pour minimum une des 4 fonctions AVQ (et moins qu’une assistance étendue pour les toutes les 4 fonctions AVQ)."
+    }]
+  },
+  {
+    "code" : "sADLH_3",
+    "display" : "Tenminste uitgebreide hulp vereist bij de persoonlijke hygiëne en/of het toiletgebruik (en minder dan uitgebreide hulp vereist bij het eten en het zich verplaatsen).",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Unterstützung mindestens bei der Körpertoilette und/oder dem Toilettengang (und mindestens eine erweiterte Unterstützung zur Nahrungsaufnahme und Fortbewegung)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Au moins une assistance importante exigée pour l’hygiène personnelle et/ou l’utilisation des toilettes (et moins qu’une assistance étendue exigée pour l’alimentation et le déplacement)."
+    }]
+  },
+  {
+    "code" : "sADLH_4",
+    "display" : "Uitgebreide hulp vereist bij het eten en/of het zich verplaatsen (geen totale afhankelijkheid bij het eten en het zich verplaatsen).",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Unterstützung mindestens bei der Nahrungsaufnahme und/oder der Fortbewegung (keine vollständige Unterstützung zur Nahrungsaufnahme und/oder Fortbewegung)."
+    },
+    {
+      "language" : "fr",
+      "value" : "Assistance importante exigée pour l’alimentation et/ou le déplacement (pas de dépendance totale pour l’alimentation et/ou pour le déplacement)."
+    }]
+  },
+  {
+    "code" : "sADLH_5",
+    "display" : "Totale afhankelijkheid bij het eten en/of het zich verplaatsen.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Vollständige Abhängigkeit bei der Nahrungsaufnahme und/oder der Fortbewegung."
+    },
+    {
+      "language" : "fr",
+      "value" : "Dépendance totale pour l’alimentation et/ou pour le déplacement."
+    }]
+  },
+  {
+    "code" : "sADLH_6",
+    "display" : "Totale afhankelijkheid bij de 4 ADL-functies.",
+    "designation" : [{
+      "language" : "de",
+      "value" : "Vollständige Abhängigkeit für die 4 ADL-Funktionen."
+    },
+    {
+      "language" : "fr",
+      "value" : "Dépendance totale pour les 4 fonctions AVQ."
+    }]
+  }]
+}
