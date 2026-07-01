@@ -1,0 +1,79 @@
+// Lean copy of Q_BelRaiPalliativeCare with all helper-text (#display) items
+// stripped out. Same questions, same answer sets, same linkIds — only the
+// Bedoeling/Definitie/Proces/Codering scaffolding is removed.
+//
+// Use this version for data-entry contexts where the explanatory text just
+// gets in the way; use the full Q_BelRaiPalliativeCare for training or
+// reference rendering.
+//
+// If you change a question (rename, reorder, add answer values), edit BOTH
+// files or replace this one with a generator.
+
+Instance: Q_BelRaiPalliativeCareLean
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-belrai-palliative-care-lean"
+* status = #draft
+* name = "Q_BelRaiPalliativeCareLean"
+* title = "BelRAI Palliative Care (lean)"
+* description = "BelRAI Palliative Care assessment — questions only, no explanatory display items."
+
+// ============================================================
+// Section 1: Beoordelingsinformatie
+// ============================================================
+* item[0].linkId = "assessment-info"
+* item[0].text = "Beoordelingsinformatie"
+* item[0].type = #group
+
+* item[0].item[0].linkId = "assessment-reference-date"
+* item[0].item[0].text = "Beoordelingsreferentiedatum"
+* item[0].item[0].type = #date
+
+* item[0].item[1].linkId = "residence-at-assessment"
+* item[0].item[1].text = "Verblijfplaats op het tijdstip van beoordeling"
+* item[0].item[1].type = #choice
+* item[0].item[1].answerValueSet = Canonical(VS_BelRaiResidence)
+
+* item[0].item[2].linkId = "time-since-hospital-stay"
+* item[0].item[2].text = "Tijd sinds laatste ziekenhuisverblijf"
+* item[0].item[2].type = #choice
+* item[0].item[2].answerValueSet = Canonical(VS_BelRaiTimeSinceHospitalStay)
+
+// ============================================================
+// Section 2: Persoonlijke gegevens
+// ============================================================
+* item[1].linkId = "personal-data"
+* item[1].text = "Persoonlijke gegevens"
+* item[1].type = #group
+
+* item[1].item[0].linkId = "marital-status"
+* item[1].item[0].text = "Relatiestatus"
+* item[1].item[0].type = #choice
+* item[1].item[0].answerValueSet = Canonical(VS_BelRaiMaritalStatus)
+
+* item[1].item[1].linkId = "assessment-reason"
+* item[1].item[1].text = "Reden voor beoordeling"
+* item[1].item[1].type = #choice
+* item[1].item[1].answerValueSet = Canonical(VS_BelRaiAssessmentReason)
+
+* item[1].item[2].linkId = "palliative-program-type"
+* item[1].item[2].text = "Type van palliatief programma"
+* item[1].item[2].type = #choice
+* item[1].item[2].answerValueSet = Canonical(VS_BelRaiPalliativeProgramType)
+
+// ============================================================
+// Section 3: Prognose
+// ============================================================
+* item[2].linkId = "prognosis"
+* item[2].text = "Prognose"
+* item[2].type = #group
+
+* item[2].item[0].linkId = "life-expectancy"
+* item[2].item[0].text = "Geschatte levensverwachting"
+* item[2].item[0].type = #choice
+* item[2].item[0].answerValueSet = Canonical(VS_BelRaiLifeExpectancy)
+
+* item[2].item[1].linkId = "aware-6-months"
+* item[2].item[1].text = "Zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft"
+* item[2].item[1].type = #choice
+* item[2].item[1].answerValueSet = Canonical(VS_BelRaiAware6Months)

@@ -1,0 +1,162 @@
+// BelRAI Palliative Care assessment questionnaire (work in progress).
+//
+// Structure mirrors the BelRAI form preview screenshots:
+//   - Section group ("group" item) per assessment section.
+//   - One choice/date item per question.
+//   - Helper text ("Bedoeling", "Definitie", "Proces", "Codering") emitted as
+//     nested #display children of each question. Long "Voorbeelden" case
+//     studies are intentionally omitted to keep the file readable; add them
+//     if the form preview needs them.
+//
+// To extend: add a new linkId at the next index in the right group, or
+// append a new top-level group. Codes resolve through the VS files in
+// terminology/belrai-pc-valuesets.fsh.
+
+Instance: Q_BelRaiPalliativeCare
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-belrai-palliative-care"
+* status = #draft
+* name = "Q_BelRaiPalliativeCare"
+* title = "BelRAI Palliative Care"
+* description = "BelRAI Palliative Care assessment questionnaire."
+
+// ============================================================
+// Section 1: Beoordelingsinformatie
+// ============================================================
+* item[0].linkId = "assessment-info"
+* item[0].text = "Beoordelingsinformatie"
+* item[0].type = #group
+
+// --- Q1.1 Beoordelingsreferentiedatum (date) ---
+* item[0].item[0].linkId = "assessment-reference-date"
+* item[0].item[0].text = "Beoordelingsreferentiedatum"
+* item[0].item[0].type = #date
+
+* item[0].item[0].item[0].linkId = "assessment-reference-date-bedoeling"
+* item[0].item[0].item[0].text = "Bedoeling: Het vaststellen van een gemeenschappelijke referentiedatum dat door de beoordelende professionele zorgverleners voor alle items gebruikt moet worden. Alhoewel professionele zorgverleners op verschillende dagen kunnen werken aan een BelRAI-beoordeling, zorgt de beoordelingsreferentiedatum voor een gemeenschappelijkheid in de beoordelingsperiode."
+* item[0].item[0].item[0].type = #display
+
+* item[0].item[0].item[1].linkId = "assessment-reference-date-definitie"
+* item[0].item[0].item[1].text = "Definitie: Beoordelingsreferentiedatum - de datum van het eindpunt van de observatie- en/of referentieperiode voor alle informatie die bij de beoordeling wordt verzameld. Alle BelRAI-items verwijzen terug in de tijd vanaf dit eindpunt. De meeste items beslaan de periode van 3 opeenvolgende dagen vóór de Beoordelingsreferentiedatum."
+* item[0].item[0].item[1].type = #display
+
+* item[0].item[0].item[2].linkId = "assessment-reference-date-proces"
+* item[0].item[0].item[2].text = "Proces: Beoordelingen van personen die thuis verblijven, worden gewoonlijk voltooid met behulp van informatie die tijdens één huisbezoek wordt verzameld. Voor beoordelingen van personen die worden opgenomen in een voorziening kan deze beoordelingsdatum elke dag zijn, beginnend met de vierde dag na opname."
+* item[0].item[0].item[2].type = #display
+
+// --- Q1.2 Verblijfplaats op het tijdstip van beoordeling (choice — TODO opties) ---
+* item[0].item[1].linkId = "residence-at-assessment"
+* item[0].item[1].text = "Verblijfplaats op het tijdstip van beoordeling"
+* item[0].item[1].type = #choice
+* item[0].item[1].answerValueSet = Canonical(VS_BelRaiResidence)
+
+* item[0].item[1].item[0].linkId = "residence-at-assessment-bedoeling"
+* item[0].item[1].item[0].text = "Bedoeling: Het vastleggen van de verblijfplaats van de persoon op het moment van de beoordeling. Deze verblijfstoestand kan langdurig, tijdelijk of een overgang zijn. Deze informatie kan nuttig zijn bij het opstellen van een ontslagplan en het opsporen van verwijzingsbronnen (bijv. rechtstreeks vanuit de thuisomgeving of vanuit een andere zorgvoorziening)."
+* item[0].item[1].item[0].type = #display
+
+* item[0].item[1].item[1].linkId = "residence-at-assessment-proces"
+* item[0].item[1].item[1].text = "Proces: Bevraag de persoon of familie als u niet zeker weet waar de persoon op dit moment woont of raadpleeg het dossier of andere documenten van de persoon."
+* item[0].item[1].item[1].type = #display
+
+* item[0].item[1].item[2].linkId = "residence-at-assessment-codering"
+* item[0].item[1].item[2].text = "Codering: Kies slechts één antwoord."
+* item[0].item[1].item[2].type = #display
+
+// --- Q1.3 Tijd sinds laatste ziekenhuisverblijf ---
+* item[0].item[2].linkId = "time-since-hospital-stay"
+* item[0].item[2].text = "Tijd sinds laatste ziekenhuisverblijf"
+* item[0].item[2].type = #choice
+* item[0].item[2].answerValueSet = Canonical(VS_BelRaiTimeSinceHospitalStay)
+
+* item[0].item[2].item[0].linkId = "time-since-hospital-stay-hint"
+* item[0].item[2].item[0].text = "Codeer de laatste keer in de LAATSTE 90 DAGEN"
+* item[0].item[2].item[0].type = #display
+
+* item[0].item[2].item[1].linkId = "time-since-hospital-stay-bedoeling"
+* item[0].item[2].item[1].text = "Bedoeling: Het vastleggen van de tijd die verstreken is sinds de meest recente ziekenhuisopname gedurende de laatste 90 dagen. Dit is een maat voor klinische stabiliteit en voor het zorgtraject."
+* item[0].item[2].item[1].type = #display
+
+* item[0].item[2].item[2].linkId = "time-since-hospital-stay-definitie"
+* item[0].item[2].item[2].text = "Definitie: Ziekenhuisverblijf - een formele opname van een persoon met een verblijf van een of meerdere nachten. Ziekenhuisbezoeken voor dagchirurgie, consultaties, etc. vallen hier NIET onder."
+* item[0].item[2].item[2].type = #display
+
+* item[0].item[2].item[3].linkId = "time-since-hospital-stay-proces"
+* item[0].item[2].item[3].text = "Proces: Bekijk het dossier. Indien aanwezig, zijn de ziekenhuisontslagbrieven over het algemeen de meest efficiënte manier om aan deze informatie te komen. Indien nergens vastgelegd, vraag het dan aan de persoon of de familie."
+* item[0].item[2].item[3].type = #display
+
+* item[0].item[2].item[4].linkId = "time-since-hospital-stay-codering"
+* item[0].item[2].item[4].text = "Codering: Geef het aantal dagen weer tussen de laatste dag van het meest recente ziekenhuisverblijf in de laatste 90 dagen en de beoordelingsreferentiedatum. Antwoord 'Geen ziekenhuisopname in de laatste 90 dagen' als de persoon niet in een ziekenhuis is opgenomen geweest in de laatste 90 dagen."
+* item[0].item[2].item[4].type = #display
+
+// ============================================================
+// Section 2: Persoonlijke gegevens
+// ============================================================
+* item[1].linkId = "personal-data"
+* item[1].text = "Persoonlijke gegevens"
+* item[1].type = #group
+
+// --- Q2.1 Relatiestatus ---
+// TODO: Bedoeling/Codering/Voorbeelden text not provided yet.
+* item[1].item[0].linkId = "marital-status"
+* item[1].item[0].text = "Relatiestatus"
+* item[1].item[0].type = #choice
+* item[1].item[0].answerValueSet = Canonical(VS_BelRaiMaritalStatus)
+
+// --- Q2.2 Reden voor beoordeling ---
+// TODO: Bedoeling/Codering/Voorbeelden text not provided yet.
+* item[1].item[1].linkId = "assessment-reason"
+* item[1].item[1].text = "Reden voor beoordeling"
+* item[1].item[1].type = #choice
+* item[1].item[1].answerValueSet = Canonical(VS_BelRaiAssessmentReason)
+
+// --- Q2.3 Type van palliatief programma ---
+// TODO: Bedoeling/Codering/Voorbeelden text not provided yet.
+* item[1].item[2].linkId = "palliative-program-type"
+* item[1].item[2].text = "Type van palliatief programma"
+* item[1].item[2].type = #choice
+* item[1].item[2].answerValueSet = Canonical(VS_BelRaiPalliativeProgramType)
+
+// ============================================================
+// Section 3: Prognose
+// ============================================================
+* item[2].linkId = "prognosis"
+* item[2].text = "Prognose"
+* item[2].type = #group
+
+// Section-level helpers (shown in screenshot at top of section).
+* item[2].item[0].linkId = "prognosis-bedoeling"
+* item[2].item[0].text = "Bedoeling: Informatie verkrijgen over de geschatte tijdsduur tot aan het overlijden en het bewustzijn van de persoon over zijn/haar/hun prognose."
+* item[2].item[0].type = #display
+
+* item[2].item[1].linkId = "prognosis-proces"
+* item[2].item[1].text = "Proces: Gebruik informatie van de persoon, de familie, de professionele zorgverleners en het dossier om de resterende levensduur in te schatten. De beoordelaar dient voorzichtig te werk te gaan in de communicatie met de persoon en de familie. Het is mogelijk dat de familie niet geïnformeerd werd over de terminale status van de persoon of dat de persoon of zijn/haar/hun familie in ontkenning verkeren."
+* item[2].item[1].type = #display
+
+// --- Q3.1 Geschatte levensverwachting ---
+* item[2].item[2].linkId = "life-expectancy"
+* item[2].item[2].text = "Geschatte levensverwachting"
+* item[2].item[2].type = #choice
+* item[2].item[2].answerValueSet = Canonical(VS_BelRaiLifeExpectancy)
+
+* item[2].item[2].item[0].linkId = "life-expectancy-bedoeling"
+* item[2].item[2].item[0].text = "Bedoeling: Informatie verkrijgen over de geschatte levensverwachting en het bewustzijn van de persoon over zijn/haar/hun prognose."
+* item[2].item[2].item[0].type = #display
+
+* item[2].item[2].item[1].linkId = "life-expectancy-definitie"
+* item[2].item[2].item[1].text = "Definitie: Prognose - inschatting van wanneer de persoon zal overlijden beginnend vanaf de beoordelingsreferentiedatum."
+* item[2].item[2].item[1].type = #display
+
+* item[2].item[2].item[2].linkId = "life-expectancy-codering"
+* item[2].item[2].item[2].text = "Codering: Noteer de geschatte levensverwachting vanaf de beoordelingsreferentiedatum."
+* item[2].item[2].item[2].type = #display
+
+// --- Q3.2 Zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft ---
+* item[2].item[3].linkId = "aware-6-months"
+* item[2].item[3].text = "Zegt zich ervan bewust te zijn dat hij/zij/die zes maand of minder te leven heeft"
+* item[2].item[3].type = #choice
+* item[2].item[3].answerValueSet = Canonical(VS_BelRaiAware6Months)
+
+* item[2].item[3].item[0].linkId = "aware-6-months-proces"
+* item[2].item[3].item[0].text = "Proces: Wat dit item betreft, dring niet aan om het begrip van de persoon over zijn/haar/hun terminale status in kaart te brengen. Dit item wordt enkel beantwoord indien de persoon hierover spreekt tegen de beoordelaar of anderen."
+* item[2].item[3].item[0].type = #display

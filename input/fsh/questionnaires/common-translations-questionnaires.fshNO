@@ -1,0 +1,1276 @@
+// Generated from common_translations_3.2.0.json by generate_codesystems.py.
+// Do not edit by hand - re-run the script to regenerate.
+
+Instance: Q_aHSDELIRIUM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ahsdelirium"
+* status = #active
+* name = "Q_aHSDELIRIUM"
+* title = "Delirium Screener (aHSDELIRIUM)"
+* description = "Delirium Screener (aHSDELIRIUM)"
+* item[0].linkId = "q1"
+* item[0].text = "Delirium Screener (aHSDELIRIUM)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_aHSDELIRIUM)
+
+Instance: Q_aHSDEMENTIA
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ahsdementia"
+* status = #active
+* name = "Q_aHSDEMENTIA"
+* title = "Dementia Screener (aHSDEMENTIA)"
+* description = "Dementia Screener (aHSDEMENTIA)"
+* item[0].linkId = "q1"
+* item[0].text = "Dementia Screener (aHSDEMENTIA)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_aHSDEMENTIA)
+
+Instance: Q_aHSDEPRESSION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ahsdepression"
+* status = #active
+* name = "Q_aHSDEPRESSION"
+* title = "Depression Screener (aHSDEPRESSION)"
+* description = "Depression Screener (aHSDEPRESSION)"
+* item[0].linkId = "q1"
+* item[0].text = "Depression Screener (aHSDEPRESSION)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_aHSDEPRESSION)
+
+Instance: Q_aHSNUTRITION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ahsnutrition"
+* status = #active
+* name = "Q_aHSNUTRITION"
+* title = "Nutrition Screener (aHSNUTRITION)"
+* description = "Nutrition Screener (aHSNUTRITION)"
+* item[0].linkId = "q1"
+* item[0].text = "Nutrition Screener (aHSNUTRITION)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_aHSNUTRITION)
+
+Instance: Q_aMAPLE
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-amaple"
+* status = #active
+* name = "Q_aMAPLE"
+* title = "Method for Assigning Priority Levels (aMAPLe)"
+* description = "Method for Assigning Priority Levels (aMAPLe)"
+* item[0].linkId = "q1"
+* item[0].text = "Method for Assigning Priority Levels (aMAPLe)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_aMAPLE)
+
+Instance: Q_cABUSE
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cabuse"
+* status = #active
+* name = "Q_cABUSE"
+* title = "Mishandeling/Verwaarlozing"
+* description = "Mishandeling/Verwaarlozing"
+* item[0].linkId = "q1"
+* item[0].text = "Mishandeling/Verwaarlozing"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cABUSE)
+
+Instance: Q_cACTIV
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cactiv"
+* status = #active
+* name = "Q_cACTIV"
+* title = "Activiteiten"
+* description = "Activiteiten"
+* item[0].linkId = "q1"
+* item[0].text = "Activiteiten"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cACTIV)
+
+Instance: Q_cADD
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cadd"
+* status = #active
+* name = "Q_cADD"
+* title = "Tabak- en alcoholgebruik"
+* description = "Tabak- en alcoholgebruik"
+* item[0].linkId = "q1"
+* item[0].text = "Tabak- en alcoholgebruik"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cADD)
+
+Instance: Q_cADL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cadl"
+* status = #active
+* name = "Q_cADL"
+* title = "Activiteiten van het dagelijks leven (ADL)"
+* description = "Activiteiten van het dagelijks leven (ADL)"
+* item[0].linkId = "q1"
+* item[0].text = "Activiteiten van het dagelijks leven (ADL)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cADL)
+
+Instance: Q_cBEHAV
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cbehav"
+* status = #active
+* name = "Q_cBEHAV"
+* title = "Gedrag"
+* description = "Gedrag"
+* item[0].linkId = "q1"
+* item[0].text = "Gedrag"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cBEHAV)
+
+Instance: Q_cBOWEL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cbowel"
+* status = #active
+* name = "Q_cBOWEL"
+* title = "Darmproblemen"
+* description = "Darmproblemen"
+* item[0].linkId = "q1"
+* item[0].text = "Darmproblemen"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cBOWEL)
+
+Instance: Q_cBRITSU
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cbritsu"
+* status = #active
+* name = "Q_cBRITSU"
+* title = "Mantelzorg"
+* description = "Mantelzorg"
+* item[0].linkId = "q1"
+* item[0].text = "Mantelzorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cBRITSU)
+
+Instance: Q_cCARDIO
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ccardio"
+* status = #active
+* name = "Q_cCARDIO"
+* title = "Hart en ademhaling"
+* description = "Hart en ademhaling"
+* item[0].linkId = "q1"
+* item[0].text = "Hart en ademhaling"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cCARDIO)
+
+Instance: Q_cCOGNIT
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ccognit"
+* status = #active
+* name = "Q_cCOGNIT"
+* title = "Cognitieverlies"
+* description = "Cognitieverlies"
+* item[0].linkId = "q1"
+* item[0].text = "Cognitieverlies"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cCOGNIT)
+
+Instance: Q_cCOMMUN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ccommun"
+* status = #active
+* name = "Q_cCOMMUN"
+* title = "Communicatie"
+* description = "Communicatie"
+* item[0].linkId = "q1"
+* item[0].text = "Communicatie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cCOMMUN)
+
+Instance: Q_cDEHYD
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cdehyd"
+* status = #active
+* name = "Q_cDEHYD"
+* title = "Dehydratatie"
+* description = "Dehydratatie"
+* item[0].linkId = "q1"
+* item[0].text = "Dehydratatie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cDEHYD)
+
+Instance: Q_cDELIR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cdelir"
+* status = #active
+* name = "Q_cDELIR"
+* title = "Delirium"
+* description = "Delirium"
+* item[0].linkId = "q1"
+* item[0].text = "Delirium"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cDELIR)
+
+Instance: Q_cDENTISTREFER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cdentistrefer"
+* status = #active
+* name = "Q_cDENTISTREFER"
+* title = "Doorverwijzing naar de tandarts"
+* description = "Doorverwijzing naar de tandarts"
+* item[0].linkId = "q1"
+* item[0].text = "Doorverwijzing naar de tandarts"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cDENTISTREFER)
+
+Instance: Q_cDRUG
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cdrug"
+* status = #active
+* name = "Q_cDRUG"
+* title = "Juist en verantwoord medicatiegebruik"
+* description = "Juist en verantwoord medicatiegebruik"
+* item[0].linkId = "q1"
+* item[0].text = "Juist en verantwoord medicatiegebruik"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cDRUG)
+
+Instance: Q_cENVIR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cenvir"
+* status = #active
+* name = "Q_cENVIR"
+* title = "Thuisomgeving"
+* description = "Thuisomgeving"
+* item[0].linkId = "q1"
+* item[0].text = "Thuisomgeving"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cENVIR)
+
+Instance: Q_cFALLS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cfalls"
+* status = #active
+* name = "Q_cFALLS"
+* title = "Valincidenten"
+* description = "Valincidenten"
+* item[0].linkId = "q1"
+* item[0].text = "Valincidenten"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cFALLS)
+
+Instance: Q_cFEEDTB
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cfeedtb"
+* status = #active
+* name = "Q_cFEEDTB"
+* title = "Sondevoeding"
+* description = "Sondevoeding"
+* item[0].linkId = "q1"
+* item[0].text = "Sondevoeding"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cFEEDTB)
+
+Instance: Q_cHSBEHAV
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsbehav"
+* status = #active
+* name = "Q_cHSBEHAV"
+* title = "Gedrag - Ziekenhuis"
+* description = "Gedrag - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Gedrag - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSBEHAV)
+
+Instance: Q_cHSCOGNIT
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chscognit"
+* status = #active
+* name = "Q_cHSCOGNIT"
+* title = "Cognitieverlies - Ziekenhuis"
+* description = "Cognitieverlies - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Cognitieverlies - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSCOGNIT)
+
+Instance: Q_cHSCOMMUN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chscommun"
+* status = #active
+* name = "Q_cHSCOMMUN"
+* title = "Communicatie - Ziekenhuis"
+* description = "Communicatie - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Communicatie - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSCOMMUN)
+
+Instance: Q_cHSDEPRESS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsdepress"
+* status = #active
+* name = "Q_cHSDEPRESS"
+* title = "Depressie - Ziekenhuis"
+* description = "Depressie - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Depressie - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSDEPRESS)
+
+Instance: Q_cHSFALLS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsfalls"
+* status = #active
+* name = "Q_cHSFALLS"
+* title = "Valincidenten - Ziekenhuis"
+* description = "Valincidenten - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Valincidenten - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSFALLS)
+
+Instance: Q_cHSINSTITUTION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsinstitution"
+* status = #active
+* name = "Q_cHSINSTITUTION"
+* title = "Kans op opname in een voorziening - Ziekenhuis"
+* description = "Kans op opname in een voorziening - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Kans op opname in een voorziening - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSINSTITUTION)
+
+Instance: Q_cHSPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chspain"
+* status = #active
+* name = "Q_cHSPAIN"
+* title = "Pijn - Ziekenhuis"
+* description = "Pijn - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Pijn - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSPAIN)
+
+Instance: Q_cHSREADMISSION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsreadmission"
+* status = #active
+* name = "Q_cHSREADMISSION"
+* title = "Kans op heropname"
+* description = "Kans op heropname"
+* item[0].linkId = "q1"
+* item[0].text = "Kans op heropname"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSREADMISSION)
+
+Instance: Q_cHSUNDERNUTRITION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-chsundernutrition"
+* status = #active
+* name = "Q_cHSUNDERNUTRITION"
+* title = "Ondervoeding - Ziekenhuis"
+* description = "Ondervoeding - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Ondervoeding - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cHSUNDERNUTRITION)
+
+Instance: Q_cIADL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ciadl"
+* status = #active
+* name = "Q_cIADL"
+* title = "Instrumentele activiteiten van het dagelijks leven (IADL)"
+* description = "Instrumentele activiteiten van het dagelijks leven (IADL)"
+* item[0].linkId = "q1"
+* item[0].text = "Instrumentele activiteiten van het dagelijks leven (IADL)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cIADL)
+
+Instance: Q_cMHCRIM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhcrim"
+* status = #active
+* name = "Q_cMHCRIM"
+* title = "Criminele activiteiten"
+* description = "Criminele activiteiten"
+* item[0].linkId = "q1"
+* item[0].text = "Criminele activiteiten"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHCRIM)
+
+Instance: Q_cMHCTRLINT
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhctrlint"
+* status = #active
+* name = "Q_cMHCTRLINT"
+* title = "Vrijheidsbeperkende maatregelen"
+* description = "Vrijheidsbeperkende maatregelen"
+* item[0].linkId = "q1"
+* item[0].text = "Vrijheidsbeperkende maatregelen"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHCTRLINT)
+
+Instance: Q_cMHEDEMP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhedemp"
+* status = #active
+* name = "Q_cMHEDEMP"
+* title = "Opleiding en werk"
+* description = "Opleiding en werk"
+* item[0].linkId = "q1"
+* item[0].text = "Opleiding en werk"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHEDEMP)
+
+Instance: Q_cMHEXER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhexer"
+* status = #active
+* name = "Q_cMHEXER"
+* title = "Beweging"
+* description = "Beweging"
+* item[0].linkId = "q1"
+* item[0].text = "Beweging"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHEXER)
+
+Instance: Q_cMHFINAN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhfinan"
+* status = #active
+* name = "Q_cMHFINAN"
+* title = "Persoonlijke financiën"
+* description = "Persoonlijke financiën"
+* item[0].linkId = "q1"
+* item[0].text = "Persoonlijke financiën"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHFINAN)
+
+Instance: Q_cMHHARMOTH
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhharmoth"
+* status = #active
+* name = "Q_cMHHARMOTH"
+* title = "Schade aan anderen"
+* description = "Schade aan anderen"
+* item[0].linkId = "q1"
+* item[0].text = "Schade aan anderen"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHHARMOTH)
+
+Instance: Q_cMHINFSUPP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhinfsupp"
+* status = #active
+* name = "Q_cMHINFSUPP"
+* title = "Mantelzorg - Mentale gezondheid"
+* description = "Mantelzorg - Mentale gezondheid"
+* item[0].linkId = "q1"
+* item[0].text = "Mantelzorg - Mentale gezondheid"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHINFSUPP)
+
+Instance: Q_cMHIPCON
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhipcon"
+* status = #active
+* name = "Q_cMHIPCON"
+* title = "Intermenselijke conflicten"
+* description = "Intermenselijke conflicten"
+* item[0].linkId = "q1"
+* item[0].text = "Intermenselijke conflicten"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHIPCON)
+
+Instance: Q_cMHMEDMGT
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhmedmgt"
+* status = #active
+* name = "Q_cMHMEDMGT"
+* title = "Geneesmiddelenbeheer en therapietrouw"
+* description = "Geneesmiddelenbeheer en therapietrouw"
+* item[0].linkId = "q1"
+* item[0].text = "Geneesmiddelenbeheer en therapietrouw"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHMEDMGT)
+
+Instance: Q_cMHPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhpain"
+* status = #active
+* name = "Q_cMHPAIN"
+* title = "Pijn - Mentale gezondheid"
+* description = "Pijn - Mentale gezondheid"
+* item[0].linkId = "q1"
+* item[0].text = "Pijn - Mentale gezondheid"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHPAIN)
+
+Instance: Q_cMHREHOSP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhrehosp"
+* status = #active
+* name = "Q_cMHREHOSP"
+* title = "Heropname"
+* description = "Heropname"
+* item[0].linkId = "q1"
+* item[0].text = "Heropname"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHREHOSP)
+
+Instance: Q_cMHSELFCR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhselfcr"
+* status = #active
+* name = "Q_cMHSELFCR"
+* title = "Zelfzorg"
+* description = "Zelfzorg"
+* item[0].linkId = "q1"
+* item[0].text = "Zelfzorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSELFCR)
+
+Instance: Q_cMHSELFHA
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhselfha"
+* status = #active
+* name = "Q_cMHSELFHA"
+* title = "Zelfmoordgedrag en opzettelijke zelfverwonding"
+* description = "Zelfmoordgedrag en opzettelijke zelfverwonding"
+* item[0].linkId = "q1"
+* item[0].text = "Zelfmoordgedrag en opzettelijke zelfverwonding"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSELFHA)
+
+Instance: Q_cMHSLEEP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhsleep"
+* status = #active
+* name = "Q_cMHSLEEP"
+* title = "Slaapstoornissen - Mentale gezondheid"
+* description = "Slaapstoornissen - Mentale gezondheid"
+* item[0].linkId = "q1"
+* item[0].text = "Slaapstoornissen - Mentale gezondheid"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSLEEP)
+
+Instance: Q_cMHSMOKE
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhsmoke"
+* status = #active
+* name = "Q_cMHSMOKE"
+* title = "Roken"
+* description = "Roken"
+* item[0].linkId = "q1"
+* item[0].text = "Roken"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSMOKE)
+
+Instance: Q_cMHSOCREL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhsocrel"
+* status = #active
+* name = "Q_cMHSOCREL"
+* title = "Sociale relaties - Mentale gezondheid"
+* description = "Sociale relaties - Mentale gezondheid"
+* item[0].linkId = "q1"
+* item[0].text = "Sociale relaties - Mentale gezondheid"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSOCREL)
+
+Instance: Q_cMHSSDIS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhssdis"
+* status = #active
+* name = "Q_cMHSSDIS"
+* title = "Ondersteuningskader bij ontslag"
+* description = "Ondersteuningskader bij ontslag"
+* item[0].linkId = "q1"
+* item[0].text = "Ondersteuningskader bij ontslag"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSSDIS)
+
+Instance: Q_cMHSUBUSE
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhsubuse"
+* status = #active
+* name = "Q_cMHSUBUSE"
+* title = "Middelengebruik"
+* description = "Middelengebruik"
+* item[0].linkId = "q1"
+* item[0].text = "Middelengebruik"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHSUBUSE)
+
+Instance: Q_cMHTRAUMA
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhtrauma"
+* status = #active
+* name = "Q_cMHTRAUMA"
+* title = "Traumatische levensgebeurtenissen"
+* description = "Traumatische levensgebeurtenissen"
+* item[0].linkId = "q1"
+* item[0].text = "Traumatische levensgebeurtenissen"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHTRAUMA)
+
+Instance: Q_cMHWTMGT
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmhwtmgt"
+* status = #active
+* name = "Q_cMHWTMGT"
+* title = "Gewichtsmanagement"
+* description = "Gewichtsmanagement"
+* item[0].linkId = "q1"
+* item[0].text = "Gewichtsmanagement"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMHWTMGT)
+
+Instance: Q_cMOOD
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cmood"
+* status = #active
+* name = "Q_cMOOD"
+* title = "Stemming"
+* description = "Stemming"
+* item[0].linkId = "q1"
+* item[0].text = "Stemming"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cMOOD)
+
+Instance: Q_cNUTR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cnutr"
+* status = #active
+* name = "Q_cNUTR"
+* title = "Ondervoeding"
+* description = "Ondervoeding"
+* item[0].linkId = "q1"
+* item[0].text = "Ondervoeding"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cNUTR)
+
+Instance: Q_cORALHYG
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-coralhyg"
+* status = #active
+* name = "Q_cORALHYG"
+* title = "Mondhygiëne"
+* description = "Mondhygiëne"
+* item[0].linkId = "q1"
+* item[0].text = "Mondhygiëne"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cORALHYG)
+
+Instance: Q_cPACTIV
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpactiv"
+* status = #active
+* name = "Q_cPACTIV"
+* title = "Bevordering van de lichaamsbeweging"
+* description = "Bevordering van de lichaamsbeweging"
+* item[0].linkId = "q1"
+* item[0].text = "Bevordering van de lichaamsbeweging"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPACTIV)
+
+Instance: Q_cPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpain"
+* status = #active
+* name = "Q_cPAIN"
+* title = "Pijn"
+* description = "Pijn"
+* item[0].linkId = "q1"
+* item[0].text = "Pijn"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPAIN)
+
+Instance: Q_cPCDYS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcdys"
+* status = #active
+* name = "Q_cPCDYS"
+* title = "Dyspneu"
+* description = "Dyspneu"
+* item[0].linkId = "q1"
+* item[0].text = "Dyspneu"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCDYS)
+
+Instance: Q_cPCFATIG
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcfatig"
+* status = #active
+* name = "Q_cPCFATIG"
+* title = "Vermoeidheid"
+* description = "Vermoeidheid"
+* item[0].linkId = "q1"
+* item[0].text = "Vermoeidheid"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCFATIG)
+
+Instance: Q_cPCMOOD
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcmood"
+* status = #active
+* name = "Q_cPCMOOD"
+* title = "Stemming-Palliative Care"
+* description = "Stemming-Palliative Care"
+* item[0].linkId = "q1"
+* item[0].text = "Stemming-Palliative Care"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCMOOD)
+
+Instance: Q_cPCNUTR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcnutr"
+* status = #active
+* name = "Q_cPCNUTR"
+* title = "Voeding - Palliatieve zorg"
+* description = "Voeding - Palliatieve zorg"
+* item[0].linkId = "q1"
+* item[0].text = "Voeding - Palliatieve zorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCNUTR)
+
+Instance: Q_cPCPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcpain"
+* status = #active
+* name = "Q_cPCPAIN"
+* title = "Pijn - Palliatieve zorg"
+* description = "Pijn - Palliatieve zorg"
+* item[0].linkId = "q1"
+* item[0].text = "Pijn - Palliatieve zorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCPAIN)
+
+Instance: Q_cPCSLEEP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcsleep"
+* status = #active
+* name = "Q_cPCSLEEP"
+* title = "Slaapstoornis - Palliatieve zorg"
+* description = "Slaapstoornis - Palliatieve zorg"
+* item[0].linkId = "q1"
+* item[0].text = "Slaapstoornis - Palliatieve zorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPCSLEEP)
+
+Instance: Q_cPULCER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpulcer"
+* status = #active
+* name = "Q_cPULCER"
+* title = "Decubitus"
+* description = "Decubitus"
+* item[0].linkId = "q1"
+* item[0].text = "Decubitus"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cPULCER)
+
+Instance: Q_cRESTR
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-crestr"
+* status = #active
+* name = "Q_cRESTR"
+* title = "Fysieke fixatie"
+* description = "Fysieke fixatie"
+* item[0].linkId = "q1"
+* item[0].text = "Fysieke fixatie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cRESTR)
+
+Instance: Q_cRISK
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-crisk"
+* status = #active
+* name = "Q_cRISK"
+* title = "Kans op opname in een voorziening"
+* description = "Kans op opname in een voorziening"
+* item[0].linkId = "q1"
+* item[0].text = "Kans op opname in een voorziening"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cRISK)
+
+Instance: Q_cSOCFUNC
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-csocfunc"
+* status = #active
+* name = "Q_cSOCFUNC"
+* title = "Sociale omgang"
+* description = "Sociale omgang"
+* item[0].linkId = "q1"
+* item[0].text = "Sociale omgang"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cSOCFUNC)
+
+Instance: Q_cURIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-curin"
+* status = #active
+* name = "Q_cURIN"
+* title = "Urine-incontinentie"
+* description = "Urine-incontinentie"
+* item[0].linkId = "q1"
+* item[0].text = "Urine-incontinentie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cURIN)
+
+Instance: Q_cpHSADL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cphsadl"
+* status = #active
+* name = "Q_cpHSADL"
+* title = "Activiteiten van het dagelijks leven (ADL)- Preventie"
+* description = "Activiteiten van het dagelijks leven (ADL)- Preventie"
+* item[0].linkId = "q1"
+* item[0].text = "Activiteiten van het dagelijks leven (ADL)- Preventie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cpHSADL)
+
+Instance: Q_cpHSDELIRIUM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cphsdelirium"
+* status = #active
+* name = "Q_cpHSDELIRIUM"
+* title = "Delirium - Preventie"
+* description = "Delirium - Preventie"
+* item[0].linkId = "q1"
+* item[0].text = "Delirium - Preventie"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cpHSDELIRIUM)
+
+Instance: Q_cpHSPULCER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cphspulcer"
+* status = #active
+* name = "Q_cpHSPULCER"
+* title = "Decubitus - Ziekenhuis"
+* description = "Decubitus - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Decubitus - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cpHSPULCER)
+
+Instance: Q_cpcPUIMP
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cpcpuimp"
+* status = #active
+* name = "Q_cpcPUIMP"
+* title = "Decubitus - Palliatieve zorg"
+* description = "Decubitus - Palliatieve zorg"
+* item[0].linkId = "q1"
+* item[0].text = "Decubitus - Palliatieve zorg"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_cpcPUIMP)
+
+Instance: Q_ctHSADL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cthsadl"
+* status = #active
+* name = "Q_ctHSADL"
+* title = "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+* description = "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+* item[0].linkId = "q1"
+* item[0].text = "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_ctHSADL)
+
+Instance: Q_ctHSDELIRIUM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cthsdelirium"
+* status = #active
+* name = "Q_ctHSDELIRIUM"
+* title = "Delirium - Behandeling"
+* description = "Delirium - Behandeling"
+* item[0].linkId = "q1"
+* item[0].text = "Delirium - Behandeling"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_ctHSDELIRIUM)
+
+Instance: Q_ctHSPULCER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-cthspulcer"
+* status = #active
+* name = "Q_ctHSPULCER"
+* title = "Decubitus - Behandeling - Ziekenhuis"
+* description = "Decubitus - Behandeling - Ziekenhuis"
+* item[0].linkId = "q1"
+* item[0].text = "Decubitus - Behandeling - Ziekenhuis"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_ctHSPULCER)
+
+Instance: Q_rHSADL
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-rhsadl"
+* status = #active
+* name = "Q_rHSADL"
+* title = "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+* description = "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+* item[0].linkId = "q1"
+* item[0].text = "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_rHSADL)
+
+Instance: Q_rHSDELIRIUM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-rhsdelirium"
+* status = #active
+* name = "Q_rHSDELIRIUM"
+* title = "Risk of Delirium in Hospital (rHSDELIRIUM)"
+* description = "Risk of Delirium in Hospital (rHSDELIRIUM)"
+* item[0].linkId = "q1"
+* item[0].text = "Risk of Delirium in Hospital (rHSDELIRIUM)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_rHSDELIRIUM)
+
+Instance: Q_rHSFALLS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-rhsfalls"
+* status = #active
+* name = "Q_rHSFALLS"
+* title = "Falls Risk in Hospital (rHSFALLS)"
+* description = "Falls Risk in Hospital (rHSFALLS)"
+* item[0].linkId = "q1"
+* item[0].text = "Falls Risk in Hospital (rHSFALLS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_rHSFALLS)
+
+Instance: Q_rHSPULCER
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-rhspulcer"
+* status = #active
+* name = "Q_rHSPULCER"
+* title = "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+* description = "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+* item[0].linkId = "q1"
+* item[0].text = "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_rHSPULCER)
+
+Instance: Q_rHSREADMISSION
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-rhsreadmission"
+* status = #active
+* name = "Q_rHSREADMISSION"
+* title = "Risk of Readmission in Hospital (rHSREADMISSION)"
+* description = "Risk of Readmission in Hospital (rHSREADMISSION)"
+* item[0].linkId = "q1"
+* item[0].text = "Risk of Readmission in Hospital (rHSREADMISSION)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_rHSREADMISSION)
+
+Instance: Q_sABS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sabs"
+* status = #active
+* name = "Q_sABS"
+* title = "Aggressive Behaviour Scale (sABS)"
+* description = "Aggressive Behaviour Scale (sABS)"
+* item[0].linkId = "q1"
+* item[0].text = "Aggressive Behaviour Scale (sABS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sABS)
+
+Instance: Q_sADLH
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sadlh"
+* status = #active
+* name = "Q_sADLH"
+* title = "ADL Hierarchy Scale (sADLH)"
+* description = "ADL Hierarchy Scale (sADLH)"
+* item[0].linkId = "q1"
+* item[0].text = "ADL Hierarchy Scale (sADLH)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sADLH)
+
+Instance: Q_sBMI
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sbmi"
+* status = #active
+* name = "Q_sBMI"
+* title = "Body Mass Index (sBMI)"
+* description = "Body Mass Index (sBMI)"
+* item[0].linkId = "q1"
+* item[0].text = "Body Mass Index (sBMI)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sBMI)
+
+Instance: Q_sCAGE
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-scage"
+* status = #active
+* name = "Q_sCAGE"
+* title = "Addictions and Substance Use Scale (sCAGE)"
+* description = "Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik."
+* item[0].linkId = "q1"
+* item[0].text = "Addictions and Substance Use Scale (sCAGE)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sCAGE)
+
+Instance: Q_sCHESS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-schess"
+* status = #active
+* name = "Q_sCHESS"
+* title = "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+* description = "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+* item[0].linkId = "q1"
+* item[0].text = "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sCHESS)
+
+Instance: Q_sCOMM
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-scomm"
+* status = #active
+* name = "Q_sCOMM"
+* title = "Communication Scale (sCOMM)"
+* description = "Communication Scale (sCOMM)"
+* item[0].linkId = "q1"
+* item[0].text = "Communication Scale (sCOMM)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sCOMM)
+
+Instance: Q_sCPS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-scps"
+* status = #active
+* name = "Q_sCPS"
+* title = "Cognitive Performance Scale (sCPS)"
+* description = "Cognitive Performance Scale (sCPS)"
+* item[0].linkId = "q1"
+* item[0].text = "Cognitive Performance Scale (sCPS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sCPS)
+
+Instance: Q_sCPS2
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-scps2"
+* status = #active
+* name = "Q_sCPS2"
+* title = "Cognitive Performance Scale 2 (sCPS2)"
+* description = "Cognitive Performance Scale 2 (sCPS2)"
+* item[0].linkId = "q1"
+* item[0].text = "Cognitive Performance Scale 2 (sCPS2)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sCPS2)
+
+Instance: Q_sDRS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sdrs"
+* status = #active
+* name = "Q_sDRS"
+* title = "Depression Rating Scale (sDRS)"
+* description = "Depression Rating Scale (sDRS)"
+* item[0].linkId = "q1"
+* item[0].text = "Depression Rating Scale (sDRS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sDRS)
+
+Instance: Q_sDbSI
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sdbsi"
+* status = #active
+* name = "Q_sDbSI"
+* title = "Deafblind Severity Index (sDbSI)"
+* description = "Deafblind Severity Index (sDbSI)"
+* item[0].linkId = "q1"
+* item[0].text = "Deafblind Severity Index (sDbSI)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sDbSI)
+
+Instance: Q_sFRAILTY
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-sfrailty"
+* status = #active
+* name = "Q_sFRAILTY"
+* title = "Frailty Scale (sFrailty)"
+* description = "Frailty Scale (sFrailty)"
+* item[0].linkId = "q1"
+* item[0].text = "Frailty Scale (sFrailty)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sFRAILTY)
+
+Instance: Q_sHSADLH
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-shsadlh"
+* status = #active
+* name = "Q_sHSADLH"
+* title = "ADL Hierarchy Scale – Hospital (sHSADLH)"
+* description = "ADL Hierarchy Scale – Hospital (sHSADLH)"
+* item[0].linkId = "q1"
+* item[0].text = "ADL Hierarchy Scale – Hospital (sHSADLH)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sHSADLH)
+
+Instance: Q_sHSPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-shspain"
+* status = #active
+* name = "Q_sHSPAIN"
+* title = "Pain Scale - Hospital (sHSPAIN)"
+* description = "Pain Scale - Hospital (sHSPAIN)"
+* item[0].linkId = "q1"
+* item[0].text = "Pain Scale - Hospital (sHSPAIN)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sHSPAIN)
+
+Instance: Q_sHSPURS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-shspurs"
+* status = #active
+* name = "Q_sHSPURS"
+* title = "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+* description = "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+* item[0].linkId = "q1"
+* item[0].text = "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sHSPURS)
+
+Instance: Q_sIADLCH
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-siadlch"
+* status = #active
+* name = "Q_sIADLCH"
+* title = "IADL Capacity Hierarchy Scale (sIADLCH)"
+* description = "IADL Capacity Hierarchy Scale (sIADLCH)"
+* item[0].linkId = "q1"
+* item[0].text = "IADL Capacity Hierarchy Scale (sIADLCH)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sIADLCH)
+
+Instance: Q_sPAIN
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-spain"
+* status = #active
+* name = "Q_sPAIN"
+* title = "Pain Scale (sPAIN)"
+* description = "Pain Scale (sPAIN)"
+* item[0].linkId = "q1"
+* item[0].text = "Pain Scale (sPAIN)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sPAIN)
+
+Instance: Q_sPURS
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-spurs"
+* status = #active
+* name = "Q_sPURS"
+* title = "Pressure Ulcer Risk Scale (sPURS)"
+* description = "Pressure Ulcer Risk Scale (sPURS)"
+* item[0].linkId = "q1"
+* item[0].text = "Pressure Ulcer Risk Scale (sPURS)"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sPURS)
+
+Instance: Q_sSRMOOD
+InstanceOf: Questionnaire
+Usage: #definition
+* id = "q-ssrmood"
+* status = #active
+* name = "Q_sSRMOOD"
+* title = "Self-reported Mood Scale"
+* description = "Self-reported Mood Scale"
+* item[0].linkId = "q1"
+* item[0].text = "Self-reported Mood Scale"
+* item[0].type = #choice
+* item[0].answerValueSet = Canonical(VS_sSRMOOD)
